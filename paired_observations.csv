@@ -1,0 +1,178 @@
+observation_id,barcode,site_name,sample_date,water_type,cbt_ecoli_cfu,cbt_censored,sensor_mon2_raw,sensor_tof_raw,water_temp_c,mon2c_temp_corrected,mon2c_normalized,tof_normalized,predicted_log10_cfu_insample,predicted_log10_cfu_loocv,loocv_agreement,who_risk_true,who_risk_predicted
+1,50065,LSC15529,2026-05-25 10:12:00,Treated,0,FALSE,294.0,39.000,34.66,239.80,-9.84,0.000,0.3440,0.3480,TRUE,Conformity,Low
+2,50045,LSC15529,2026-05-25 10:12:00,Treated,0,FALSE,979.0,28.000,30.73,843.36,141.72,-0.500,1.6438,1.8856,FALSE,Conformity,Intermediate
+3,50065,LSC11397,2026-05-25 10:26:00,Treated,0,FALSE,387.0,39.000,32.03,327.43,77.78,0.000,0.7076,0.7160,TRUE,Conformity,Low
+4,50065,LSC15371,2026-05-25 10:35:00,Treated,0,FALSE,338.0,38.000,30.76,291.04,41.39,-1.000,0.5461,0.5519,TRUE,Conformity,Low
+5,50065,LSC11400,2026-05-25 10:45:00,Treated,0,FALSE,333.0,38.000,30.08,289.46,39.81,-1.000,0.5396,0.5453,TRUE,Conformity,Low
+6,50065,LSC15206,2026-05-25 11:07:00,Treated,0,FALSE,330.0,38.000,28.61,292.80,43.15,-1.000,0.5534,0.5593,TRUE,Conformity,Low
+7,50065,LSC15206,2026-05-25 10:55:00,Treated,48,FALSE,341.0,38.000,29.29,299.69,50.04,-1.000,0.5820,0.5698,FALSE,Intermediate,Low
+8,50065,Kamonyi. EP Rwishwima. Near nursery class2. Rain water tank,2026-05-25 11:16:00,Source (untreated),5,FALSE,458.0,41.000,27.87,410.55,160.91,2.000,1.0734,1.0812,TRUE,Low,Intermediate
+9,50065,Kamonyi. EP Rwishwima. In front of the kitchen. Rain water tank,2026-05-25 11:20:00,Source (untreated),5,FALSE,463.0,41.000,27.11,419.42,169.77,2.000,1.1102,1.1195,TRUE,Low,Intermediate
+10,50065,Kamonyi. EP Rwishwima. Between nursery class1 and nursery class2. Spring water tap,2026-05-25 11:30:00,Source (untreated),0,FALSE,370.0,39.000,25.58,342.40,92.75,0.000,0.7697,0.7798,TRUE,Conformity,Low
+11,50065,Kamonyi. EP Rwishwima. Between nursery class1 and nursery class2. Spring water tap,2026-05-25 11:33:00,Source (untreated),0,FALSE,367.0,39.000,25.58,339.62,89.98,0.000,0.7582,0.7679,TRUE,Conformity,Low
+12,50065,Kamonyi. EP Rwishwima. Near the toilets. Rain water tank,2026-05-25 11:42:00,Source (untreated),0,FALSE,355.0,38.000,26.14,325.98,76.33,-1.000,0.6911,0.6994,TRUE,Conformity,Low
+13,50065,Kamonyi. EP Rwishwima. Near the toilets. Rain water tank,2026-05-25 11:45:00,Source (untreated),0,FALSE,355.0,39.000,25.93,326.93,77.28,0.000,0.7055,0.7139,TRUE,Conformity,Low
+14,50065,LSC15197,2026-05-26 09:43:00,Treated,3,FALSE,330.0,38.000,31.98,279.39,29.74,-1.000,0.4978,0.4970,TRUE,Low,Low
+15,50045,LSC15197,2026-05-26 09:43:00,Treated,3,FALSE,1000.0,29.000,29.88,871.69,170.05,0.500,1.7719,1.9398,FALSE,Low,Intermediate
+16,50065,LSC11394,2026-05-26 09:51:00,Treated,0,FALSE,317.0,38.000,33.12,264.16,14.51,-1.000,0.4346,0.4392,TRUE,Conformity,Low
+17,50065,LSC15145,2026-05-26 10:00:00,Treated,0,FALSE,318.0,38.000,31.27,271.92,22.27,-1.000,0.4668,0.4717,TRUE,Conformity,Low
+18,50065,LSC11379,2026-05-26 10:17:00,Treated,0,FALSE,310.0,37.000,30.70,267.15,17.50,-2.000,0.4366,0.4412,TRUE,Conformity,Low
+19,50065,LSC11391,2026-05-26 10:07:00,Treated,1,FALSE,323.0,38.000,30.63,278.64,28.99,-1.000,0.4947,0.4969,TRUE,Low,Low
+20,50065,Kamonyi. EP Nyakabuye. Beside P6A classroom. Rain water tank,2026-05-26 10:44:00,Source (untreated),33,FALSE,406.0,38.000,30.97,348.57,98.93,-1.000,0.7849,0.7743,TRUE,Intermediate,Low
+21,50065,Kamonyi. EP Nyakabuye. Beside P6A classroom. Rain water tank,2026-05-26 10:46:00,Source (untreated),33,FALSE,443.0,38.000,30.81,381.19,131.55,-1.000,0.9203,0.9091,TRUE,Intermediate,Low
+22,50065,LSC15380,2026-05-26 10:33:00,Treated,100,TRUE,367.0,37.000,30.80,315.87,66.23,-2.000,0.6387,0.6183,FALSE,Very high,Low
+23,50045,LSC15380,2026-05-26 10:33:00,Treated,100,TRUE,1515.0,29.000,25.79,1397.83,696.19,0.500,2.0043,2.0043,TRUE,Very high,Very high
+24,50065,LSC11525,2026-05-27 08:36:00,Treated,0,FALSE,327.0,38.000,33.45,271.26,21.61,-1.000,0.4640,0.4689,TRUE,Conformity,Low
+25,50065,LSC11517,2026-05-27 08:45:00,Treated,0,FALSE,364.0,38.000,33.23,302.85,53.20,-1.000,0.5951,0.6016,TRUE,Conformity,Low
+26,50065,LSC15487,2026-05-27 08:53:00,Treated,0,FALSE,343.0,38.000,31.70,291.51,41.86,-1.000,0.5481,0.5539,TRUE,Conformity,Low
+27,50065,LSC15484,2026-05-27 09:03:00,Treated,0,FALSE,371.0,38.000,31.13,317.83,68.19,-1.000,0.6573,0.6649,TRUE,Conformity,Low
+28,50045,LSC11469,2026-05-27 09:20:00,Treated,0,FALSE,600.0,29.000,24.97,559.93,-141.72,0.500,0.4781,0.6185,TRUE,Conformity,Low
+29,50065,LSC11558,2026-05-27 09:30:00,Treated,0,FALSE,329.0,36.000,29.16,289.68,40.03,-3.000,0.5196,0.5252,TRUE,Conformity,Low
+30,50065,Kamonyi. EP Nyakabungo. Near new kitchen. Spring water tap,2026-05-27 09:39:00,Source (untreated),0,FALSE,340.0,37.000,29.69,297.14,47.50,-2.000,0.5610,0.5671,TRUE,Conformity,Low
+31,50065,Kamonyi. EP Nyakabungo. Behind P3A classroom. Rain water tank,2026-05-27 09:54:00,Source (untreated),0,FALSE,345.0,38.000,30.86,296.69,47.04,-1.000,0.5696,0.5757,TRUE,Conformity,Low
+32,50065,Fake.Kicukiro.Amazi Meza warehouse.Kagina. Spring water,2026-05-28 08:14:00,Source (untreated),0,FALSE,379.0,37.000,31.49,323.09,73.44,-2.000,0.6687,0.6767,TRUE,Conformity,Low
+33,50065,Fake.Kicukiro.Amazi Meza warehouse.Rugando.Stream water,2026-05-28 08:33:00,Source (untreated),48,FALSE,356.0,37.000,29.60,311.54,61.89,-2.000,0.6208,0.6082,FALSE,Intermediate,Low
+34,50065,Fake.Kicukiro. Amazi Meza warehouse.Kanengwa. Spring water,2026-05-28 09:03:00,Source (untreated),0,FALSE,338.0,36.000,31.65,287.49,37.85,-3.000,0.5105,0.5160,TRUE,Conformity,Low
+35,50065,Fake.Kicukiro.Amazi Meza warehouse.Iriba.Spring water,2026-05-28 09:11:00,Source (untreated),5,FALSE,336.0,36.000,31.89,284.81,35.17,-3.000,0.4994,0.4967,TRUE,Low,Low
+36,50065,Fake.Kicukiro.Amazi Meza warehouse.Nyirakanamba I.Water Stream,2026-05-29 08:43:00,Source (untreated),100,TRUE,383.0,39.000,34.06,315.03,65.38,0.000,0.6562,0.6362,FALSE,Very high,Low
+37,50045,Fake.Kicukiro.Amazi Meza warehouse.Nyirakanamba I.Water Stream,2026-05-29 08:43:00,Source (untreated),100,TRUE,1016.0,31.000,29.19,894.24,192.59,2.500,1.8863,1.8049,TRUE,Very high,Intermediate
+38,50065,Fake.Kicukiro.Amazi Meza wahehouse.Nyirakanamba II. Water pipe,2026-05-29 08:54:00,Source (untreated),100,TRUE,632.0,49.000,33.48,524.03,274.38,10.000,1.6279,1.5805,TRUE,Very high,Intermediate
+39,50045,Fake.Kicukiro.Amazi Meza wahehouse.Nyirakanamba II. Water pipe,2026-05-29 08:54:00,Source (untreated),100,TRUE,1167.0,39.000,27.64,1049.44,347.80,10.500,2.0043,2.0043,TRUE,Very high,Very high
+40,50065,Fake.Kicukiro.Amazi Meza wahehouse.Nyirakanamba II. Water pipe,2026-05-29 09:01:00,Source (untreated),100,TRUE,662.0,46.000,32.80,554.09,304.44,7.000,1.7213,1.6687,TRUE,Very high,Intermediate
+41,50045,Fake.Kicukiro.Amazi Meza wahehouse.Nyirakanamba II. Water pipe,2026-05-29 09:01:00,Source (untreated),100,TRUE,1167.0,38.000,27.24,1055.30,353.66,9.500,2.0043,2.0043,TRUE,Very high,Very high
+42,50065,Fake.Kicukiro.Amazi Meza warehouse.Kabeza.Stream Water,2026-05-29 09:28:00,Source (untreated),100,TRUE,515.0,49.000,30.07,447.78,198.13,10.000,1.3115,1.2754,TRUE,Very high,Intermediate
+43,50045,Fake.Kicukiro.Amazi Meza warehouse.Kabeza.Stream Water,2026-05-29 09:28:00,Source (untreated),100,TRUE,1180.0,40.000,27.10,1069.07,367.43,11.500,2.0043,2.0043,TRUE,Very high,Very high
+44,50065,Fake.Kicukiro.Amazi Meza warehouse.Kabeza.Stream Water,2026-05-29 09:36:00,Source (untreated),100,TRUE,498.0,45.000,32.07,421.09,171.44,6.000,1.1590,1.1267,TRUE,Very high,Intermediate
+45,50045,Fake.Kicukiro.Amazi Meza warehouse.Kabeza.Stream Water,2026-05-29 09:36:00,Source (untreated),100,TRUE,1180.0,38.000,27.02,1070.27,368.63,9.500,2.0043,2.0043,TRUE,Very high,Very high
+46,50065,Fake.Kicukiro.Amazi Meza warehouse.Sahara.Stream water,2026-05-29 09:48:00,Source (untreated),100,TRUE,642.0,54.000,32.25,541.48,291.84,15.000,1.7526,1.7049,TRUE,Very high,Intermediate
+47,50045,Fake.Kicukiro.Amazi Meza warehouse.Sahara.Stream water,2026-05-29 09:48:00,Source (untreated),100,TRUE,1188.0,46.000,27.02,1077.60,375.96,17.500,2.0043,2.0043,TRUE,Very high,Very high
+48,50065,Fake.Kicukiro.Amazi Meza warehouse.Rugando.Stream water,2026-05-29 10:20:00,Source (untreated),100,TRUE,411.0,39.000,28.49,365.28,115.63,0.000,0.8647,0.8397,FALSE,Very high,Low
+49,50045,Fake.Kicukiro.Amazi Meza warehouse.Rugando.Stream water,2026-05-29 10:20:00,Source (untreated),100,TRUE,1190.0,33.000,26.45,1087.94,386.30,4.500,2.0043,2.0043,TRUE,Very high,Very high
+50,50065,Fake.Kicukiro.Amazi Meza warehouse.Rugando.Stream water,2026-05-29 10:27:00,Source (untreated),100,TRUE,382.0,38.000,30.96,328.05,78.40,-1.000,0.6997,0.6787,FALSE,Very high,Low
+51,50045,Fake.Kicukiro.Amazi Meza warehouse.Rugando.Stream water,2026-05-29 10:27:00,Source (untreated),100,TRUE,1203.0,32.000,26.32,1101.79,400.15,3.500,2.0043,2.0043,TRUE,Very high,Very high
+52,50065,Fake.Kicukiro.Amazi Meza wahehouse.Nyirakanamba II. Water pipe,2026-05-30 12:05:00,Source (untreated),100,TRUE,728.0,53.000,33.32,605.02,355.37,14.000,2.0043,1.9534,TRUE,Very high,Intermediate
+53,50045,Fake.Kicukiro.Amazi Meza wahehouse.Nyirakanamba II. Water pipe,2026-05-30 12:05:00,Source (untreated),100,TRUE,1195.0,48.000,29.10,1053.00,351.36,19.500,2.0043,2.0043,TRUE,Very high,Very high
+54,50065,Fake.Kicukiro.Amazi Meza warehouse.Nyirakanamba I.Water Stream,2026-05-30 12:21:00,Source (untreated),100,TRUE,396.0,39.000,30.75,341.04,91.39,0.000,0.7641,0.7420,FALSE,Very high,Low
+55,50045,Fake.Kicukiro.Amazi Meza warehouse.Nyirakanamba I.Water Stream,2026-05-30 12:21:00,Source (untreated),100,TRUE,1195.0,35.000,30.60,1031.38,329.73,6.500,2.0043,2.0043,TRUE,Very high,Very high
+56,50065,Fake.Kicukiro.Amazi Meza warehouse.Nyirakanamba I.Water Stream,2026-05-30 12:28:00,Source (untreated),100,TRUE,416.0,39.000,33.32,345.73,96.08,0.000,0.7835,0.7610,FALSE,Very high,Low
+57,50045,Fake.Kicukiro.Amazi Meza warehouse.Nyirakanamba I.Water Stream,2026-05-30 12:28:00,Source (untreated),100,TRUE,1153.0,35.000,29.16,1015.14,313.49,6.500,2.0043,2.0043,TRUE,Very high,Very high
+58,50065,Fake.Kicukiro.Amazi Meza warehouse.Kabeza.Stream Water,2026-05-30 13:12:00,Source (untreated),100,TRUE,1854.0,110.000,29.49,1624.91,1375.26,71.000,2.0043,2.0043,TRUE,Very high,Very high
+59,50045,Fake.Kicukiro.Amazi Meza warehouse.Kabeza.Stream Water,2026-05-30 13:12:00,Source (untreated),100,TRUE,1166.0,91.000,27.41,1051.85,350.21,62.500,2.0043,2.0043,TRUE,Very high,Very high
+60,50065,Fake.Kicukiro.Amazi Meza warehouse.Kabeza.Stream Water,2026-05-30 13:04:00,Source (untreated),100,TRUE,1854.0,110.000,29.49,1624.91,1375.26,71.000,2.0043,2.0043,TRUE,Very high,Very high
+61,50045,Fake.Kicukiro.Amazi Meza warehouse.Kabeza.Stream Water,2026-05-30 13:04:00,Source (untreated),100,TRUE,1166.0,42.000,27.97,1043.75,342.11,13.500,2.0043,2.0043,TRUE,Very high,Very high
+62,50065,Fake.Kicukiro.Amazi Meza warehouse.Sahara.Stream water,2026-05-30 13:26:00,Source (untreated),100,TRUE,748.0,53.000,29.49,655.57,405.92,14.000,2.0043,2.0043,TRUE,Very high,Very high
+63,50045,Fake.Kicukiro.Amazi Meza warehouse.Sahara.Stream water,2026-05-30 13:26:00,Source (untreated),100,TRUE,1202.0,47.000,27.06,1089.61,387.97,18.500,2.0043,2.0043,TRUE,Very high,Very high
+64,50065,Fake.Kicukiro.Amazi Meza warehouse.Sahara.Stream water,2026-05-30 13:33:00,Source (untreated),100,TRUE,412.0,39.000,33.25,342.70,93.05,0.000,0.7710,0.7488,FALSE,Very high,Low
+65,50045,Fake.Kicukiro.Amazi Meza warehouse.Sahara.Stream water,2026-05-30 13:33:00,Source (untreated),100,TRUE,1153.0,93.000,27.70,1035.98,334.34,64.500,2.0043,2.0043,TRUE,Very high,Very high
+66,50065,,2026-06-01 07:57:00,Source (untreated),0,FALSE,355.0,37.000,38.50,274.52,24.88,-2.000,0.4672,0.4721,TRUE,Conformity,Low
+67,50065,,2026-06-01 08:04:00,Source (untreated),100,TRUE,358.0,38.000,39.64,272.48,22.83,-1.000,0.4691,0.4497,FALSE,Very high,Low
+68,50065,,2026-06-01 08:18:00,Source (untreated),14,FALSE,316.0,37.000,37.16,248.96,-0.68,-2.000,0.3611,0.3521,TRUE,Intermediate,Low
+69,50065,,2026-06-01 08:26:00,Source (untreated),0,FALSE,305.0,37.000,39.96,231.10,-18.54,-2.000,0.2870,0.2905,TRUE,Conformity,Conformity
+70,50065,,2026-06-01 08:42:00,Source (untreated),3,FALSE,324.0,39.000,37.31,254.74,5.09,0.000,0.4060,0.4040,TRUE,Low,Low
+71,50065,,2026-06-01 08:44:00,Source (untreated),0,FALSE,337.0,39.000,37.31,264.96,15.31,0.000,0.4484,0.4531,TRUE,Conformity,Low
+72,50065,,2026-06-02 10:35:00,Source (untreated),100,TRUE,506.0,48.000,41.72,374.17,124.52,9.000,0.9956,0.9702,FALSE,Very high,Low
+73,50053,,2026-06-03 10:25:00,Source (untreated),100,TRUE,672.0,108.000,37.73,525.27,-173.08,75.000,0.3082,0.1157,FALSE,Very high,Conformity
+74,50065,,2026-06-04 08:45:00,Treated,0,FALSE,258.0,39.000,37.82,201.40,-48.25,0.000,0.1846,0.1873,TRUE,Conformity,Conformity
+75,50053,,2026-06-04 08:45:00,Treated,0,FALSE,699.0,32.000,34.57,570.90,-127.45,-1.000,-0.2967,-0.3062,TRUE,Conformity,Conformity
+76,50065,,2026-06-04 09:02:00,Treated,0,FALSE,253.0,40.000,38.86,194.67,-54.98,1.000,0.1671,0.1697,TRUE,Conformity,Conformity
+77,50053,,2026-06-04 09:02:00,Treated,0,FALSE,699.0,32.000,35.67,562.24,-136.11,-1.000,-0.3326,-0.3437,TRUE,Conformity,Conformity
+78,50065,,2026-06-04 09:54:00,Source (untreated),100,TRUE,277.0,351.000,36.80,219.31,-30.34,312.000,2.0043,2.0043,TRUE,Very high,Very high
+79,50053,,2026-06-04 09:54:00,Source (untreated),100,TRUE,771.0,343.000,34.79,627.77,-70.58,310.000,2.0043,2.0043,TRUE,Very high,Very high
+80,50065,,2026-06-04 09:56:00,Source (untreated),100,TRUE,364.0,323.000,36.80,288.19,38.54,284.000,2.0043,2.0043,TRUE,Very high,Very high
+81,50065,,2026-06-04 09:58:00,Source (untreated),100,TRUE,459.0,306.000,37.80,358.39,108.74,267.000,2.0043,2.0043,TRUE,Very high,Very high
+82,50065,Turkana.Loima.Turkwel.Lorgum.100m near church.Concrete fixed public stand Tap 2,2026-06-02 07:48:00,Treated,0,FALSE,309.0,40.000,32.95,258.11,8.46,1.000,0.4304,0.4350,TRUE,Conformity,Low
+83,50065,Turkana.Loima.Turkwel.Lorgum.100m near church.Concrete fixed public stand Tap 2,2026-06-02 08:00:00,Treated,0,FALSE,326.0,39.000,38.33,252.70,3.05,0.000,0.3975,0.4019,TRUE,Conformity,Low
+84,50065,Turkana.Loima.Turkwel.Lorgum.Aqutab inline chlorine unit,2026-06-02 08:18:00,Treated,0,FALSE,262.0,44.000,36.04,209.64,-40.00,5.000,0.2711,0.2751,TRUE,Conformity,Conformity
+85,50065,,2026-06-02 08:43:00,Treated,0,FALSE,314.0,40.000,38.13,244.07,-5.58,1.000,0.3721,0.3764,TRUE,Conformity,Low
+86,50065,Turkana.Loima.Turkwel.Lorgum.East of treatement.Concrete fixed Public Stand Tap 4,2026-06-02 09:04:00,Treated,0,FALSE,305.0,40.000,37.01,240.80,-8.84,1.000,0.3586,0.3627,TRUE,Conformity,Low
+87,50065,Turkana.Loima.Turkwel.Lorgum.Nearest to 32m3 steel tank.Concrete fixed Public Stand Tap 1,2026-06-02 09:16:00,Treated,0,FALSE,298.0,40.000,37.35,234.16,-15.49,1.000,0.3310,0.3350,TRUE,Conformity,Low
+88,50065,Turkana.Loima.Turkwel.Lorgum.Behind grass roof house.Concrete fixed Public Stand Tap 3,2026-06-02 10:16:00,Treated,0,FALSE,312.0,41.000,39.32,238.53,-11.12,2.000,0.3596,0.3638,TRUE,Conformity,Low
+89,50065,Turkana.Loima.Turkwel.Lorgum.100m near church.Concrete fixed public stand Tap 2,2026-06-02 10:28:00,Treated,0,FALSE,324.0,40.000,38.58,250.27,0.62,1.000,0.3979,0.4023,TRUE,Conformity,Low
+90,50065,Turkana.Loima.Turkwel.Lorgum.100m near church.Concrete fixed public stand Tap 2,2026-06-02 10:30:00,Treated,0,FALSE,304.0,40.000,38.58,234.82,-14.83,1.000,0.3338,0.3377,TRUE,Conformity,Low
+91,50065,Turkana.Turkana West.Kakuma.Nakoyo.100m from the Tank.Public Stand Tap 2,2026-06-03 08:43:00,Treated,0,FALSE,316.0,40.000,40.99,236.05,-13.59,1.000,0.3389,0.3429,TRUE,Conformity,Low
+92,50065,Turkana.Turkana West.Kakuma.Nakoyo.100m from the Tank.Public Stand Tap 2,2026-06-03 08:46:00,Treated,0,FALSE,336.0,39.000,42.62,245.38,-4.26,0.000,0.3671,0.3713,TRUE,Conformity,Low
+93,50053,Turkana.Turkana West.Kakuma.Nakoyo.100m from the Tank.Public Stand Tap 2,2026-06-03 08:46:00,Treated,0,FALSE,715.0,29.000,35.87,573.50,-124.85,-4.000,-0.3172,-0.3276,TRUE,Conformity,Conformity
+94,50053,Turkana.Turkana West.Kakuma.Nakoyo.500m East.Public Stand Tap 3,2026-06-03 09:11:00,Treated,0,FALSE,617.0,30.000,38.22,478.99,-219.37,-3.000,-0.6990,-0.7354,TRUE,Conformity,Conformity
+95,50053,Turkana.Turkana West.Kakuma.Nakoyo.500m East.Public Stand Tap 3,2026-06-03 09:14:00,Treated,0,FALSE,617.0,30.000,38.22,478.99,-219.37,-3.000,-0.6990,-0.7354,TRUE,Conformity,Conformity
+96,50065,Turkana.Turkana West. Kakuma.Nakoyo.Adjacent to 5m3 PVC tank.Public Tap Stand 4,2026-06-03 09:31:00,Treated,0,FALSE,279.0,41.000,37.79,217.88,-31.76,2.000,0.2739,0.2776,TRUE,Conformity,Conformity
+97,50053,Turkana.Turkana West. Kakuma.Nakoyo.Adjacent to 5m3 PVC tank.Public Tap Stand 4,2026-06-03 09:31:00,Treated,0,FALSE,657.0,29.000,37.27,516.85,-181.50,-4.000,-0.5524,-0.5759,TRUE,Conformity,Conformity
+98,50065,Turkana.Turkana West. Kakuma.Nakoyo.Adjacent to 5m3 PVC tank.Public Tap Stand 4,2026-06-03 09:33:00,Treated,0,FALSE,279.0,41.000,37.79,217.88,-31.76,2.000,0.2739,0.2776,TRUE,Conformity,Conformity
+99,50053,Turkana.Turkana West. Kakuma.Nakoyo.Adjacent to 5m3 PVC tank.Public Tap Stand 4,2026-06-03 09:33:00,Treated,0,FALSE,657.0,29.000,37.27,516.85,-181.50,-4.000,-0.5524,-0.5759,TRUE,Conformity,Conformity
+100,50053,Turkana.Turkana West.Kakuma.Nakoyo.Public Stand Tap 6,2026-06-03 09:58:00,Treated,0,FALSE,713.0,107.000,35.49,574.93,-123.42,74.000,0.5038,0.5705,TRUE,Conformity,Low
+101,50065,Turkana.Turkana South. Lokichar. Kimabur.Kimabur school.Public Stand Tap 1,2026-06-04 08:11:00,Treated,0,FALSE,294.0,39.000,37.60,230.20,-19.45,0.000,0.3041,0.3078,TRUE,Conformity,Low
+102,50053,Turkana.Turkana South. Lokichar. Kimabur.Kimabur school.Public Stand Tap 1,2026-06-04 08:11:00,Treated,0,FALSE,684.0,33.000,34.58,558.52,-139.84,0.000,-0.3376,-0.3489,TRUE,Conformity,Conformity
+103,50065,Turkana.Turkana South.Lokichar.Kimabur.Concrete fixed Public Stand Tap 3,2026-06-04 08:27:00,Treated,0,FALSE,270.0,39.000,36.73,213.98,-35.66,0.000,0.2368,0.2400,TRUE,Conformity,Conformity
+104,50053,Turkana.Turkana South.Lokichar.Kimabur.Concrete fixed Public Stand Tap 3,2026-06-04 08:27:00,Treated,0,FALSE,777.0,32.000,33.82,641.19,-57.16,-1.000,-0.0050,-0.0054,TRUE,Conformity,Conformity
+105,50065,Turkana.Turkana South. Lokichar. Kimabur.Kimabur school.Public Stand Tap 1,2026-06-04 08:13:00,Treated,0,FALSE,296.0,39.000,38.16,229.98,-19.67,0.000,0.3032,0.3069,TRUE,Conformity,Low
+106,50053,Turkana.Turkana South. Lokichar. Kimabur.Kimabur school.Public Stand Tap 1,2026-06-04 08:13:00,Treated,0,FALSE,774.0,33.000,34.58,632.01,-66.35,0.000,-0.0327,-0.0338,TRUE,Conformity,Conformity
+107,50065,Turkana.Turkana South.Lokichar.Kimabur.Concrete fixed Public Stand Tap 3,2026-06-04 08:29:00,Treated,0,FALSE,270.0,39.000,36.73,213.98,-35.66,0.000,0.2368,0.2400,TRUE,Conformity,Conformity
+108,50053,Turkana.Turkana South.Lokichar.Kimabur.Concrete fixed Public Stand Tap 3,2026-06-04 08:29:00,Treated,0,FALSE,777.0,32.000,34.05,639.20,-59.15,-1.000,-0.0133,-0.0139,TRUE,Conformity,Conformity
+109,50065,Turkana.Turkana South.Lokichar.Kimabur.Concrete fixed Public Stand Tap 3,2026-06-04 08:33:00,Treated,0,FALSE,277.0,38.000,38.38,214.56,-35.09,-1.000,0.2288,0.2318,TRUE,Conformity,Conformity
+110,50053,Turkana.Turkana South.Lokichar.Kimabur.Concrete fixed Public Stand Tap 3,2026-06-04 08:33:00,Treated,0,FALSE,753.0,31.000,34.05,619.46,-78.89,-2.000,-0.1057,-0.1087,TRUE,Conformity,Conformity
+111,50065,Isiolo.Isiolo.Ngaremara.Kona (Ngalabilabia).KonaBorehole,2026-06-09 06:56:00,Source (untreated),0,FALSE,285.0,41.000,31.56,242.72,-6.93,2.000,0.3770,0.3813,TRUE,Conformity,Low
+112,50065,Isiolo.Isiolo.Ngaremara.Kona (Ngalabilabia).KonaBorehole,2026-06-09 06:59:00,Source (untreated),0,FALSE,308.0,41.000,33.82,254.18,4.53,2.000,0.4245,0.4292,TRUE,Conformity,Low
+113,50053,Isiolo.Isiolo.Ngaremara.Kona (Ngalabilabia).KonaBorehole,2026-06-09 06:59:00,Source (untreated),0,FALSE,916.0,40.000,29.39,803.91,105.56,7.000,0.7538,0.7807,TRUE,Conformity,Low
+114,50065,Isiolo.Isiolo.Ngaremara.Kona (Ngalabilabia).KonaBorehole,2026-06-09 07:01:00,Source (untreated),0,FALSE,338.0,42.000,34.85,274.98,25.33,3.000,0.5213,0.5268,TRUE,Conformity,Low
+115,50053,Isiolo.Isiolo.Ngaremara.Kona (Ngalabilabia).KonaBorehole,2026-06-09 07:01:00,Source (untreated),0,FALSE,916.0,82.000,29.39,803.91,105.56,49.000,1.1927,1.2668,FALSE,Conformity,Intermediate
+116,50053,Isiolo.Isiolo.Ngaremara.Kona (Ngalabilabia).KonaBorehole,2026-06-09 07:04:00,Source (untreated),0,FALSE,916.0,82.000,29.87,798.56,100.20,49.000,1.1705,1.2421,FALSE,Conformity,Intermediate
+117,50065,Isiolo.Isiolo.Ngaremara.Kona(Ngalabilabia).NearestToBorehole.KonaWaterKiosk,2026-06-09 07:20:00,Treated,1,FALSE,312.0,40.000,34.54,254.91,5.27,1.000,0.4171,0.4185,TRUE,Low,Low
+118,50053,Isiolo.Isiolo.Ngaremara.Kona(Ngalabilabia).NearestToBorehole.KonaWaterKiosk,2026-06-09 07:20:00,Treated,1,FALSE,912.0,34.000,30.40,789.22,90.87,1.000,0.6302,0.6420,TRUE,Low,Low
+119,50065,Isiolo.Isiolo.Ngaremara.Kona(Ngalabilabia).NearestToBorehole.KonaWaterKiosk,2026-06-09 07:23:00,Treated,2,FALSE,322.0,40.000,34.54,263.08,13.44,1.000,0.4510,0.4510,TRUE,Low,Low
+120,50053,Isiolo.Isiolo.Ngaremara.Kona(Ngalabilabia).NearestToBorehole.KonaWaterKiosk,2026-06-09 07:23:00,Treated,2,FALSE,912.0,34.000,30.40,789.22,90.87,1.000,0.6302,0.6359,TRUE,Low,Low
+121,50065,Isiolo.Isiolo.Ngaremara.Kona(Ngalabilabia).NearestToBorehole.KonaWaterKiosk,2026-06-09 07:26:00,Treated,2,FALSE,337.0,40.000,37.14,265.58,15.94,1.000,0.4614,0.4615,TRUE,Low,Low
+122,50053,Isiolo.Isiolo.Ngaremara.Kona(Ngalabilabia).NearestToBorehole.KonaWaterKiosk,2026-06-09 07:26:00,Treated,2,FALSE,912.0,88.000,30.33,790.02,91.67,55.000,1.1978,1.2486,TRUE,Low,Intermediate
+123,50053,Isiolo.Isiolo.Ngaremara.Kona(Ngalabilabia).NextToSignPost.ArmartiJuuWaterKiosk,2026-06-09 07:48:00,Treated,14,FALSE,918.0,83.000,30.02,798.70,100.35,50.000,1.1816,1.1833,TRUE,Intermediate,Intermediate
+124,50065,Isiolo.Isiolo.Ngaremara.Kona(Ngalabilabia).NextToSignPost.ArmartiJuuWaterKiosk,2026-06-09 07:51:00,Treated,5,FALSE,271.0,40.000,33.69,224.04,-25.61,1.000,0.2890,0.2829,TRUE,Low,Conformity
+125,50053,Isiolo.Isiolo.Ngaremara.Kona(Ngalabilabia).NextToSignPost.ArmartiJuuWaterKiosk,2026-06-09 07:51:00,Treated,5,FALSE,610.0,34.000,29.89,531.64,-166.71,1.000,-0.4387,-0.4820,FALSE,Low,Conformity
+126,50065,Isiolo.Isiolo.Ngaremara.Kona(Ngalabilabia).NextToSignPost.ArmartiJuuWaterKiosk,2026-06-09 07:53:00,Treated,5,FALSE,277.0,40.000,35.28,224.00,-25.65,1.000,0.2888,0.2827,TRUE,Low,Conformity
+127,50053,Isiolo.Isiolo.Ngaremara.Kona(Ngalabilabia).NextToSignPost.ArmartiJuuWaterKiosk,2026-06-09 07:53:00,Treated,5,FALSE,610.0,34.000,29.89,531.64,-166.71,1.000,-0.4387,-0.4820,FALSE,Low,Conformity
+128,50065,Isiolo.Isiolo.Ngaremara.Near50m3ElevatedSteelTank.ZebraCenterWaterKiosk,2026-06-09 08:28:00,Treated,0,FALSE,285.0,40.000,33.58,235.97,-13.68,1.000,0.3385,0.3425,TRUE,Conformity,Low
+129,50053,Isiolo.Isiolo.Ngaremara.Near50m3ElevatedSteelTank.ZebraCenterWaterKiosk,2026-06-09 08:28:00,Treated,0,FALSE,964.0,33.000,29.58,843.88,145.53,0.000,0.8465,0.8875,TRUE,Conformity,Low
+130,50065,Isiolo.Isiolo.Ngaremara.Near50m3ElevatedSteelTank.ZebraCenterWaterKiosk,2026-06-09 08:30:00,Treated,0,FALSE,281.0,40.000,33.58,232.66,-16.99,1.000,0.3248,0.3287,TRUE,Conformity,Low
+131,50053,Isiolo.Isiolo.Ngaremara.Near50m3ElevatedSteelTank.ZebraCenterWaterKiosk,2026-06-09 08:30:00,Treated,0,FALSE,964.0,33.000,29.58,843.88,145.53,0.000,0.8465,0.8875,TRUE,Conformity,Low
+132,50065,Isiolo.Isiolo.Ngaremara.Near50m3ElevatedSteelTank.ZebraCenterWaterKiosk,2026-06-09 08:33:00,Treated,0,FALSE,283.0,40.000,35.39,228.52,-21.13,1.000,0.3076,0.3114,TRUE,Conformity,Low
+133,50053,Isiolo.Isiolo.Ngaremara.Near50m3ElevatedSteelTank.ZebraCenterWaterKiosk,2026-06-09 08:33:00,Treated,0,FALSE,829.0,33.000,30.26,718.85,20.50,0.000,0.3277,0.3360,TRUE,Conformity,Low
+134,50065,,2026-06-09 08:45:00,Treated,1,FALSE,264.0,40.000,39.76,200.61,-49.04,1.000,0.1918,0.1901,TRUE,Low,Conformity
+135,50053,,2026-06-09 08:45:00,Treated,1,FALSE,829.0,33.000,31.59,705.64,7.29,0.000,0.2729,0.2723,TRUE,Low,Conformity
+136,50065,,2026-06-09 08:48:00,Treated,0,FALSE,264.0,40.000,39.76,200.61,-49.04,1.000,0.1918,0.1946,TRUE,Conformity,Conformity
+137,50053,,2026-06-09 08:48:00,Treated,0,FALSE,859.0,33.000,31.59,731.18,32.83,0.000,0.3789,0.3889,TRUE,Conformity,Low
+138,50053,,2026-06-10 07:26:00,Source (untreated),0,FALSE,671.0,33.000,25.85,618.65,-79.70,0.000,-0.0881,-0.0906,TRUE,Conformity,Conformity
+139,50065,,2026-06-10 07:30:00,Source (untreated),0,FALSE,313.0,40.000,29.10,275.83,26.18,1.000,0.5039,0.5092,TRUE,Conformity,Low
+140,50053,,2026-06-10 07:30:00,Source (untreated),0,FALSE,671.0,33.000,25.85,618.65,-79.70,0.000,-0.0881,-0.0906,TRUE,Conformity,Conformity
+141,50065,Isiolo.Isiolo.Ngaremara.Nasuroi.NearestToFarm.WaterKiosk2,2026-06-10 07:53:00,Source (untreated),14,FALSE,341.0,40.000,32.36,287.18,37.53,1.000,0.5510,0.5447,TRUE,Intermediate,Low
+142,50053,Isiolo.Isiolo.Ngaremara.Nasuroi.NearestToFarm.WaterKiosk2,2026-06-10 07:53:00,Source (untreated),14,FALSE,627.0,33.000,29.63,548.49,-149.87,0.000,-0.3793,-0.4286,FALSE,Intermediate,Conformity
+143,50065,Isiolo.Isiolo.Ngaremara.Nasuroi.NearestToFarm.WaterKiosk2,2026-06-10 07:57:00,Source (untreated),48,FALSE,338.0,40.000,34.36,276.84,27.20,1.000,0.5081,0.4956,FALSE,Intermediate,Low
+144,50053,Isiolo.Isiolo.Ngaremara.Nasuroi.NearestToFarm.WaterKiosk2,2026-06-10 07:57:00,Source (untreated),48,FALSE,649.0,33.000,28.49,576.80,-121.55,0.000,-0.2618,-0.3141,FALSE,Intermediate,Conformity
+145,50065,Isiolo.Isiolo.Ngaremara.Nasuroi.ClaraChlorinationSystem,2026-06-10 10:45:00,Treated,0,FALSE,290.0,40.000,30.96,249.03,-0.62,1.000,0.3927,0.3971,TRUE,Conformity,Low
+146,50053,Isiolo.Isiolo.Ngaremara.Nasuroi.ClaraChlorinationSystem,2026-06-10 10:45:00,Treated,0,FALSE,981.0,33.000,29.36,861.38,163.03,0.000,0.9191,0.9686,FALSE,Conformity,Low
+147,50065,Isiolo.Isiolo.Ngaremara.Nasuroi.ClaraChlorinationSystem,2026-06-10 10:50:00,Treated,0,FALSE,315.0,41.000,36.33,251.06,1.41,2.000,0.4116,0.4162,TRUE,Conformity,Low
+148,50053,Isiolo.Isiolo.Ngaremara.Nasuroi.ClaraChlorinationSystem,2026-06-10 10:50:00,Treated,0,FALSE,877.0,34.000,30.75,755.30,56.95,1.000,0.4894,0.5037,TRUE,Conformity,Low
+149,50065,Isiolo.Isiolo.Ngaremara.Nasuroi.NasuroiBorehole,2026-06-10 11:10:00,Source (untreated),0,FALSE,328.0,39.000,39.32,250.78,1.13,0.000,0.3895,0.3938,TRUE,Conformity,Low
+150,50053,Isiolo.Isiolo.Ngaremara.Nasuroi.NasuroiBorehole,2026-06-10 11:10:00,Source (untreated),0,FALSE,863.0,34.000,31.54,735.15,36.80,1.000,0.4058,0.4166,TRUE,Conformity,Low
+151,50065,Isiolo.Isiolo.Ngaremara.Nasuroi.NasuroiBorehole,2026-06-10 11:13:00,Source (untreated),0,FALSE,335.0,40.000,39.38,255.90,6.26,1.000,0.4212,0.4258,TRUE,Conformity,Low
+152,50053,Isiolo.Isiolo.Ngaremara.Nasuroi.NasuroiBorehole,2026-06-10 11:13:00,Source (untreated),0,FALSE,863.0,34.000,31.54,735.15,36.80,1.000,0.4058,0.4166,TRUE,Conformity,Low
+153,50053,,2026-06-10 11:22:00,Treated,0,FALSE,842.0,33.000,31.54,717.26,18.91,0.000,0.3211,0.3292,TRUE,Conformity,Low
+154,50065,,2026-06-10 11:25:00,Treated,0,FALSE,299.0,40.000,37.79,233.50,-16.14,1.000,0.3283,0.3322,TRUE,Conformity,Low
+155,50053,,2026-06-10 11:25:00,Treated,0,FALSE,842.0,34.000,31.54,717.26,18.91,1.000,0.3316,0.3398,TRUE,Conformity,Low
+156,50065,,2026-06-10 09:32:00,Source (untreated),1,FALSE,319.0,40.000,30.35,276.28,26.63,1.000,0.5058,0.5081,TRUE,Low,Low
+157,50053,,2026-06-10 09:32:00,Source (untreated),1,FALSE,648.0,33.000,27.77,581.66,-116.69,0.000,-0.2416,-0.2572,TRUE,Low,Conformity
+158,50065,,2026-06-10 09:37:00,Source (untreated),0,FALSE,307.0,41.000,33.39,254.88,5.23,2.000,0.4274,0.4321,TRUE,Conformity,Low
+159,50053,,2026-06-10 09:37:00,Source (untreated),0,FALSE,633.0,33.000,27.77,568.20,-130.15,0.000,-0.2975,-0.3070,TRUE,Conformity,Conformity
+160,50053,Isiolo.Garbatulla.Kulamawe 1 (police station).Borehole,2026-06-11 08:22:00,Source (untreated),0,FALSE,921.0,33.000,31.53,784.64,86.29,0.000,0.6007,0.6214,TRUE,Conformity,Low
+161,50065,Isiolo.Garbatulla.Kulamawe 1 (police station).Borehole,2026-06-11 08:29:00,Source (untreated),0,FALSE,307.0,38.000,37.35,241.22,-8.42,-1.000,0.3394,0.3433,TRUE,Conformity,Low
+162,50053,Isiolo.Garbatulla.Kulamawe 1 (police station).Borehole,2026-06-11 08:29:00,Source (untreated),0,FALSE,824.0,35.000,31.91,698.35,0.00,2.000,0.2635,0.2696,TRUE,Conformity,Conformity
+163,50065,Isiolo.Garbatulla.Kulamawe 1 (police station).Borehole,2026-06-11 08:32:00,Source (untreated),0,FALSE,307.0,39.000,37.35,241.22,-8.42,0.000,0.3499,0.3539,TRUE,Conformity,Low
+164,50053,Isiolo.Garbatulla.Kulamawe 1 (police station).Borehole,2026-06-11 08:32:00,Source (untreated),0,FALSE,824.0,35.000,31.91,698.35,0.00,2.000,0.2635,0.2696,TRUE,Conformity,Conformity
+165,50065,Isiolo.Garbatula.Kinna.Kulamawe1 (Police station).Near Old Livestock troughts.Stand tap 1,2026-06-11 09:14:00,Treated,0,FALSE,275.0,40.000,37.82,214.68,-34.97,1.000,0.2502,0.2535,TRUE,Conformity,Conformity
+166,50065,Isiolo.Garbatula.Kinna.Kulamawe1 (Police station).Near Old Livestock troughts.Stand tap 1,2026-06-11 09:16:00,Treated,0,FALSE,274.0,40.000,37.78,214.01,-35.64,1.000,0.2474,0.2507,TRUE,Conformity,Conformity
+167,50053,Isiolo.Garbatula.Kinna.Kulamawe1 (Police station).Near Old Livestock troughts.Stand tap 1,2026-06-11 09:16:00,Treated,0,FALSE,845.0,85.000,31.89,716.35,18.00,52.000,0.8607,0.9109,TRUE,Conformity,Low
+168,50065,Isiolo.Garbatula.Kinna.Kulamawe1 (Police station).Near Old Livestock troughts.Stand tap 1,2026-06-11 08:50:00,Source (untreated),2,FALSE,285.0,39.000,35.20,230.75,-18.90,0.000,0.3064,0.3044,TRUE,Low,Low
+169,50053,Isiolo.Garbatula.Kinna.Kulamawe1 (Police station).Near Old Livestock troughts.Stand tap 1,2026-06-11 08:50:00,Source (untreated),2,FALSE,840.0,87.000,32.01,710.89,12.54,54.000,0.8590,0.8823,TRUE,Low,Low
+170,50065,Isiolo.Garbatula.Kinna.Kulamawe1 (Police station).Near Old Livestock troughts.Stand tap 1,2026-06-11 08:53:00,Source (untreated),1,FALSE,290.0,40.000,36.48,230.65,-19.00,1.000,0.3164,0.3167,TRUE,Low,Low
+171,50053,Isiolo.Garbatula.Kinna.Kulamawe1 (Police station).Near Old Livestock troughts.Stand tap 1,2026-06-11 08:53:00,Source (untreated),1,FALSE,840.0,33.000,31.63,714.66,16.31,0.000,0.3103,0.3106,TRUE,Low,Low
+172,50065,Isiolo.Garbatula.Kinna.Kulamawe1 (Police station).Near Old Livestock troughts.Stand tap 1,2026-06-11 08:56:00,Source (untreated),2,FALSE,297.0,39.000,37.34,233.40,-16.25,0.000,0.3174,0.3156,TRUE,Low,Low
+173,50053,Isiolo.Garbatula.Kinna.Kulamawe1 (Police station).Near Old Livestock troughts.Stand tap 1,2026-06-11 08:56:00,Source (untreated),2,FALSE,838.0,33.000,31.63,712.96,14.60,0.000,0.3032,0.2991,TRUE,Low,Conformity
+174,50065,Isiolo.Garbatula.Kinna.Kulamawe1 (Police station).Near Old Livestock troughts.Stand tap 1,2026-06-11 09:24:00,Treated,0,FALSE,269.0,40.000,38.07,209.28,-40.37,1.000,0.2277,0.2309,TRUE,Conformity,Conformity
+175,50053,Isiolo.Garbatula.Kinna.Kulamawe1 (Police station).Near Old Livestock troughts.Stand tap 1,2026-06-11 09:24:00,Treated,0,FALSE,845.0,34.000,32.12,714.02,15.67,1.000,0.3181,0.3259,TRUE,Conformity,Low
+176,50065,Isiolo.Garbatula.Kinna.Kulamawe1 (Police station).Near Old Livestock troughts.Stand tap 1,2026-06-11 09:29:00,Treated,0,FALSE,270.0,40.000,38.55,208.64,-41.01,1.000,0.2251,0.2283,TRUE,Conformity,Conformity
+177,50053,Isiolo.Garbatula.Kinna.Kulamawe1 (Police station).Near Old Livestock troughts.Stand tap 1,2026-06-11 09:29:00,Treated,0,FALSE,836.0,34.000,32.04,707.19,8.83,1.000,0.2897,0.2967,TRUE,Conformity,Conformity

@@ -1,0 +1,95 @@
+{
+  "description": "Tobit regression model for predicting log10(E. coli CFU + 1) from fluorimeter sensor readings",
+  "response_variable": "log10(CFU + 1)",
+  "detection_limit": {
+    "cbt_dl_cfu": 100,
+    "dl_log10": 2.0043213737826426,
+    "description": "CBT values >= 100 CFU are right-censored at log10(101)"
+  },
+  "features": [
+    "mon2c_n",
+    "tof_n"
+  ],
+  "sensor_fixed_effects": true,
+  "reference_sensor": "50045",
+  "fe_sensors": [
+    "50053",
+    "50065"
+  ],
+  "coefficients": {
+    "intercept": 1.4538971570388535,
+    "mon2c_n": 0.8202013202195337,
+    "tof_n": 0.4765386573916828,
+    "sensor_fe_50053": -0.8183329115230329,
+    "sensor_fe_50065": -0.6761417383621389
+  },
+  "sigma": 0.688707049120815,
+  "metrics": {
+    "r2_insample": 0.4840934944489652,
+    "mae_insample": 0.44584249205642584,
+    "agreement_insample": 0.8813559322033898,
+    "agreement_loocv": 0.8757062146892656,
+    "n": 177
+  },
+  "agreement_band": {
+    "half_width_log10": 0.9192388155425119,
+    "description": "Two independent CBT 95% CIs combined: sqrt(2) * 0.65 / 1.96 * 1.96",
+    "cbt_ci_half": 0.65
+  },
+  "normalization": {
+    "mon2c_n": {
+      "mean": 64.41913900129603,
+      "sd": 197.6518697144151,
+      "description": "z-score normalization applied to baseline-subtracted, temperature-corrected mon2"
+    },
+    "tof_n": {
+      "mean": 12.019774011299434,
+      "sd": 45.60173210055076,
+      "description": "z-score normalization applied to baseline-subtracted ToF signal"
+    }
+  },
+  "temperature_correction": {
+    "rho": 0.01389662347641174,
+    "reference_temp_c": 20,
+    "formula": "mon2c = mon2_raw * exp(-rho * (temp - 20))",
+    "r2": 0.9462054883931191,
+    "n_clean_samples": 101
+  },
+  "per_sensor_baselines": {
+    "mon2c": {
+      "50045": 701.6408427865533,
+      "50053": 698.3525274868948,
+      "50065": 249.64827452526555
+    },
+    "tof": {
+      "50045": 28.5,
+      "50053": 33,
+      "50065": 39
+    },
+    "description": "Median of clean-water (CBT=0) readings per sensor, subtracted before z-scoring"
+  },
+  "who_risk_categories": {
+    "labels": [
+      "Conformity",
+      "Low",
+      "Intermediate",
+      "Very high"
+    ],
+    "thresholds_cfu": [
+      0,
+      1,
+      10,
+      100
+    ],
+    "description": "WHO/UNICEF 4-level drinking water quality classification"
+  },
+  "export_date": "2026-06-14",
+  "source_script": "scripts/export-csv.js",
+  "data_files": [
+    "data/cbt-datagrid.csv",
+    "data/cbt-sipm.json",
+    "data/cbt-tof.json",
+    "data/cbt-diagnostics.json",
+    "data/cbt-overrides-snapshot.json"
+  ]
+}
