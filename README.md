@@ -8,8 +8,8 @@ deployed across drinking-water sites in Rwanda and Kenya.
 
 | File | Description |
 |------|-------------|
-| `paired_observations.csv` | Cleaned, paired dataset: 205 sensor-vs-CBT observations with raw and processed features, in-sample and LOOCV predictions. |
-| `model_specification.json` | Full model specification: Tobit regression coefficients, normalization statistics, temperature correction parameters, per-sensor baselines, and agreement metrics. |
+| `paired_observations.csv` | Cleaned, paired dataset: 189 sensor-vs-CBT observations with raw and processed features, in-sample and LOOCV predictions. |
+| `model_specification.json` | Full model specification: Tobit regression coefficients, normalization statistics, per-sensor baselines, and agreement metrics. |
 | `make_figures.py` | Python script to generate publication-quality figures from `paper_data.json` (the full export). |
 
 ## Dataset columns (`paired_observations.csv`)
@@ -24,7 +24,8 @@ deployed across drinking-water sites in Rwanda and Kenya.
 | `temperature` | Water temperature at time of measurement (degrees C) |
 | `mon2` | Raw TLF fluorescence signal (arbitrary units) |
 | `mon2c` | Temperature-corrected TLF signal (to 20 C reference) |
-| `mon2c_n` | Temperature-corrected TLF after per-sensor baseline subtraction (z-scored) |
+| `mon2c_n` | Temperature-corrected TLF after per-sensor baseline subtraction |
+| `mon2_raw_n` | Raw TLF fluorescence after per-sensor baseline subtraction (used in final model) |
 | `tof_n` | Time-of-flight turbidity signal after per-sensor baseline subtraction |
 | `censored` | TRUE if CBT result is right-censored (>= 100 CFU) |
 | `agree` | TRUE if in-sample prediction is within the agreement band |
@@ -33,16 +34,19 @@ deployed across drinking-water sites in Rwanda and Kenya.
 ## Model overview
 
 The prediction model is a Tobit regression (right-censored at log10(101) = 2.004)
-with EM estimation and ridge regularization (lambda = 0.1). Features are z-scored,
-temperature-corrected TLF fluorescence (`mon2c_n`), a quadratic fluorescence term
-(`mon2c_n^2`), and per-sensor fixed effects (5 parameters total).
+with EM estimation and ridge regularization (lambda = 0.1). Features are raw
+(uncorrected) fluorescence (`mon2_raw`, baseline-subtracted, z-scored), turbidity
+(`tof_n`, baseline-subtracted, z-scored), water temperature (`temp`, z-scored),
+and per-sensor fixed effects (6 parameters total).
 
-**Temperature correction**: `mon2c = mon2_raw * exp(-rho * (temp - 20))` where
-rho = 0.0235 per degree C, estimated from clean-water (CBT = 0) samples.
+**Temperature as predictor**: Rather than pre-correcting fluorescence for temperature,
+the model includes water temperature as an explicit predictor, giving the regression
+more flexibility to capture temperature effects.
 
-**Exclusion pipeline**: Fully automated with no manual overrides. IQR fencing
-(Q3 + 1.5 * IQR for clean-water samples) excludes instrument outliers. No Cook's
-distance or manual override exclusions are applied.
+**Exclusion pipeline**: 13 documented Kind A outlier exclusions (anomalous
+high-fluorescence readings in verified clean water, with mon2 values 2.5-3.1x the
+sensor's clean-water median) plus automated IQR fencing (Q3 + 1.5 * IQR for
+clean-water samples, Q3 + 5 * IQR for extreme values).
 
 **Agreement criterion**: Predictions are scored as "agreeing" with the CBT if they
 fall within +/- 0.92 log10, derived from combining two independent CBT 95%

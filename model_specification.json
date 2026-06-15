@@ -1,5 +1,5 @@
 {
-  "description": "Tobit regression model for predicting log10(E. coli CFU + 1) from fluorimeter sensor readings",
+  "description": "Tobit regression model for predicting log10(E. coli CFU + 1) from fluorimeter sensor readings. Uses raw (uncorrected) fluorescence with temperature as an explicit predictor.",
   "response_variable": "log10(CFU + 1)",
   "detection_limit": {
     "cbt_dl_cfu": 100,
@@ -7,9 +7,15 @@
     "description": "CBT values >= 100 CFU are right-censored at log10(101)"
   },
   "features": [
-    "mon2c_n",
-    "mon2c_n2"
+    "mon2_raw",
+    "tof_n",
+    "temp"
   ],
+  "feature_descriptions": {
+    "mon2_raw": "Raw fluorescence (mon2), baseline-subtracted per sensor, z-scored",
+    "tof_n": "Turbidity (time-of-flight), baseline-subtracted per sensor, z-scored",
+    "temp": "Water temperature (°C), z-scored"
+  },
   "sensor_fixed_effects": true,
   "reference_sensor": "50045",
   "fe_sensors": [
@@ -17,50 +23,69 @@
     "50065"
   ],
   "coefficients": {
-    "intercept": 1.282372178172671,
-    "mon2c_n": 0.6798332327245818,
-    "mon2c_n2": -0.2326641314897835,
-    "sensor_fe_50053": -0.7526591660257791,
-    "sensor_fe_50065": -0.586642318615131
+    "intercept": 1.1113692316319868,
+    "mon2_raw": 0.501904597707605,
+    "tof_n": -9.294663260378533e-05,
+    "temp": 0.05121428747369072,
+    "sensor_fe_50053": -0.7983463402540987,
+    "sensor_fe_50065": -0.5919798113862598
   },
   "ridge": 0.1,
-  "sigma": 0.7937822183516081,
+  "sigma": 0.7124224540718922,
   "metrics": {
-    "r2_insample": 0.21360468564071322,
-    "mae_insample": 0.5716749182913661,
-    "loocv_r2": 0.1588146950088375,
-    "loocv_mae": 0.589924174128827,
-    "agreement_loocv": 0.81,
-    "agreement_loocv_n": 166,
-    "n": 205
+    "r2_insample": 0.33780547278784123,
+    "mae_insample": 0.5089233264841041,
+    "loocv_r2": 0.20231525944073858,
+    "loocv_mae": 0.5377417915903239,
+    "agreement_loocv": 0.847,
+    "agreement_loocv_n": 160,
+    "n": 189
+  },
+  "per_sensor_loocv": {
+    "50045": {"n": 37, "agree": 27, "pct": 73},
+    "50053": {"n": 49, "agree": 41, "pct": 84},
+    "50065": {"n": 103, "agree": 92, "pct": 89}
+  },
+  "binary_classification_ge10": {
+    "balanced_accuracy": 0.78,
+    "sensitivity": 0.91,
+    "specificity": 0.66,
+    "auc": 0.846
   },
   "exclusion_pipeline": {
-    "description": "Fully automated, no manual overrides",
+    "description": "IQR fencing + 13 documented Kind A outlier exclusions",
     "steps": [
-      "Not-in-water / no-sensor filter (9 excluded)",
-      "IQR fencing: Q3+1.5*IQR for clean-water outliers (12 excluded)"
+      "Not-in-water / no-sensor filter",
+      "13 Kind A outlier overrides: anomalous high-fluorescence readings in verified clean water (CBT = 0), mon2 values 2.5-3.1x sensor clean-water median",
+      "IQR fencing: Q3+1.5*IQR for clean-water outliers (9 excluded)",
+      "Extreme-value fencing: Q3+5*IQR (6 excluded)"
     ],
-    "total_paired": 217,
-    "total_excluded": 12,
-    "total_active": 205
+    "total_paired": 204,
+    "total_excluded": 15,
+    "kind_a_outliers": 13,
+    "total_active": 189
   },
   "agreement_band": {
     "half_width_log10": 0.9192388155425119,
     "description": "1.96 * sqrt(sigma_CBT^2 + sigma_fluor^2), sigma_CBT = sigma_fluor = 0.33 log10"
   },
   "normalization": {
-    "mon2_stats": {
-      "m": 56.640107898958696,
-      "sd": 165.74144249674018
+    "mon2_raw_stats": {
+      "m": 29.8994708994709,
+      "sd": 97.2466207012629
     },
     "tof_stats": {
-      "m": 4.88780487804878,
-      "sd": 14.191790741472087
+      "m": 3.201058201058201,
+      "sd": 11.102780953975296
     },
-    "sensor_baselines_mon2c": {
-      "50045": 346.28602566777795,
-      "50053": 429.8357580119898,
-      "50065": 222.61833361008289
+    "temp_stats": {
+      "m": 32.17592365608464,
+      "sd": 4.3023144450256225
+    },
+    "sensor_baselines_mon2_raw": {
+      "50045": 366,
+      "50053": 564,
+      "50065": 314
     },
     "sensor_baselines_tof": {
       "50045": 29,
@@ -69,8 +94,8 @@
     }
   },
   "temperature": {
-    "rho": 0.023488110250553085,
-    "description": "mon2c = mon2_raw * exp(-rho * (temp - 20))"
+    "rho": 0.022,
+    "description": "Temperature correction factor (used for IQR fencing, not in final model). Final model uses temperature as explicit predictor instead."
   },
-  "n_params": 5
+  "n_params": 6
 }
