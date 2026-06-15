@@ -17,19 +17,32 @@
     "50065"
   ],
   "coefficients": {
-    "intercept": 1.969524869013184,
-    "mon2c_n": 0.5196685454725589,
-    "mon2c_n2": 0.09952554598824506,
-    "sensor_fe_50053": -1.7311609786778104,
-    "sensor_fe_50065": -1.4894887182098073
+    "intercept": 1.282372178172671,
+    "mon2c_n": 0.6798332327245818,
+    "mon2c_n2": -0.2326641314897835,
+    "sensor_fe_50053": -0.7526591660257791,
+    "sensor_fe_50065": -0.586642318615131
   },
-  "sigma": 0.6257997523098613,
+  "ridge": 0.1,
+  "sigma": 0.7937822183516081,
   "metrics": {
-    "r2_insample": 0.5148038763274271,
-    "mae_insample": 0.4145085718808085,
-    "agreement_insample": null,
-    "agreement_loocv": 0.88,
-    "n": 175
+    "r2_insample": 0.21360468564071322,
+    "mae_insample": 0.5716749182913661,
+    "loocv_r2": 0.1588146950088375,
+    "loocv_mae": 0.589924174128827,
+    "agreement_loocv": 0.81,
+    "agreement_loocv_n": 166,
+    "n": 205
+  },
+  "exclusion_pipeline": {
+    "description": "Fully automated, no manual overrides",
+    "steps": [
+      "Not-in-water / no-sensor filter (9 excluded)",
+      "IQR fencing: Q3+1.5*IQR for clean-water outliers (12 excluded)"
+    ],
+    "total_paired": 217,
+    "total_excluded": 12,
+    "total_active": 205
   },
   "agreement_band": {
     "half_width_log10": 0.9192388155425119,
@@ -37,12 +50,12 @@
   },
   "normalization": {
     "mon2_stats": {
-      "m": 31.25198586041474,
-      "sd": 111.50372607867949
+      "m": 56.640107898958696,
+      "sd": 165.74144249674018
     },
     "tof_stats": {
-      "m": 3.4,
-      "sd": 11.39423413084755
+      "m": 4.88780487804878,
+      "sd": 14.191790741472087
     },
     "sensor_baselines_mon2c": {
       "50045": 346.28602566777795,
@@ -57,7 +70,7 @@
   },
   "temperature": {
     "rho": 0.023488110250553085,
-    "description": "mon2c = mon2 * exp(-rho * (T - 20))"
+    "description": "mon2c = mon2_raw * exp(-rho * (temp - 20))"
   },
   "n_params": 5
 }

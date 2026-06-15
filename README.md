@@ -8,7 +8,7 @@ deployed across drinking-water sites in Rwanda and Kenya.
 
 | File | Description |
 |------|-------------|
-| `paired_observations.csv` | Cleaned, paired dataset: 175 sensor-vs-CBT observations with raw and processed features, in-sample and LOOCV predictions. |
+| `paired_observations.csv` | Cleaned, paired dataset: 205 sensor-vs-CBT observations with raw and processed features, in-sample and LOOCV predictions. |
 | `model_specification.json` | Full model specification: Tobit regression coefficients, normalization statistics, temperature correction parameters, per-sensor baselines, and agreement metrics. |
 | `make_figures.py` | Python script to generate publication-quality figures from `paper_data.json` (the full export). |
 
@@ -33,12 +33,16 @@ deployed across drinking-water sites in Rwanda and Kenya.
 ## Model overview
 
 The prediction model is a Tobit regression (right-censored at log10(101) = 2.004)
-with EM estimation. Features are z-scored, temperature-corrected TLF fluorescence
-(`mon2c_n`), a quadratic fluorescence term (`mon2c_n²`), and per-sensor fixed effects
-(5 parameters total).
+with EM estimation and ridge regularization (lambda = 0.1). Features are z-scored,
+temperature-corrected TLF fluorescence (`mon2c_n`), a quadratic fluorescence term
+(`mon2c_n^2`), and per-sensor fixed effects (5 parameters total).
 
 **Temperature correction**: `mon2c = mon2_raw * exp(-rho * (temp - 20))` where
 rho = 0.0235 per degree C, estimated from clean-water (CBT = 0) samples.
+
+**Exclusion pipeline**: Fully automated with no manual overrides. IQR fencing
+(Q3 + 1.5 * IQR for clean-water samples) excludes instrument outliers. No Cook's
+distance or manual override exclusions are applied.
 
 **Agreement criterion**: Predictions are scored as "agreeing" with the CBT if they
 fall within +/- 0.92 log10, derived from combining two independent CBT 95%

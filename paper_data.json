@@ -1,0 +1,5807 @@
+{
+  "paired_points": [
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.36225956650090485,
+      "predicted_loo_log": 0.3663780129503925,
+      "barcode": "50065",
+      "temperature": 34.662384,
+      "mon2": 294,
+      "mon2c": 208.34348240187646,
+      "mon2c_n": -14.274851208206428,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.37960135168718556,
+      "predicted_loo_log": 0.3965213324885701,
+      "barcode": "50045",
+      "temperature": 30.73227,
+      "mon2": 307,
+      "mon2c": 238.59486942139,
+      "mon2c_n": -107.69115624638795,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.7456358721319902,
+      "predicted_loo_log": 0.7545646746887016,
+      "barcode": "50065",
+      "temperature": 32.0289,
+      "mon2": 387,
+      "mon2c": 291.74745958925246,
+      "mon2c_n": 69.12912597916957,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.5953684105957203,
+      "predicted_loo_log": 0.6163905013567981,
+      "barcode": "50045",
+      "temperature": 27.303162,
+      "mon2": 322,
+      "mon2c": 271.24272149886866,
+      "mon2c_n": -75.04330416890929,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.6245493877108645,
+      "predicted_loo_log": 0.631062153253324,
+      "barcode": "50065",
+      "temperature": 30.764984,
+      "mon2": 338,
+      "mon2c": 262.48574202088184,
+      "mon2c_n": 39.86740841079896,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.46855630557717554,
+      "predicted_loo_log": 0.5312355757680147,
+      "barcode": "50045",
+      "temperature": 26.686325,
+      "mon2": 1215,
+      "mon2c": 1038.4144038021575,
+      "mon2c_n": 692.1283781343795,
+      "tof_n": 55,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.6258411596933622,
+      "predicted_loo_log": 0.6323734720230956,
+      "barcode": "50065",
+      "temperature": 30.082703,
+      "mon2": 333,
+      "mon2c": 262.78043886377486,
+      "mon2c_n": 40.162105253691976,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.7721867632457518,
+      "predicted_loo_log": 0.7958458886324015,
+      "barcode": "50045",
+      "temperature": 25.784988,
+      "mon2": 344,
+      "mon2c": 300.2943683593355,
+      "mon2c_n": -45.99165730844243,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.6553039220662418,
+      "predicted_loo_log": 0.6623145943410704,
+      "barcode": "50065",
+      "temperature": 28.60733,
+      "mon2": 330,
+      "mon2c": 269.59551373681916,
+      "mon2c_n": 46.97718012673627,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.8601113139369936,
+      "predicted_loo_log": 0.8852815502811802,
+      "barcode": "50045",
+      "temperature": 26.061935,
+      "mon2": 364,
+      "mon2c": 315.69307818325444,
+      "mon2c_n": -30.592947484523506,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 48,
+      "observed_log": 1.6901960800285136,
+      "predicted_log": 0.6745002388874062,
+      "predicted_loo_log": 0.6633267594184631,
+      "barcode": "50065",
+      "temperature": 29.292145,
+      "mon2": 341,
+      "mon2c": 274.1368820195942,
+      "mon2c_n": 51.51854840951134,
+      "tof_n": -1,
+      "censored": false,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 48,
+      "observed_log": 1.6901960800285136,
+      "predicted_log": 0.6571783901015772,
+      "predicted_loo_log": 0.6226030727703903,
+      "barcode": "50045",
+      "temperature": 26.041794,
+      "mon2": 324,
+      "mon2c": 281.1344971054068,
+      "mon2c_n": -65.15152856237114,
+      "tof_n": 1,
+      "censored": false,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 5,
+      "observed_log": 0.7781512503836436,
+      "predicted_log": 1.0246761990316169,
+      "predicted_loo_log": 1.030532789617012,
+      "barcode": "50065",
+      "temperature": 27.86966,
+      "mon2": 458,
+      "mon2c": 380.705359917358,
+      "mon2c_n": 158.08702630727512,
+      "tof_n": 2,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 5,
+      "observed_log": 0.7781512503836436,
+      "predicted_log": 1.0165913795779864,
+      "predicted_loo_log": 1.0240456459946048,
+      "barcode": "50045",
+      "temperature": 26.185303,
+      "mon2": 399,
+      "mon2c": 345.04689595319394,
+      "mon2c_n": -1.23912971458401,
+      "tof_n": 3,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 5,
+      "observed_log": 0.7781512503836436,
+      "predicted_log": 1.0499664386794174,
+      "predicted_loo_log": 1.0567400354829555,
+      "barcode": "50065",
+      "temperature": 27.11435,
+      "mon2": 463,
+      "mon2c": 391.7502098562539,
+      "mon2c_n": 169.131876246171,
+      "tof_n": 2,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 5,
+      "observed_log": 0.7781512503836436,
+      "predicted_log": 1.072338810608009,
+      "predicted_loo_log": 1.081474354551936,
+      "barcode": "50045",
+      "temperature": 25.568466,
+      "mon2": 406,
+      "mon2c": 356.2242386003063,
+      "mon2c_n": 9.938212932528359,
+      "tof_n": 3,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.8641686181546788,
+      "predicted_loo_log": 0.8769547176633963,
+      "barcode": "50065",
+      "temperature": 25.578522,
+      "mon2": 370,
+      "mon2c": 324.5611836623983,
+      "mon2c_n": 101.94285005231544,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 1.4504047877223418,
+      "predicted_loo_log": 1.5228469781911231,
+      "barcode": "50045",
+      "temperature": 24.956665,
+      "mon2": 946,
+      "mon2c": 842.0335634747331,
+      "mon2c_n": 495.74753780695517,
+      "tof_n": 20,
+      "censored": false,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.8553353121855081,
+      "predicted_loo_log": 0.8677702987153586,
+      "barcode": "50065",
+      "temperature": 25.578522,
+      "mon2": 367,
+      "mon2c": 321.9296064975681,
+      "mon2c_n": 99.31127288748522,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 1.4538822487532213,
+      "predicted_loo_log": 1.5264085112874801,
+      "barcode": "50045",
+      "temperature": 25.009537,
+      "mon2": 946,
+      "mon2c": 840.9885218737596,
+      "mon2c_n": 494.7024962059817,
+      "tof_n": 20,
+      "censored": false,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.8042408908553127,
+      "predicted_loo_log": 0.814857333004019,
+      "barcode": "50065",
+      "temperature": 26.137482,
+      "mon2": 355,
+      "mon2c": 307.341631663615,
+      "mon2c_n": 84.72329805353209,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.9034367841353066,
+      "predicted_loo_log": 0.929467729396415,
+      "barcode": "50045",
+      "temperature": 25.480347,
+      "mon2": 368,
+      "mon2c": 323.55203258578246,
+      "mon2c_n": -22.733993081995493,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.8097053707640811,
+      "predicted_loo_log": 0.8204998948586284,
+      "barcode": "50065",
+      "temperature": 25.928497,
+      "mon2": 355,
+      "mon2c": 308.8539768330038,
+      "mon2c_n": 86.23564322292091,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.9037494024003828,
+      "predicted_loo_log": 0.9297869046855235,
+      "barcode": "50045",
+      "temperature": 25.472794,
+      "mon2": 368,
+      "mon2c": 323.60943765139154,
+      "mon2c_n": -22.676588016386404,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 3,
+      "observed_log": 0.6020599913279624,
+      "predicted_log": 0.5641235431221954,
+      "predicted_loo_log": 0.5640452033269603,
+      "barcode": "50065",
+      "temperature": 31.981049,
+      "mon2": 330,
+      "mon2c": 249.05666843090592,
+      "mon2c_n": 26.43833482082303,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 3,
+      "observed_log": 0.6020599913279624,
+      "predicted_log": 0.6835283545660344,
+      "predicted_loo_log": 0.6865930772517713,
+      "barcode": "50045",
+      "temperature": 29.881287,
+      "mon2": 360,
+      "mon2c": 285.43412672857204,
+      "mon2c_n": -60.85189893920591,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.4874808903083623,
+      "predicted_loo_log": 0.49245564707402867,
+      "barcode": "50065",
+      "temperature": 33.12155,
+      "mon2": 317,
+      "mon2c": 232.92147062663508,
+      "mon2c_n": 10.3031370165522,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 1.0166209788995366,
+      "predicted_loo_log": 1.0878581628604742,
+      "barcode": "50045",
+      "temperature": 28.317795,
+      "mon2": 1149,
+      "mon2c": 945.0879499065076,
+      "mon2c_n": 598.8019242387296,
+      "tof_n": 53,
+      "censored": false,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.5408832194885975,
+      "predicted_loo_log": 0.5463478641980866,
+      "barcode": "50065",
+      "temperature": 31.266022,
+      "mon2": 318,
+      "mon2c": 244.06481272890665,
+      "mon2c_n": 21.44647911882376,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.825645042215906,
+      "predicted_loo_log": 0.850190754574089,
+      "barcode": "50045",
+      "temperature": 25.709457,
+      "mon2": 354,
+      "mon2c": 309.57257558706556,
+      "mon2c_n": -36.71345008071239,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.5268008779986766,
+      "predicted_loo_log": 0.532125177107696,
+      "barcode": "50065",
+      "temperature": 30.70456,
+      "mon2": 310,
+      "mon2c": 241.08327470847865,
+      "mon2c_n": 18.46494109839577,
+      "tof_n": -2,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.18981867304222666,
+      "predicted_loo_log": 0.22520413686919172,
+      "barcode": "50045",
+      "temperature": 25.294037,
+      "mon2": 1221,
+      "mon2c": 1078.2326552550014,
+      "mon2c_n": 731.9466295872235,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 1,
+      "observed_log": 0.3010299956639812,
+      "predicted_log": 0.5759130717669692,
+      "predicted_loo_log": 0.5789077200909254,
+      "barcode": "50065",
+      "temperature": 30.631561,
+      "mon2": 323,
+      "mon2c": 251.62428597965192,
+      "mon2c_n": 29.00595236956903,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 1,
+      "observed_log": 0.3010299956639812,
+      "predicted_log": 0.9272784974294165,
+      "predicted_loo_log": 0.945580394236169,
+      "barcode": "50045",
+      "temperature": 25.364532,
+      "mon2": 372,
+      "mon2c": 327.9598312602122,
+      "mon2c_n": -18.326194407565765,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.8816542387320998,
+      "predicted_loo_log": 0.8951697580654383,
+      "barcode": "50065",
+      "temperature": 30.485535,
+      "mon2": 422,
+      "mon2c": 329.8770178833766,
+      "mon2c_n": 107.25868427329371,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.4989957747875353,
+      "predicted_loo_log": 0.5633398176257356,
+      "barcode": "50045",
+      "temperature": 26.097183,
+      "mon2": 1193,
+      "mon2c": 1033.8191283862623,
+      "mon2c_n": 687.5331027184843,
+      "tof_n": 57,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.9919143969764828,
+      "predicted_loo_log": 1.0112454090303094,
+      "barcode": "50065",
+      "temperature": 30.374756,
+      "mon2": 469,
+      "mon2c": 367.5720506752992,
+      "mon2c_n": 144.9537170652163,
+      "tof_n": 1,
+      "censored": false,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 1.159481651727671,
+      "predicted_loo_log": 1.193278894547786,
+      "barcode": "50045",
+      "temperature": 25.96878,
+      "mon2": 431,
+      "mon2c": 374.6202054921277,
+      "mon2c_n": 28.334179824349746,
+      "tof_n": 0,
+      "censored": false,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 33,
+      "observed_log": 1.5314789170422551,
+      "predicted_log": 0.8271289404771349,
+      "predicted_loo_log": 0.8174844952121483,
+      "barcode": "50065",
+      "temperature": 30.973969,
+      "mon2": 406,
+      "mon2c": 313.74964715619143,
+      "mon2c_n": 91.13131354610854,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 33,
+      "observed_log": 1.5314789170422551,
+      "predicted_log": 1.0317785269541548,
+      "predicted_loo_log": 1.0177869772529222,
+      "barcode": "50045",
+      "temperature": 26.029205,
+      "mon2": 401,
+      "mon2c": 348.0502255116598,
+      "mon2c_n": 1.7641998438818405,
+      "tof_n": 4,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 33,
+      "observed_log": 1.5314789170422551,
+      "predicted_log": 0.924703634725941,
+      "predicted_loo_log": 0.9146022551466735,
+      "barcode": "50065",
+      "temperature": 30.812836,
+      "mon2": 443,
+      "mon2c": 343.6407175850311,
+      "mon2c_n": 121.02238397494821,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 33,
+      "observed_log": 1.5314789170422551,
+      "predicted_log": 1.0317785269541548,
+      "predicted_loo_log": 1.0177869772529222,
+      "barcode": "50045",
+      "temperature": 26.029205,
+      "mon2": 401,
+      "mon2c": 348.0502255116598,
+      "mon2c_n": 1.7641998438818405,
+      "tof_n": 4,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 0.7182181010143589,
+      "predicted_loo_log": 0.6984810438154343,
+      "barcode": "50065",
+      "temperature": 30.795197,
+      "mon2": 367,
+      "mon2c": 284.8045258509479,
+      "mon2c_n": 62.18619224086504,
+      "tof_n": -2,
+      "censored": true,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 0.904822290914025,
+      "predicted_loo_log": 0.8613452441498897,
+      "barcode": "50045",
+      "temperature": 25.792542,
+      "mon2": 371,
+      "mon2c": 323.8065266552977,
+      "mon2c_n": -22.479499012480233,
+      "tof_n": 0,
+      "censored": true,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.5141372789031757,
+      "predicted_loo_log": 0.5193425918658288,
+      "barcode": "50065",
+      "temperature": 33.448883,
+      "mon2": 327,
+      "mon2c": 238.42894090729544,
+      "mon2c_n": 15.810607297212556,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 1.3929018149078902,
+      "predicted_loo_log": 1.4642108800700286,
+      "barcode": "50045",
+      "temperature": 30.082703,
+      "mon2": 1088,
+      "mon2c": 858.5739263777389,
+      "mon2c_n": 512.2879007099609,
+      "tof_n": 1,
+      "censored": false,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.6430749878507478,
+      "predicted_loo_log": 0.6498793597421606,
+      "barcode": "50065",
+      "temperature": 33.234863,
+      "mon2": 364,
+      "mon2c": 266.744680033707,
+      "mon2c_n": 44.12634642362414,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.7442738576186688,
+      "predicted_loo_log": 0.7674996492511542,
+      "barcode": "50045",
+      "temperature": 28.161697,
+      "mon2": 358,
+      "mon2c": 295.54767112326556,
+      "mon2c_n": -50.73835454451239,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.6160604303753507,
+      "predicted_loo_log": 0.6224475727056487,
+      "barcode": "50065",
+      "temperature": 31.704102,
+      "mon2": 343,
+      "mon2c": 260.5574069297477,
+      "mon2c_n": 37.9390733196648,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.3081032778607673,
+      "predicted_loo_log": 0.3580496480242328,
+      "barcode": "50045",
+      "temperature": 26.84494,
+      "mon2": 1247,
+      "mon2c": 1061.8004036455177,
+      "mon2c_n": 715.5143779777397,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.7216126034275008,
+      "predicted_loo_log": 0.7299573052539636,
+      "barcode": "50065",
+      "temperature": 31.130066,
+      "mon2": 371,
+      "mon2c": 285.65301651792777,
+      "mon2c_n": 63.03468290784488,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.7436994507972562,
+      "predicted_loo_log": 0.7669164866673419,
+      "barcode": "50045",
+      "temperature": 27.091675,
+      "mon2": 349,
+      "mon2c": 295.45066776196944,
+      "mon2c_n": -50.83535790580851,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 1.6741903585344409,
+      "predicted_loo_log": 1.7492195979995124,
+      "barcode": "50045",
+      "temperature": 24.974289,
+      "mon2": 600,
+      "mon2c": 533.8383120917052,
+      "mon2c_n": 187.55228642392728,
+      "tof_n": 0,
+      "censored": false,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.6369121296784057,
+      "predicted_loo_log": 0.6436167622111972,
+      "barcode": "50065",
+      "temperature": 29.158722,
+      "mon2": 329,
+      "mon2c": 265.3200090256163,
+      "mon2c_n": 42.7016754155334,
+      "tof_n": -3,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 1.0228758891206688,
+      "predicted_loo_log": 1.051860352998758,
+      "barcode": "50045",
+      "temperature": 24.73259,
+      "mon2": 387,
+      "mon2c": 346.28602566777795,
+      "mon2c_n": 0,
+      "tof_n": 0,
+      "censored": false,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.6602550264619214,
+      "predicted_loo_log": 0.6673524893566891,
+      "barcode": "50065",
+      "temperature": 29.694977,
+      "mon2": 340,
+      "mon2c": 270.7589465607808,
+      "mon2c_n": 48.14061295069794,
+      "tof_n": -2,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 1.107170179535783,
+      "predicted_loo_log": 1.1389103445395652,
+      "barcode": "50045",
+      "temperature": 25.132904,
+      "mon2": 410,
+      "mon2c": 363.4329941035907,
+      "mon2c_n": 17.146968435812767,
+      "tof_n": 0,
+      "censored": false,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.6456919772242222,
+      "predicted_loo_log": 0.6525395488241106,
+      "barcode": "50065",
+      "temperature": 30.855621,
+      "mon2": 345,
+      "mon2c": 267.3520673588126,
+      "mon2c_n": 44.73373374872969,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.7213422919427632,
+      "predicted_loo_log": 0.7442225902383985,
+      "barcode": "50045",
+      "temperature": 28.121414,
+      "mon2": 353,
+      "mon2c": 291.695774066893,
+      "mon2c_n": -54.590251600884926,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.7364157218317509,
+      "predicted_loo_log": 0.7451134418862257,
+      "barcode": "50065",
+      "temperature": 31.485077,
+      "mon2": 379,
+      "mon2c": 289.3894764708517,
+      "mon2c_n": 66.77114286076883,
+      "tof_n": -2,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.9699073816857378,
+      "predicted_loo_log": 0.99746237317418,
+      "barcode": "50045",
+      "temperature": 28.370667,
+      "mon2": 409,
+      "mon2c": 335.99759650414126,
+      "mon2c_n": -10.288429163636692,
+      "tof_n": 0,
+      "censored": false,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 48,
+      "observed_log": 1.6901960800285136,
+      "predicted_log": 0.7155443736698464,
+      "predicted_loo_log": 0.7042515956692506,
+      "barcode": "50065",
+      "temperature": 29.599304,
+      "mon2": 356,
+      "mon2c": 284.13833657188786,
+      "mon2c_n": 61.52000296180498,
+      "tof_n": -2,
+      "censored": false,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 48,
+      "observed_log": 1.6901960800285136,
+      "predicted_log": 0.9916320567239886,
+      "predicted_loo_log": 0.9717087901511938,
+      "barcode": "50045",
+      "temperature": 27.003555,
+      "mon2": 401,
+      "mon2c": 340.1753280118046,
+      "mon2c_n": -6.110697655973354,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.6007207991623975,
+      "predicted_loo_log": 0.6068929735953186,
+      "barcode": "50065",
+      "temperature": 31.64621,
+      "mon2": 338,
+      "mon2c": 257.1085658739965,
+      "mon2c_n": 34.49023226391361,
+      "tof_n": -3,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.2831080859469641,
+      "predicted_loo_log": 0.33038437064683057,
+      "barcode": "50045",
+      "temperature": 26.532745,
+      "mon2": 1242,
+      "mon2c": 1065.3263122522278,
+      "mon2c_n": 719.0402865844499,
+      "tof_n": 55,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 5,
+      "observed_log": 0.7781512503836436,
+      "predicted_log": 0.587222259223386,
+      "predicted_loo_log": 0.5856133217219304,
+      "barcode": "50065",
+      "temperature": 31.892914,
+      "mon2": 336,
+      "mon2c": 254.11046771384844,
+      "mon2c_n": 31.49213410376555,
+      "tof_n": -3,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 5,
+      "observed_log": 0.7781512503836436,
+      "predicted_log": 1.0443049074047037,
+      "predicted_loo_log": 1.0525844457375058,
+      "barcode": "50045",
+      "temperature": 26.565475,
+      "mon2": 409,
+      "mon2c": 350.5504226733145,
+      "mon2c_n": 4.264397005536523,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.8836434908857018,
+      "predicted_loo_log": 0.8972449689147657,
+      "barcode": "50065",
+      "temperature": 29.898895,
+      "mon2": 417,
+      "mon2c": 330.4911511093335,
+      "mon2c_n": 107.8728174992506,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.9807682958200216,
+      "predicted_loo_log": 1.0085995315707095,
+      "barcode": "50045",
+      "temperature": 26.839905,
+      "mon2": 397,
+      "mon2c": 338.0790818017064,
+      "mon2c_n": -8.206943866071526,
+      "tof_n": 2,
+      "censored": false,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 0.6793312974864154,
+      "predicted_loo_log": 0.6602114927050478,
+      "barcode": "50065",
+      "temperature": 34.058136,
+      "mon2": 383,
+      "mon2c": 275.29298785330263,
+      "mon2c_n": 52.67465424321975,
+      "tof_n": 0,
+      "censored": true,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 1.174761502880767,
+      "predicted_loo_log": 1.1365349934402855,
+      "barcode": "50045",
+      "temperature": 29.186401,
+      "mon2": 469,
+      "mon2c": 377.97632786109773,
+      "mon2c_n": 31.69030219331978,
+      "tof_n": 2,
+      "censored": true,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 1.1608862037446994,
+      "predicted_loo_log": 1.121347934068376,
+      "barcode": "50065",
+      "temperature": 33.481598,
+      "mon2": 632,
+      "mon2c": 460.4628291453805,
+      "mon2c_n": 237.84449553529763,
+      "tof_n": 10,
+      "censored": true,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 0.855431931826617,
+      "predicted_loo_log": 0.7291733418720359,
+      "barcode": "50045",
+      "temperature": 27.640533,
+      "mon2": 1167,
+      "mon2c": 975.2852095234073,
+      "mon2c_n": 628.9991838556293,
+      "tof_n": 10,
+      "censored": true,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 1.1840162581418994,
+      "predicted_loo_log": 1.141379294674575,
+      "barcode": "50065",
+      "temperature": 32.80435,
+      "mon2": 662,
+      "mon2c": 490.0539913437144,
+      "mon2c_n": 267.4356577336315,
+      "tof_n": 7,
+      "censored": true,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 1.4828455676538552,
+      "predicted_loo_log": 1.444109013061726,
+      "barcode": "50045",
+      "temperature": 27.24022,
+      "mon2": 543,
+      "mon2c": 458.08292850832873,
+      "mon2c_n": 111.79690284055079,
+      "tof_n": 9,
+      "censored": true,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 1.0806545370724123,
+      "predicted_loo_log": 1.047174649941861,
+      "barcode": "50065",
+      "temperature": 30.065094,
+      "mon2": 515,
+      "mon2c": 406.5703037992549,
+      "mon2c_n": 183.951970189172,
+      "tof_n": 10,
+      "censored": true,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 1.271567547547696,
+      "predicted_loo_log": 1.2336990649265087,
+      "barcode": "50045",
+      "temperature": 27.104263,
+      "mon2": 473,
+      "mon2c": 400.306168630691,
+      "mon2c_n": 54.02014296291304,
+      "tof_n": 11,
+      "censored": true,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 1.0109264232148676,
+      "predicted_loo_log": 0.981263117061618,
+      "barcode": "50065",
+      "temperature": 32.071686,
+      "mon2": 498,
+      "mon2c": 375.04986308087757,
+      "mon2c_n": 152.4315294707947,
+      "tof_n": 6,
+      "censored": true,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 1.2244471428880177,
+      "predicted_loo_log": 1.186481333954322,
+      "barcode": "50045",
+      "temperature": 27.023697,
+      "mon2": 459,
+      "mon2c": 389.19357445686956,
+      "mon2c_n": 42.90754878909161,
+      "tof_n": 9,
+      "censored": true,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 1.1788160910653607,
+      "predicted_loo_log": 1.1370707729609295,
+      "barcode": "50065",
+      "temperature": 32.25296,
+      "mon2": 642,
+      "mon2c": 481.44376267657884,
+      "mon2c_n": 258.825429066496,
+      "tof_n": 15,
+      "censored": true,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 1.4023111675485158,
+      "predicted_loo_log": 1.3641043457377546,
+      "barcode": "50045",
+      "temperature": 27.018661,
+      "mon2": 512,
+      "mon2c": 434.1844924835461,
+      "mon2c_n": 87.89846681576813,
+      "tof_n": 17,
+      "censored": true,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 0.9034691305208089,
+      "predicted_loo_log": 0.8784881765794323,
+      "barcode": "50065",
+      "temperature": 28.48648,
+      "mon2": 411,
+      "mon2c": 336.723404981982,
+      "mon2c_n": 114.10507137189913,
+      "tof_n": 0,
+      "censored": true,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 1.0532252550500327,
+      "predicted_loo_log": 1.0135366703056652,
+      "barcode": "50045",
+      "temperature": 26.452179,
+      "mon2": 410,
+      "mon2c": 352.34389319918756,
+      "mon2c_n": 6.057867531409613,
+      "tof_n": 4,
+      "censored": true,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 0.7594456323992353,
+      "predicted_loo_log": 0.7388612690843692,
+      "barcode": "50065",
+      "temperature": 30.95633,
+      "mon2": 382,
+      "mon2c": 295.3251998732366,
+      "mon2c_n": 72.70686626315373,
+      "tof_n": -1,
+      "censored": true,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 1.0413576584447757,
+      "predicted_loo_log": 1.0014543428499803,
+      "barcode": "50045",
+      "temperature": 26.323776,
+      "mon2": 406,
+      "mon2c": 349.9602622866728,
+      "mon2c_n": 3.674236618894838,
+      "tof_n": 3,
+      "censored": true,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 1.1913002993748518,
+      "predicted_loo_log": 1.1442475846538585,
+      "barcode": "50065",
+      "temperature": 33.31543,
+      "mon2": 728,
+      "mon2c": 532.4807572565205,
+      "mon2c_n": 309.8624236464376,
+      "tof_n": 14,
+      "censored": true,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 1.4586089910887883,
+      "predicted_loo_log": 1.4200506982184096,
+      "barcode": "50045",
+      "temperature": 29.103317,
+      "mon2": 558,
+      "mon2c": 450.58162537592113,
+      "mon2c_n": 104.29559970814319,
+      "tof_n": 19,
+      "censored": true,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 0.8052442278222116,
+      "predicted_loo_log": 0.7834973129290448,
+      "barcode": "50065",
+      "temperature": 30.75241,
+      "mon2": 396,
+      "mon2c": 307.61851256604666,
+      "mon2c_n": 85.00017895596378,
+      "tof_n": 0,
+      "censored": true,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 0.9034917789189172,
+      "predicted_loo_log": 0.8599689692126099,
+      "barcode": "50045",
+      "temperature": 30.596313,
+      "mon2": 415,
+      "mon2c": 323.5621303543898,
+      "mon2c_n": -22.72389531338814,
+      "tof_n": 6,
+      "censored": true,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 0.7930404193710374,
+      "predicted_loo_log": 0.771625422531802,
+      "barcode": "50065",
+      "temperature": 33.31543,
+      "mon2": 416,
+      "mon2c": 304.2747184322974,
+      "mon2c_n": 81.6563848222145,
+      "tof_n": 0,
+      "censored": true,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 0.9198030795164908,
+      "predicted_loo_log": 0.876825680279159,
+      "barcode": "50045",
+      "temperature": 29.163742,
+      "mon2": 405,
+      "mon2c": 326.57122916810926,
+      "mon2c_n": -19.714796499668694,
+      "tof_n": 6,
+      "censored": true,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 0.8308579770845266,
+      "predicted_loo_log": 0.6992761980478801,
+      "barcode": "50045",
+      "temperature": 27.41394,
+      "mon2": 1166,
+      "mon2c": 979.649570700493,
+      "mon2c_n": 633.363545032715,
+      "tof_n": 62,
+      "censored": true,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 1.3194762574446504,
+      "predicted_loo_log": 1.2815767384431185,
+      "barcode": "50045",
+      "temperature": 27.970352,
+      "mon2": 497,
+      "mon2c": 412.1475925670335,
+      "mon2c_n": 65.86156689925554,
+      "tof_n": 13,
+      "censored": true,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 1.141957266343904,
+      "predicted_loo_log": 1.086778990487603,
+      "barcode": "50065",
+      "temperature": 29.491058,
+      "mon2": 748,
+      "mon2c": 598.529588343779,
+      "mon2c_n": 375.91125473369607,
+      "tof_n": 14,
+      "censored": true,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 1.4754021556354817,
+      "predicted_loo_log": 1.4367218346098425,
+      "barcode": "50045",
+      "temperature": 27.06398,
+      "mon2": 538,
+      "mon2c": 455.7475414884637,
+      "mon2c_n": 109.46151582068575,
+      "tof_n": 18,
+      "censored": true,
+      "agree": true,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 0.7838677387385664,
+      "predicted_loo_log": 0.7626917228024468,
+      "barcode": "50065",
+      "temperature": 33.252472,
+      "mon2": 412,
+      "mon2c": 301.7949538216676,
+      "mon2c_n": 79.17662021158472,
+      "tof_n": 0,
+      "censored": true,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 0.9270761106391245,
+      "predicted_loo_log": 0.8150508462724138,
+      "barcode": "50045",
+      "temperature": 27.700958,
+      "mon2": 1153,
+      "mon2c": 962.2185133533587,
+      "mon2c_n": 615.9324876855808,
+      "tof_n": 64,
+      "censored": true,
+      "agree": false,
+      "country": "Rwanda"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.47259130063939847,
+      "predicted_loo_log": 0.47744757077154354,
+      "barcode": "50065",
+      "temperature": 38.49936,
+      "mon2": 355,
+      "mon2c": 229.8904249705229,
+      "mon2c_n": 7.272091360440015,
+      "tof_n": -2,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 0.4517081041499287,
+      "predicted_loo_log": 0.43213510216309436,
+      "barcode": "50065",
+      "temperature": 39.642426,
+      "mon2": 358,
+      "mon2c": 225.69161203813846,
+      "mon2c_n": 3.0732784280555734,
+      "tof_n": -1,
+      "censored": true,
+      "agree": false,
+      "country": "Kenya"
+    },
+    {
+      "observed": 14,
+      "observed_log": 1.1760912590556813,
+      "predicted_log": 0.3772729620220022,
+      "predicted_loo_log": 0.36862764157775774,
+      "barcode": "50065",
+      "temperature": 37.15744,
+      "mon2": 316,
+      "mon2c": 211.1875014308278,
+      "mon2c_n": -11.430832179255077,
+      "tof_n": -2,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.26678298449390636,
+      "predicted_loo_log": 0.2702786573077056,
+      "barcode": "50065",
+      "temperature": 39.96469,
+      "mon2": 305,
+      "mon2c": 190.82922855420014,
+      "mon2c_n": -31.789105055882743,
+      "tof_n": -2,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 3,
+      "observed_log": 0.6020599913279624,
+      "predicted_log": 0.4012259934791855,
+      "predicted_loo_log": 0.3992835004529227,
+      "barcode": "50065",
+      "temperature": 37.306,
+      "mon2": 324,
+      "mon2c": 215.77976472938195,
+      "mon2c_n": -6.838568880700933,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.4454132146031291,
+      "predicted_loo_log": 0.4500688606351724,
+      "barcode": "50065",
+      "temperature": 37.306,
+      "mon2": 337,
+      "mon2c": 224.43759479568433,
+      "mon2c_n": 1.819261185601448,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": 0.7913112633469153,
+      "predicted_loo_log": 0.7699420094155665,
+      "barcode": "50065",
+      "temperature": 41.719513,
+      "mon2": 506,
+      "mon2c": 303.8050927008617,
+      "mon2c_n": 81.18675909077879,
+      "tof_n": 9,
+      "censored": true,
+      "agree": false,
+      "country": "Kenya"
+    },
+    {
+      "observed": 100,
+      "observed_log": 2.0043213737826426,
+      "predicted_log": -0.4443703862050478,
+      "predicted_loo_log": -0.5486650497976531,
+      "barcode": "50053",
+      "temperature": 37.72644,
+      "mon2": 473,
+      "mon2c": 311.91627780217556,
+      "mon2c_n": -117.91948020981425,
+      "tof_n": 75,
+      "censored": true,
+      "agree": false,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.1450075048235817,
+      "predicted_loo_log": 0.1473643938364737,
+      "barcode": "50065",
+      "temperature": 37.822113,
+      "mon2": 258,
+      "mon2c": 169.75425457242605,
+      "mon2c_n": -52.864079037656836,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": -0.24212131123304448,
+      "predicted_loo_log": -0.24985809302701556,
+      "barcode": "50053",
+      "temperature": 34.566727,
+      "mon2": 481,
+      "mon2c": 341.62798448040456,
+      "mon2c_n": -88.20777353158525,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.10109320497095009,
+      "predicted_loo_log": 0.10286401901337694,
+      "barcode": "50065",
+      "temperature": 38.859406,
+      "mon2": 253,
+      "mon2c": 162.45770343565894,
+      "mon2c_n": -60.16063017442394,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": -0.40874874127596506,
+      "predicted_loo_log": -0.4250560252489831,
+      "barcode": "50053",
+      "temperature": 35.66696,
+      "mon2": 458,
+      "mon2c": 316.9937001522904,
+      "mon2c_n": -112.84205785969942,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.463018058358756,
+      "predicted_loo_log": 0.4678015300613587,
+      "barcode": "50065",
+      "temperature": 32.950348,
+      "mon2": 309,
+      "mon2c": 227.95815360531776,
+      "mon2c_n": 5.339819995234876,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.38133399789866607,
+      "predicted_loo_log": 0.38557019289899386,
+      "barcode": "50065",
+      "temperature": 38.328156,
+      "mon2": 326,
+      "mon2c": 211.96128340574825,
+      "mon2c_n": -10.657050204334638,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.203681362865349,
+      "predicted_loo_log": 0.20665998508470984,
+      "barcode": "50065",
+      "temperature": 36.042084,
+      "mon2": 262,
+      "mon2c": 179.7462737347192,
+      "mon2c_n": -42.872059875363675,
+      "tof_n": 5,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.3450503994471421,
+      "predicted_loo_log": 0.34906276405696546,
+      "barcode": "50065",
+      "temperature": 38.129272,
+      "mon2": 314,
+      "mon2c": 205.1149690173449,
+      "mon2c_n": -17.503364592737995,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.34207740920925056,
+      "predicted_loo_log": 0.34607136289657825,
+      "barcode": "50065",
+      "temperature": 37.00638,
+      "mon2": 305,
+      "mon2c": 204.56055583562193,
+      "mon2c_n": -18.05777777446096,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.30795150321899134,
+      "predicted_loo_log": 0.31172944358968346,
+      "barcode": "50065",
+      "temperature": 37.348785,
+      "mon2": 298,
+      "mon2c": 198.26476049932742,
+      "mon2c_n": -24.353573110755462,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.30745999296476034,
+      "predicted_loo_log": 0.31123473229448717,
+      "barcode": "50065",
+      "temperature": 39.322662,
+      "mon2": 312,
+      "mon2c": 198.17497893322377,
+      "mon2c_n": -24.443354676859116,
+      "tof_n": 2,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.36795230872671203,
+      "predicted_loo_log": 0.37210580497985946,
+      "barcode": "50065",
+      "temperature": 38.579926,
+      "mon2": 324,
+      "mon2c": 209.41881899974135,
+      "mon2c_n": -13.199514610341538,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.2982197569899536,
+      "predicted_loo_log": 0.3019336769627685,
+      "barcode": "50065",
+      "temperature": 38.579926,
+      "mon2": 304,
+      "mon2c": 196.49173140716474,
+      "mon2c_n": -26.12660220291815,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.27895367329763654,
+      "predicted_loo_log": 0.28253619924831697,
+      "barcode": "50065",
+      "temperature": 40.98938,
+      "mon2": 316,
+      "mon2c": 193.00987281070618,
+      "mon2c_n": -29.6084607993767,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.3039444928270292,
+      "predicted_loo_log": 0.3076962398989338,
+      "barcode": "50065",
+      "temperature": 42.615814,
+      "mon2": 336,
+      "mon2c": 197.533546838112,
+      "mon2c_n": -25.084786771970897,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.5542528860234508,
+      "predicted_loo_log": 0.5685764011954302,
+      "barcode": "50053",
+      "temperature": 35.868378,
+      "mon2": 715,
+      "mon2c": 492.534412236483,
+      "mon2c_n": 62.69865422449317,
+      "tof_n": -4,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": -0.6959217626241321,
+      "predicted_loo_log": -0.7377464371688416,
+      "barcode": "50053",
+      "temperature": 38.21991,
+      "mon2": 426,
+      "mon2c": 277.6851981851231,
+      "mon2c_n": -152.1505598268667,
+      "tof_n": -3,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": -0.6959217626241321,
+      "predicted_loo_log": -0.7377464371688416,
+      "barcode": "50053",
+      "temperature": 38.21991,
+      "mon2": 426,
+      "mon2c": 277.6851981851231,
+      "mon2c_n": -152.1505598268667,
+      "tof_n": -3,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.2264411035645606,
+      "predicted_loo_log": 0.22962115755938894,
+      "barcode": "50065",
+      "temperature": 37.7919,
+      "mon2": 279,
+      "mon2c": 183.70177837771655,
+      "mon2c_n": -38.916555232366335,
+      "tof_n": 2,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": -0.5786256890376149,
+      "predicted_loo_log": -0.60803953448123,
+      "barcode": "50053",
+      "temperature": 37.2657,
+      "mon2": 440,
+      "mon2c": 293.3117573937299,
+      "mon2c_n": -136.5240006182599,
+      "tof_n": -4,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.2264411035645606,
+      "predicted_loo_log": 0.22962115755938894,
+      "barcode": "50065",
+      "temperature": 37.7919,
+      "mon2": 279,
+      "mon2c": 183.70177837771655,
+      "mon2c_n": -38.916555232366335,
+      "tof_n": 2,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": -0.5786256890376149,
+      "predicted_loo_log": -0.60803953448123,
+      "barcode": "50053",
+      "temperature": 37.2657,
+      "mon2": 440,
+      "mon2c": 293.3117573937299,
+      "mon2c_n": -136.5240006182599,
+      "tof_n": -4,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.5662835543567035,
+      "predicted_loo_log": 0.5811183064893151,
+      "barcode": "50053",
+      "temperature": 35.488205,
+      "mon2": 713,
+      "mon2c": 495.5621396065205,
+      "mon2c_n": 65.72638159453066,
+      "tof_n": 74,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.2868848868527839,
+      "predicted_loo_log": 0.2905223317362823,
+      "barcode": "50065",
+      "temperature": 37.603058,
+      "mon2": 294,
+      "mon2c": 194.43874938743656,
+      "mon2c_n": -28.179584222646326,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": -0.1877944282318572,
+      "predicted_loo_log": -0.19342807787358418,
+      "barcode": "50053",
+      "temperature": 34.58435,
+      "mon2": 493,
+      "mon2c": 350.0060196410671,
+      "mon2c_n": -79.82973837092271,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.21816071456607167,
+      "predicted_loo_log": 0.2212696819015718,
+      "barcode": "50065",
+      "temperature": 36.731964,
+      "mon2": 270,
+      "mon2c": 182.25735812219258,
+      "mon2c_n": -40.3609754878903,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": -0.1115003371791834,
+      "predicted_loo_log": -0.11461824859618663,
+      "barcode": "50053",
+      "temperature": 33.824005,
+      "mon2": 501,
+      "mon2c": 362.0949055673185,
+      "mon2c_n": -67.7408524446713,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.28012007428143093,
+      "predicted_loo_log": 0.2837107555849503,
+      "barcode": "50065",
+      "temperature": 38.159485,
+      "mon2": 296,
+      "mon2c": 193.21961983257188,
+      "mon2c_n": -29.398713777511006,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": -0.1877944282318572,
+      "predicted_loo_log": -0.19342807787358418,
+      "barcode": "50053",
+      "temperature": 34.58435,
+      "mon2": 493,
+      "mon2c": 350.0060196410671,
+      "mon2c_n": -79.82973837092271,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.21816071456607167,
+      "predicted_loo_log": 0.2212696819015718,
+      "barcode": "50065",
+      "temperature": 36.731964,
+      "mon2": 270,
+      "mon2c": 182.25735812219258,
+      "mon2c_n": -40.3609754878903,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": -0.1233320373943596,
+      "predicted_loo_log": -0.12681064330173952,
+      "barcode": "50053",
+      "temperature": 34.04808,
+      "mon2": 501,
+      "mon2c": 360.1941707484589,
+      "mon2c_n": -69.64158726353094,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.20444640659935776,
+      "predicted_loo_log": 0.2074321179631674,
+      "barcode": "50065",
+      "temperature": 38.381042,
+      "mon2": 277,
+      "mon2c": 179.87848960233026,
+      "mon2c_n": -42.73984400775262,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.7293528432273426,
+      "predicted_loo_log": 0.7529757689380314,
+      "barcode": "50053",
+      "temperature": 34.04808,
+      "mon2": 753,
+      "mon2c": 541.3696817836118,
+      "mon2c_n": 111.53392377162197,
+      "tof_n": -2,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": -0.17448310801660583,
+      "predicted_loo_log": -0.17964354677770522,
+      "barcode": "50053",
+      "temperature": 29.392853,
+      "mon2": 439,
+      "mon2c": 352.0872612816426,
+      "mon2c_n": -77.7484967303472,
+      "tof_n": 7,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.4088436289518482,
+      "predicted_loo_log": 0.4132534053897786,
+      "barcode": "50065",
+      "temperature": 31.555573,
+      "mon2": 285,
+      "mon2c": 217.25474555021333,
+      "mon2c_n": -5.3635880598695564,
+      "tof_n": 2,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": -0.17448310801660583,
+      "predicted_loo_log": -0.17964354677770522,
+      "barcode": "50053",
+      "temperature": 29.392853,
+      "mon2": 439,
+      "mon2c": 352.0872612816426,
+      "mon2c_n": -77.7484967303472,
+      "tof_n": 7,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.4362335705055378,
+      "predicted_loo_log": 0.4408252908328745,
+      "barcode": "50065",
+      "temperature": 33.821503,
+      "mon2": 308,
+      "mon2c": 222.61833361008289,
+      "mon2c_n": 0,
+      "tof_n": 2,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": -0.17448310801660583,
+      "predicted_loo_log": -0.17964354677770522,
+      "barcode": "50053",
+      "temperature": 29.392853,
+      "mon2": 439,
+      "mon2c": 352.0872612816426,
+      "mon2c_n": -77.7484967303472,
+      "tof_n": 7,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.5143728367031286,
+      "predicted_loo_log": 0.5195803039304627,
+      "barcode": "50065",
+      "temperature": 34.848724,
+      "mon2": 338,
+      "mon2c": 238.47808733157456,
+      "mon2c_n": 15.859753721491671,
+      "tof_n": 3,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 1,
+      "observed_log": 0.3010299956639812,
+      "predicted_log": 0.43171914107528164,
+      "predicted_loo_log": 0.4332556568708017,
+      "barcode": "50065",
+      "temperature": 34.541534,
+      "mon2": 312,
+      "mon2c": 221.72769591363678,
+      "mon2c_n": -0.890637696446106,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 1,
+      "observed_log": 0.3010299956639812,
+      "predicted_log": 0.41393304884132,
+      "predicted_loo_log": 0.4166154914364075,
+      "barcode": "50053",
+      "temperature": 30.404968,
+      "mon2": 587,
+      "mon2c": 459.7265169403985,
+      "mon2c_n": 29.890758928408673,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 2,
+      "observed_log": 0.47712125471966244,
+      "predicted_log": 0.46736693571902643,
+      "predicted_loo_log": 0.46749931461805283,
+      "barcode": "50065",
+      "temperature": 34.541534,
+      "mon2": 322,
+      "mon2c": 228.83435283394567,
+      "mon2c_n": 6.216019223862787,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 2,
+      "observed_log": 0.47712125471966244,
+      "predicted_log": 0.41393304884132,
+      "predicted_loo_log": 0.41267174590496225,
+      "barcode": "50053",
+      "temperature": 30.404968,
+      "mon2": 587,
+      "mon2c": 459.7265169403985,
+      "mon2c_n": 29.890758928408673,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 2,
+      "observed_log": 0.47712125471966244,
+      "predicted_log": 0.44988900719221503,
+      "predicted_loo_log": 0.4498316016831063,
+      "barcode": "50065",
+      "temperature": 37.1373,
+      "mon2": 337,
+      "mon2c": 225.3286805140897,
+      "mon2c_n": 2.710346904006826,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 2,
+      "observed_log": 0.47712125471966244,
+      "predicted_log": 1.0248618163352476,
+      "predicted_loo_log": 1.0560141195644044,
+      "barcode": "50053",
+      "temperature": 30.331955,
+      "mon2": 912,
+      "mon2c": 715.4858997332668,
+      "mon2c_n": 285.650141721277,
+      "tof_n": 55,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 14,
+      "observed_log": 1.1760912590556813,
+      "predicted_log": 1.0262423548007937,
+      "predicted_loo_log": 1.0182783892736316,
+      "barcode": "50053",
+      "temperature": 30.017242,
+      "mon2": 918,
+      "mon2c": 725.5364455327763,
+      "mon2c_n": 295.70068752078646,
+      "tof_n": 50,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 5,
+      "observed_log": 0.7781512503836436,
+      "predicted_log": 0.2980832596160621,
+      "predicted_loo_log": 0.2923288032253726,
+      "barcode": "50065",
+      "temperature": 33.693085,
+      "mon2": 271,
+      "mon2c": 196.46693171885084,
+      "mon2c_n": -26.15140189123204,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 5,
+      "observed_log": 0.7781512503836436,
+      "predicted_log": 0.517470265979135,
+      "predicted_loo_log": 0.5112612002877099,
+      "barcode": "50053",
+      "temperature": 29.893875,
+      "mon2": 610,
+      "mon2c": 483.50929076843596,
+      "mon2c_n": 53.67353275644615,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 5,
+      "observed_log": 0.7781512503836436,
+      "predicted_log": 0.2814632548383872,
+      "predicted_loo_log": 0.2753256941416844,
+      "barcode": "50065",
+      "temperature": 35.28177,
+      "mon2": 277,
+      "mon2c": 193.46132227447265,
+      "mon2c_n": -29.157011335610235,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 5,
+      "observed_log": 0.7781512503836436,
+      "predicted_log": 0.517470265979135,
+      "predicted_loo_log": 0.5112612002877099,
+      "barcode": "50053",
+      "temperature": 29.893875,
+      "mon2": 610,
+      "mon2c": 483.50929076843596,
+      "mon2c_n": 53.67353275644615,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.3558792865235577,
+      "predicted_loo_log": 0.3599584605252689,
+      "barcode": "50065",
+      "temperature": 33.58481,
+      "mon2": 285,
+      "mon2c": 207.14264562867444,
+      "mon2c_n": -15.475687981408441,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.48558072849348877,
+      "predicted_loo_log": 0.4972719893300903,
+      "barcode": "50053",
+      "temperature": 29.576645,
+      "mon2": 596,
+      "mon2c": 475.9455102789882,
+      "mon2c_n": 46.109752266998385,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.340331263165381,
+      "predicted_loo_log": 0.34431438421092775,
+      "barcode": "50065",
+      "temperature": 33.58481,
+      "mon2": 281,
+      "mon2c": 204.2353804268685,
+      "mon2c_n": -18.382953183214397,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.48558072849348877,
+      "predicted_loo_log": 0.4972719893300903,
+      "barcode": "50053",
+      "temperature": 29.576645,
+      "mon2": 596,
+      "mon2c": 475.9455102789882,
+      "mon2c_n": 46.109752266998385,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.30190317436373015,
+      "predicted_loo_log": 0.30564148970995175,
+      "barcode": "50065",
+      "temperature": 35.38748,
+      "mon2": 283,
+      "mon2c": 197.1616737156706,
+      "mon2c_n": -25.456659894412297,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.381329713250135,
+      "predicted_loo_log": 0.3897908060267157,
+      "barcode": "50053",
+      "temperature": 30.258942,
+      "mon2": 576,
+      "mon2c": 452.6614522009201,
+      "mon2c_n": 22.8256941889303,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 1,
+      "observed_log": 0.3010299956639812,
+      "predicted_log": 0.12240353647876767,
+      "predicted_loo_log": 0.1193537362350573,
+      "barcode": "50065",
+      "temperature": 39.75821,
+      "mon2": 264,
+      "mon2c": 165.97979902198284,
+      "mon2c_n": -56.63853458810004,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 1,
+      "observed_log": 0.3010299956639812,
+      "predicted_log": 0.2571740708033883,
+      "predicted_loo_log": 0.2563012141626666,
+      "barcode": "50053",
+      "temperature": 31.593323,
+      "mon2": 561,
+      "mon2c": 427.26979697319615,
+      "mon2c_n": -2.5659610387936596,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.12240353647876767,
+      "predicted_loo_log": 0.12447334823592204,
+      "barcode": "50065",
+      "temperature": 39.75821,
+      "mon2": 264,
+      "mon2c": 165.97979902198284,
+      "mon2c_n": -56.63853458810004,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.2571740708033883,
+      "predicted_loo_log": 0.26260152776354007,
+      "barcode": "50053",
+      "temperature": 31.593323,
+      "mon2": 561,
+      "mon2c": 427.26979697319615,
+      "mon2c_n": -2.5659610387936596,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.8514211755195267,
+      "predicted_loo_log": 0.8846172766415688,
+      "barcode": "50053",
+      "temperature": 25.845413,
+      "mon2": 671,
+      "mon2c": 584.9178628372389,
+      "mon2c_n": 155.08210482524908,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.5811623420510239,
+      "predicted_loo_log": 0.5870815462498855,
+      "barcode": "50065",
+      "temperature": 29.098297,
+      "mon2": 313,
+      "mon2c": 252.77541013646925,
+      "mon2c_n": 30.157076526386362,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.8514211755195267,
+      "predicted_loo_log": 0.8846172766415688,
+      "barcode": "50053",
+      "temperature": 25.845413,
+      "mon2": 671,
+      "mon2c": 584.9178628372389,
+      "mon2c_n": 155.08210482524908,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 14,
+      "observed_log": 1.1760912590556813,
+      "predicted_log": 0.5915617122176469,
+      "predicted_loo_log": 0.5858632897505827,
+      "barcode": "50065",
+      "temperature": 32.361237,
+      "mon2": 341,
+      "mon2c": 255.07060260432024,
+      "mon2c_n": 32.45226899423736,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 14,
+      "observed_log": 1.1760912590556813,
+      "predicted_log": 0.5840596687660773,
+      "predicted_loo_log": 0.5684641153245664,
+      "barcode": "50053",
+      "temperature": 29.626999,
+      "mon2": 627,
+      "mon2c": 500.1092260869832,
+      "mon2c_n": 70.27346807499339,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 48,
+      "observed_log": 1.6901960800285136,
+      "predicted_log": 0.5274289422364891,
+      "predicted_loo_log": 0.5156948375694714,
+      "barcode": "50065",
+      "temperature": 34.362793,
+      "mon2": 338,
+      "mon2c": 241.2155736145469,
+      "mon2c_n": 18.597240004464027,
+      "tof_n": 1,
+      "censored": false,
+      "agree": false,
+      "country": "Kenya"
+    },
+    {
+      "observed": 48,
+      "observed_log": 1.6901960800285136,
+      "predicted_log": 0.6979284834770247,
+      "predicted_loo_log": 0.667053867469757,
+      "barcode": "50053",
+      "temperature": 28.48648,
+      "mon2": 649,
+      "mon2c": 531.7116540956358,
+      "mon2c_n": 101.87589608364601,
+      "tof_n": 0,
+      "censored": false,
+      "agree": false,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.44408204807993834,
+      "predicted_loo_log": 0.44872831666200885,
+      "barcode": "50065",
+      "temperature": 30.961395,
+      "mon2": 290,
+      "mon2c": 224.17308821742196,
+      "mon2c_n": 1.5547546073390777,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.5162542559860324,
+      "predicted_loo_log": 0.5290640903602908,
+      "barcode": "50053",
+      "temperature": 29.357605,
+      "mon2": 602,
+      "mon2c": 483.2165937435767,
+      "mon2c_n": 53.3808357315869,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.395458748947932,
+      "predicted_loo_log": 0.3997832488767943,
+      "barcode": "50065",
+      "temperature": 36.3266,
+      "mon2": 315,
+      "mon2c": 214.66778735253354,
+      "mon2c_n": -7.950546257549348,
+      "tof_n": 2,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.38972509632168184,
+      "predicted_loo_log": 0.398418405408304,
+      "barcode": "50053",
+      "temperature": 30.749893,
+      "mon2": 585,
+      "mon2c": 454.4633059006528,
+      "mon2c_n": 24.627547888663003,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.3623600875750014,
+      "predicted_loo_log": 0.366479152695494,
+      "barcode": "50065",
+      "temperature": 39.317627,
+      "mon2": 328,
+      "mon2c": 208.36243839969381,
+      "mon2c_n": -14.25589521038907,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.35043075841745397,
+      "predicted_loo_log": 0.35807178119279426,
+      "barcode": "50053",
+      "temperature": 31.537933,
+      "mon2": 585,
+      "mon2c": 446.1287577508083,
+      "mon2c_n": 16.29299973881848,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.38412780617927733,
+      "predicted_loo_log": 0.3883813632305423,
+      "barcode": "50065",
+      "temperature": 39.380585,
+      "mon2": 335,
+      "mon2c": 212.49473564553978,
+      "mon2c_n": -10.123597964543109,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.35043075841745397,
+      "predicted_loo_log": 0.35807178119279426,
+      "barcode": "50053",
+      "temperature": 31.537933,
+      "mon2": 585,
+      "mon2c": 446.1287577508083,
+      "mon2c_n": 16.29299973881848,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.2831478439441011,
+      "predicted_loo_log": 0.28915992431283954,
+      "barcode": "50053",
+      "temperature": 31.537933,
+      "mon2": 567,
+      "mon2c": 432.4017190507834,
+      "mon2c_n": 2.5659610387936027,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.300302458851908,
+      "predicted_loo_log": 0.30403019822677624,
+      "barcode": "50065",
+      "temperature": 37.7919,
+      "mon2": 299,
+      "mon2c": 196.87036464135215,
+      "mon2c_n": -25.74796896873073,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.3134454247062346,
+      "predicted_loo_log": 0.3201677997955714,
+      "barcode": "50053",
+      "temperature": 31.537933,
+      "mon2": 575,
+      "mon2c": 438.5026251396834,
+      "mon2c_n": 8.666867127693592,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 1,
+      "observed_log": 0.3010299956639812,
+      "predicted_log": 0.5692689710317687,
+      "predicted_loo_log": 0.572188535294524,
+      "barcode": "50065",
+      "temperature": 30.347076,
+      "mon2": 319,
+      "mon2c": 250.17429149276265,
+      "mon2c_n": 27.555957882679763,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 1,
+      "observed_log": 0.3010299956639812,
+      "predicted_log": 0.7246210647491886,
+      "predicted_loo_log": 0.7384852026320201,
+      "barcode": "50053",
+      "temperature": 27.771454,
+      "mon2": 648,
+      "mon2c": 539.8837982592484,
+      "mon2c_n": 110.04804024725854,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.44403651072985584,
+      "predicted_loo_log": 0.4486824591877423,
+      "barcode": "50065",
+      "temperature": 33.38846,
+      "mon2": 307,
+      "mon2c": 224.164043980024,
+      "mon2c_n": 1.545710369941105,
+      "tof_n": 2,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.6833434318374023,
+      "predicted_loo_log": 0.7040939515316937,
+      "barcode": "50053",
+      "temperature": 27.771454,
+      "mon2": 633,
+      "mon2c": 527.3864881143584,
+      "mon2c_n": 97.55073010236856,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": -0.31252726644766926,
+      "predicted_loo_log": -0.3234557734681098,
+      "barcode": "50053",
+      "temperature": 31.53038,
+      "mon2": 434,
+      "mon2c": 331.03287723209064,
+      "mon2c_n": -98.80288077989917,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.34035938403263,
+      "predicted_loo_log": 0.34434267965511933,
+      "barcode": "50065",
+      "temperature": 37.351288,
+      "mon2": 307,
+      "mon2c": 204.24061458377116,
+      "mon2c_n": -18.377719026311723,
+      "tof_n": -1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": -0.3891632506333508,
+      "predicted_loo_log": -0.4042699769010638,
+      "barcode": "50053",
+      "temperature": 31.905518,
+      "mon2": 423,
+      "mon2c": 319.8122355493992,
+      "mon2c_n": -110.02352246259062,
+      "tof_n": 2,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.34035938403263,
+      "predicted_loo_log": 0.34434267965511933,
+      "barcode": "50065",
+      "temperature": 37.351288,
+      "mon2": 307,
+      "mon2c": 204.24061458377116,
+      "mon2c_n": -18.377719026311723,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": -0.3891632506333508,
+      "predicted_loo_log": -0.4042699769010638,
+      "barcode": "50053",
+      "temperature": 31.905518,
+      "mon2": 423,
+      "mon2c": 319.8122355493992,
+      "mon2c_n": -110.02352246259062,
+      "tof_n": 2,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.21063703136179424,
+      "predicted_loo_log": 0.21367926382383362,
+      "barcode": "50065",
+      "temperature": 37.81961,
+      "mon2": 275,
+      "mon2c": 180.95025031825347,
+      "mon2c_n": -41.66808329182942,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.2077632756087211,
+      "predicted_loo_log": 0.2107794553696909,
+      "barcode": "50065",
+      "temperature": 37.78183,
+      "mon2": 274,
+      "mon2c": 180.45230829555726,
+      "mon2c_n": -42.166025314525626,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.9585553946000462,
+      "predicted_loo_log": 1.003526421845048,
+      "barcode": "50053",
+      "temperature": 31.885376,
+      "mon2": 845,
+      "mon2c": 639.1707323718458,
+      "mon2c_n": 209.334974359856,
+      "tof_n": 52,
+      "censored": false,
+      "agree": false,
+      "country": "Kenya"
+    },
+    {
+      "observed": 2,
+      "observed_log": 0.47712125471966244,
+      "predicted_log": 0.31442413991413243,
+      "predicted_loo_log": 0.3126194360452835,
+      "barcode": "50065",
+      "temperature": 35.196136,
+      "mon2": 285,
+      "mon2c": 199.44941843792333,
+      "mon2c_n": -23.168915172159558,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 2,
+      "observed_log": 0.47712125471966244,
+      "predicted_log": 0.9497714907524071,
+      "predicted_loo_log": 0.9720685433915524,
+      "barcode": "50053",
+      "temperature": 32.008743,
+      "mon2": 840,
+      "mon2c": 633.5501831199781,
+      "mon2c_n": 203.7144251079883,
+      "tof_n": 54,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 1,
+      "observed_log": 0.3010299956639812,
+      "predicted_log": 0.3006340468343007,
+      "predicted_loo_log": 0.3007429058146478,
+      "barcode": "50065",
+      "temperature": 36.47766,
+      "mon2": 290,
+      "mon2c": 196.9306877960215,
+      "mon2c_n": -25.687645814061398,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 1,
+      "observed_log": 0.3010299956639812,
+      "predicted_log": 0.25536807736369926,
+      "predicted_loo_log": 0.2544563088000378,
+      "barcode": "50053",
+      "temperature": 31.62857,
+      "mon2": 561,
+      "mon2c": 426.91621292075723,
+      "mon2c_n": -2.919545091232578,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 2,
+      "observed_log": 0.47712125471966244,
+      "predicted_log": 0.30449863621872897,
+      "predicted_loo_log": 0.3025367090039497,
+      "barcode": "50065",
+      "temperature": 37.341217,
+      "mon2": 297,
+      "mon2c": 197.63457051845762,
+      "mon2c_n": -24.983763091625264,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 2,
+      "observed_log": 0.47712125471966244,
+      "predicted_log": 0.25536807736369926,
+      "predicted_loo_log": 0.2507653995485166,
+      "barcode": "50053",
+      "temperature": 31.62857,
+      "mon2": 561,
+      "mon2c": 426.91621292075723,
+      "mon2c_n": -2.919545091232578,
+      "tof_n": 0,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.18176147998851255,
+      "predicted_loo_log": 0.18452663728070584,
+      "barcode": "50065",
+      "temperature": 38.066315,
+      "mon2": 269,
+      "mon2c": 175.97954752840863,
+      "mon2c_n": -46.638786081674255,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.12116776924377326,
+      "predicted_loo_log": 0.12371677301211281,
+      "barcode": "50053",
+      "temperature": 32.119522,
+      "mon2": 534,
+      "mon2c": 401.71029517065455,
+      "mon2c_n": -28.125462841335263,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.17384470442500188,
+      "predicted_loo_log": 0.17652754139574944,
+      "barcode": "50065",
+      "temperature": 38.552246,
+      "mon2": 270,
+      "mon2c": 174.62918091793446,
+      "mon2c_n": -47.98915269214842,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    },
+    {
+      "observed": 0,
+      "observed_log": 0,
+      "predicted_log": 0.11270961573004779,
+      "predicted_loo_log": 0.11508079075231836,
+      "barcode": "50053",
+      "temperature": 32.041473,
+      "mon2": 531,
+      "mon2c": 400.1864549356634,
+      "mon2c_n": -29.64930307632642,
+      "tof_n": 1,
+      "censored": false,
+      "agree": true,
+      "country": "Kenya"
+    }
+  ],
+  "n": 205,
+  "sensors": [
+    "50045",
+    "50053",
+    "50065"
+  ],
+  "sensor_counts": {
+    "50045": 50,
+    "50053": 49,
+    "50065": 106
+  },
+  "model": {
+    "name": "No-tof + mon2² + ridge(0.1)",
+    "features": [
+      "mon2c_n",
+      "mon2c_n2"
+    ],
+    "sensorFE": true,
+    "sensorSlopes": false,
+    "countryFE": false,
+    "ridge": 0.1,
+    "censoredWeight": 1,
+    "coefficients": [
+      1.282372178172671,
+      0.6798332327245818,
+      -0.2326641314897835,
+      -0.7526591660257791,
+      -0.586642318615131
+    ],
+    "sigma": 0.7937822183516081,
+    "r2": 0.21360468564071322,
+    "mae": 0.5716749182913661,
+    "loocv_r2": 0.1588146950088375,
+    "loocv_mae": 0.589924174128827,
+    "loocv_agree": 166,
+    "loocv_agree_pct": 81,
+    "n_params": 5,
+    "agreement_band": 0.9192388155425119,
+    "dl_log": 2.0043213737826426,
+    "fe_sensors": [
+      "50053",
+      "50065"
+    ]
+  },
+  "normalization": {
+    "mon2_stats": {
+      "m": 56.640107898958696,
+      "sd": 165.74144249674018
+    },
+    "tof_stats": {
+      "m": 4.88780487804878,
+      "sd": 14.191790741472087
+    },
+    "sensor_baselines_mon2c": {
+      "50045": 346.28602566777795,
+      "50053": 429.8357580119898,
+      "50065": 222.61833361008289
+    },
+    "sensor_baselines_tof": {
+      "50045": 29,
+      "50053": 33,
+      "50065": 39
+    }
+  },
+  "temperature": {
+    "rho": 0.023488110250553085,
+    "r2": 0.26115603666917997,
+    "n": 136,
+    "per_sensor": {
+      "50045": {
+        "n": 25,
+        "intercept": 6.485830558040959
+      },
+      "50053": {
+        "n": 38,
+        "intercept": 6.622512818326605
+      },
+      "50065": {
+        "n": 73,
+        "intercept": 6.21625197837529
+      }
+    },
+    "clean_water_data": [
+      {
+        "barcode": "50065",
+        "temp": 34.662384,
+        "mon2": 294,
+        "logMon2": 5.683579767338681
+      },
+      {
+        "barcode": "50045",
+        "temp": 30.73227,
+        "mon2": 307,
+        "logMon2": 5.726847747587197
+      },
+      {
+        "barcode": "50065",
+        "temp": 32.0289,
+        "mon2": 387,
+        "logMon2": 5.958424693029782
+      },
+      {
+        "barcode": "50045",
+        "temp": 27.303162,
+        "mon2": 322,
+        "logMon2": 5.7745515455444085
+      },
+      {
+        "barcode": "50065",
+        "temp": 30.764984,
+        "mon2": 338,
+        "logMon2": 5.823045895483019
+      },
+      {
+        "barcode": "50045",
+        "temp": 26.686325,
+        "mon2": 1215,
+        "logMon2": 7.102499355774649
+      },
+      {
+        "barcode": "50065",
+        "temp": 30.082703,
+        "mon2": 333,
+        "logMon2": 5.808142489980444
+      },
+      {
+        "barcode": "50045",
+        "temp": 25.784988,
+        "mon2": 344,
+        "logMon2": 5.840641657373398
+      },
+      {
+        "barcode": "50065",
+        "temp": 28.60733,
+        "mon2": 330,
+        "logMon2": 5.799092654460526
+      },
+      {
+        "barcode": "50045",
+        "temp": 26.061935,
+        "mon2": 364,
+        "logMon2": 5.8971538676367405
+      },
+      {
+        "barcode": "50065",
+        "temp": 25.578522,
+        "mon2": 370,
+        "logMon2": 5.91350300563827
+      },
+      {
+        "barcode": "50045",
+        "temp": 24.956665,
+        "mon2": 946,
+        "logMon2": 6.852242569051878
+      },
+      {
+        "barcode": "50065",
+        "temp": 25.578522,
+        "mon2": 367,
+        "logMon2": 5.905361848054571
+      },
+      {
+        "barcode": "50045",
+        "temp": 25.009537,
+        "mon2": 946,
+        "logMon2": 6.852242569051878
+      },
+      {
+        "barcode": "50065",
+        "temp": 26.137482,
+        "mon2": 355,
+        "logMon2": 5.872117789475416
+      },
+      {
+        "barcode": "50045",
+        "temp": 25.480347,
+        "mon2": 368,
+        "logMon2": 5.908082938168931
+      },
+      {
+        "barcode": "50065",
+        "temp": 25.928497,
+        "mon2": 355,
+        "logMon2": 5.872117789475416
+      },
+      {
+        "barcode": "50045",
+        "temp": 25.472794,
+        "mon2": 368,
+        "logMon2": 5.908082938168931
+      },
+      {
+        "barcode": "50065",
+        "temp": 33.12155,
+        "mon2": 317,
+        "logMon2": 5.75890177387728
+      },
+      {
+        "barcode": "50045",
+        "temp": 28.317795,
+        "mon2": 1149,
+        "logMon2": 7.046647277848756
+      },
+      {
+        "barcode": "50065",
+        "temp": 31.266022,
+        "mon2": 318,
+        "logMon2": 5.762051382780177
+      },
+      {
+        "barcode": "50045",
+        "temp": 25.709457,
+        "mon2": 354,
+        "logMon2": 5.869296913133774
+      },
+      {
+        "barcode": "50065",
+        "temp": 30.70456,
+        "mon2": 310,
+        "logMon2": 5.736572297479192
+      },
+      {
+        "barcode": "50045",
+        "temp": 25.294037,
+        "mon2": 1221,
+        "logMon2": 7.107425474110705
+      },
+      {
+        "barcode": "50065",
+        "temp": 30.485535,
+        "mon2": 422,
+        "logMon2": 6.045005314036012
+      },
+      {
+        "barcode": "50045",
+        "temp": 26.097183,
+        "mon2": 1193,
+        "logMon2": 7.084226422097916
+      },
+      {
+        "barcode": "50065",
+        "temp": 30.374756,
+        "mon2": 469,
+        "logMon2": 6.150602768446279
+      },
+      {
+        "barcode": "50045",
+        "temp": 25.96878,
+        "mon2": 431,
+        "logMon2": 6.066108090103747
+      },
+      {
+        "barcode": "50065",
+        "temp": 33.448883,
+        "mon2": 327,
+        "logMon2": 5.7899601708972535
+      },
+      {
+        "barcode": "50045",
+        "temp": 30.082703,
+        "mon2": 1088,
+        "logMon2": 6.992096427415888
+      },
+      {
+        "barcode": "50065",
+        "temp": 33.234863,
+        "mon2": 364,
+        "logMon2": 5.8971538676367405
+      },
+      {
+        "barcode": "50045",
+        "temp": 28.161697,
+        "mon2": 358,
+        "logMon2": 5.8805329864007
+      },
+      {
+        "barcode": "50065",
+        "temp": 31.704102,
+        "mon2": 343,
+        "logMon2": 5.83773044716594
+      },
+      {
+        "barcode": "50045",
+        "temp": 26.84494,
+        "mon2": 1247,
+        "logMon2": 7.1284959456800365
+      },
+      {
+        "barcode": "50065",
+        "temp": 31.130066,
+        "mon2": 371,
+        "logMon2": 5.916202062607435
+      },
+      {
+        "barcode": "50045",
+        "temp": 27.091675,
+        "mon2": 349,
+        "logMon2": 5.855071922202427
+      },
+      {
+        "barcode": "50065",
+        "temp": 29.778046,
+        "mon2": 592,
+        "logMon2": 6.3835066348840055
+      },
+      {
+        "barcode": "50045",
+        "temp": 24.974289,
+        "mon2": 600,
+        "logMon2": 6.396929655216146
+      },
+      {
+        "barcode": "50065",
+        "temp": 29.158722,
+        "mon2": 329,
+        "logMon2": 5.796057750765372
+      },
+      {
+        "barcode": "50045",
+        "temp": 24.73259,
+        "mon2": 387,
+        "logMon2": 5.958424693029782
+      },
+      {
+        "barcode": "50065",
+        "temp": 29.694977,
+        "mon2": 340,
+        "logMon2": 5.8289456176102075
+      },
+      {
+        "barcode": "50045",
+        "temp": 25.132904,
+        "mon2": 410,
+        "logMon2": 6.016157159698354
+      },
+      {
+        "barcode": "50065",
+        "temp": 30.855621,
+        "mon2": 345,
+        "logMon2": 5.84354441703136
+      },
+      {
+        "barcode": "50045",
+        "temp": 28.121414,
+        "mon2": 353,
+        "logMon2": 5.8664680569332965
+      },
+      {
+        "barcode": "50065",
+        "temp": 31.485077,
+        "mon2": 379,
+        "logMon2": 5.937536205082426
+      },
+      {
+        "barcode": "50045",
+        "temp": 28.370667,
+        "mon2": 409,
+        "logMon2": 6.013715156042802
+      },
+      {
+        "barcode": "50065",
+        "temp": 31.64621,
+        "mon2": 338,
+        "logMon2": 5.823045895483019
+      },
+      {
+        "barcode": "50045",
+        "temp": 26.532745,
+        "mon2": 1242,
+        "logMon2": 7.124478262493424
+      },
+      {
+        "barcode": "50065",
+        "temp": 29.898895,
+        "mon2": 417,
+        "logMon2": 6.0330862217988015
+      },
+      {
+        "barcode": "50045",
+        "temp": 26.839905,
+        "mon2": 397,
+        "logMon2": 5.983936280687191
+      },
+      {
+        "barcode": "50065",
+        "temp": 35.606537,
+        "mon2": 1415,
+        "logMon2": 7.254884810077338
+      },
+      {
+        "barcode": "50065",
+        "temp": 38.49936,
+        "mon2": 355,
+        "logMon2": 5.872117789475416
+      },
+      {
+        "barcode": "50065",
+        "temp": 39.96469,
+        "mon2": 305,
+        "logMon2": 5.720311776607412
+      },
+      {
+        "barcode": "50065",
+        "temp": 37.306,
+        "mon2": 337,
+        "logMon2": 5.820082930352362
+      },
+      {
+        "barcode": "50065",
+        "temp": 37.822113,
+        "mon2": 258,
+        "logMon2": 5.552959584921617
+      },
+      {
+        "barcode": "50053",
+        "temp": 34.566727,
+        "mon2": 481,
+        "logMon2": 6.175867270105761
+      },
+      {
+        "barcode": "50065",
+        "temp": 38.859406,
+        "mon2": 253,
+        "logMon2": 5.53338948872752
+      },
+      {
+        "barcode": "50053",
+        "temp": 35.66696,
+        "mon2": 458,
+        "logMon2": 6.126869184114185
+      },
+      {
+        "barcode": "50065",
+        "temp": 32.950348,
+        "mon2": 309,
+        "logMon2": 5.733341276897746
+      },
+      {
+        "barcode": "50065",
+        "temp": 38.328156,
+        "mon2": 326,
+        "logMon2": 5.786897381366708
+      },
+      {
+        "barcode": "50065",
+        "temp": 36.042084,
+        "mon2": 262,
+        "logMon2": 5.568344503761097
+      },
+      {
+        "barcode": "50065",
+        "temp": 38.129272,
+        "mon2": 314,
+        "logMon2": 5.749392985908253
+      },
+      {
+        "barcode": "50065",
+        "temp": 37.00638,
+        "mon2": 305,
+        "logMon2": 5.720311776607412
+      },
+      {
+        "barcode": "50065",
+        "temp": 37.348785,
+        "mon2": 298,
+        "logMon2": 5.697093486505405
+      },
+      {
+        "barcode": "50065",
+        "temp": 39.322662,
+        "mon2": 312,
+        "logMon2": 5.7430031878094825
+      },
+      {
+        "barcode": "50065",
+        "temp": 38.579926,
+        "mon2": 324,
+        "logMon2": 5.780743515792329
+      },
+      {
+        "barcode": "50065",
+        "temp": 38.579926,
+        "mon2": 304,
+        "logMon2": 5.717027701406222
+      },
+      {
+        "barcode": "50065",
+        "temp": 40.98938,
+        "mon2": 316,
+        "logMon2": 5.755742213586912
+      },
+      {
+        "barcode": "50053",
+        "temp": 34.297333,
+        "mon2": 1192,
+        "logMon2": 7.083387847625295
+      },
+      {
+        "barcode": "50065",
+        "temp": 42.615814,
+        "mon2": 336,
+        "logMon2": 5.817111159963204
+      },
+      {
+        "barcode": "50053",
+        "temp": 35.868378,
+        "mon2": 715,
+        "logMon2": 6.5722825426940075
+      },
+      {
+        "barcode": "50053",
+        "temp": 38.21991,
+        "mon2": 426,
+        "logMon2": 6.054439346269371
+      },
+      {
+        "barcode": "50053",
+        "temp": 38.21991,
+        "mon2": 426,
+        "logMon2": 6.054439346269371
+      },
+      {
+        "barcode": "50065",
+        "temp": 37.7919,
+        "mon2": 279,
+        "logMon2": 5.631211781821365
+      },
+      {
+        "barcode": "50053",
+        "temp": 37.2657,
+        "mon2": 440,
+        "logMon2": 6.0867747269123065
+      },
+      {
+        "barcode": "50065",
+        "temp": 37.7919,
+        "mon2": 279,
+        "logMon2": 5.631211781821365
+      },
+      {
+        "barcode": "50053",
+        "temp": 37.2657,
+        "mon2": 440,
+        "logMon2": 6.0867747269123065
+      },
+      {
+        "barcode": "50053",
+        "temp": 35.488205,
+        "mon2": 713,
+        "logMon2": 6.569481420414296
+      },
+      {
+        "barcode": "50065",
+        "temp": 37.603058,
+        "mon2": 294,
+        "logMon2": 5.683579767338681
+      },
+      {
+        "barcode": "50053",
+        "temp": 34.58435,
+        "mon2": 493,
+        "logMon2": 6.20050917404269
+      },
+      {
+        "barcode": "50065",
+        "temp": 36.731964,
+        "mon2": 270,
+        "logMon2": 5.598421958998375
+      },
+      {
+        "barcode": "50053",
+        "temp": 33.824005,
+        "mon2": 501,
+        "logMon2": 6.2166061010848646
+      },
+      {
+        "barcode": "50065",
+        "temp": 38.159485,
+        "mon2": 296,
+        "logMon2": 5.69035945432406
+      },
+      {
+        "barcode": "50053",
+        "temp": 34.58435,
+        "mon2": 493,
+        "logMon2": 6.20050917404269
+      },
+      {
+        "barcode": "50065",
+        "temp": 36.731964,
+        "mon2": 270,
+        "logMon2": 5.598421958998375
+      },
+      {
+        "barcode": "50053",
+        "temp": 34.04808,
+        "mon2": 501,
+        "logMon2": 6.2166061010848646
+      },
+      {
+        "barcode": "50065",
+        "temp": 38.381042,
+        "mon2": 277,
+        "logMon2": 5.6240175061873385
+      },
+      {
+        "barcode": "50053",
+        "temp": 34.04808,
+        "mon2": 753,
+        "logMon2": 6.6240652277998935
+      },
+      {
+        "barcode": "50065",
+        "temp": 31.555573,
+        "mon2": 1753,
+        "logMon2": 7.469083884921234
+      },
+      {
+        "barcode": "50053",
+        "temp": 29.392853,
+        "mon2": 439,
+        "logMon2": 6.0844994130751715
+      },
+      {
+        "barcode": "50065",
+        "temp": 31.555573,
+        "mon2": 285,
+        "logMon2": 5.652489180268651
+      },
+      {
+        "barcode": "50053",
+        "temp": 29.392853,
+        "mon2": 439,
+        "logMon2": 6.0844994130751715
+      },
+      {
+        "barcode": "50065",
+        "temp": 33.821503,
+        "mon2": 308,
+        "logMon2": 5.730099782973575
+      },
+      {
+        "barcode": "50053",
+        "temp": 29.392853,
+        "mon2": 439,
+        "logMon2": 6.0844994130751715
+      },
+      {
+        "barcode": "50065",
+        "temp": 34.848724,
+        "mon2": 338,
+        "logMon2": 5.823045895483019
+      },
+      {
+        "barcode": "50053",
+        "temp": 29.392853,
+        "mon2": 916,
+        "logMon2": 6.82001636467413
+      },
+      {
+        "barcode": "50053",
+        "temp": 29.873734,
+        "mon2": 916,
+        "logMon2": 6.82001636467413
+      },
+      {
+        "barcode": "50065",
+        "temp": 33.58481,
+        "mon2": 285,
+        "logMon2": 5.652489180268651
+      },
+      {
+        "barcode": "50053",
+        "temp": 29.576645,
+        "mon2": 596,
+        "logMon2": 6.39024066706535
+      },
+      {
+        "barcode": "50065",
+        "temp": 33.58481,
+        "mon2": 281,
+        "logMon2": 5.638354669333745
+      },
+      {
+        "barcode": "50053",
+        "temp": 29.576645,
+        "mon2": 596,
+        "logMon2": 6.39024066706535
+      },
+      {
+        "barcode": "50065",
+        "temp": 35.38748,
+        "mon2": 283,
+        "logMon2": 5.645446897643238
+      },
+      {
+        "barcode": "50053",
+        "temp": 30.258942,
+        "mon2": 576,
+        "logMon2": 6.3561076606958915
+      },
+      {
+        "barcode": "50065",
+        "temp": 39.75821,
+        "mon2": 264,
+        "logMon2": 5.575949103146316
+      },
+      {
+        "barcode": "50053",
+        "temp": 31.593323,
+        "mon2": 561,
+        "logMon2": 6.329720905522696
+      },
+      {
+        "barcode": "50065",
+        "temp": 29.098297,
+        "mon2": 1919,
+        "logMon2": 7.5595594960077
+      },
+      {
+        "barcode": "50053",
+        "temp": 25.845413,
+        "mon2": 671,
+        "logMon2": 6.508769136971682
+      },
+      {
+        "barcode": "50065",
+        "temp": 29.098297,
+        "mon2": 313,
+        "logMon2": 5.746203190540153
+      },
+      {
+        "barcode": "50053",
+        "temp": 25.845413,
+        "mon2": 671,
+        "logMon2": 6.508769136971682
+      },
+      {
+        "barcode": "50065",
+        "temp": 30.961395,
+        "mon2": 290,
+        "logMon2": 5.66988092298052
+      },
+      {
+        "barcode": "50053",
+        "temp": 29.357605,
+        "mon2": 602,
+        "logMon2": 6.400257445308821
+      },
+      {
+        "barcode": "50065",
+        "temp": 36.3266,
+        "mon2": 315,
+        "logMon2": 5.752572638825633
+      },
+      {
+        "barcode": "50053",
+        "temp": 30.749893,
+        "mon2": 585,
+        "logMon2": 6.371611847231857
+      },
+      {
+        "barcode": "50065",
+        "temp": 39.317627,
+        "mon2": 328,
+        "logMon2": 5.793013608384144
+      },
+      {
+        "barcode": "50053",
+        "temp": 31.537933,
+        "mon2": 585,
+        "logMon2": 6.371611847231857
+      },
+      {
+        "barcode": "50065",
+        "temp": 39.380585,
+        "mon2": 335,
+        "logMon2": 5.814130531825066
+      },
+      {
+        "barcode": "50053",
+        "temp": 31.537933,
+        "mon2": 585,
+        "logMon2": 6.371611847231857
+      },
+      {
+        "barcode": "50065",
+        "temp": 37.7919,
+        "mon2": 1474,
+        "logMon2": 7.295735072749282
+      },
+      {
+        "barcode": "50053",
+        "temp": 31.537933,
+        "mon2": 567,
+        "logMon2": 6.340359303727752
+      },
+      {
+        "barcode": "50065",
+        "temp": 37.7919,
+        "mon2": 299,
+        "logMon2": 5.700443573390686
+      },
+      {
+        "barcode": "50053",
+        "temp": 31.537933,
+        "mon2": 575,
+        "logMon2": 6.354370040797351
+      },
+      {
+        "barcode": "50065",
+        "temp": 33.38846,
+        "mon2": 307,
+        "logMon2": 5.726847747587197
+      },
+      {
+        "barcode": "50053",
+        "temp": 27.771454,
+        "mon2": 633,
+        "logMon2": 6.450470422144176
+      },
+      {
+        "barcode": "50065",
+        "temp": 34.59189,
+        "mon2": 1597,
+        "logMon2": 7.3758821482150125
+      },
+      {
+        "barcode": "50053",
+        "temp": 31.53038,
+        "mon2": 434,
+        "logMon2": 6.073044534100405
+      },
+      {
+        "barcode": "50065",
+        "temp": 37.351288,
+        "mon2": 307,
+        "logMon2": 5.726847747587197
+      },
+      {
+        "barcode": "50053",
+        "temp": 31.905518,
+        "mon2": 423,
+        "logMon2": 6.0473721790462776
+      },
+      {
+        "barcode": "50065",
+        "temp": 37.351288,
+        "mon2": 307,
+        "logMon2": 5.726847747587197
+      },
+      {
+        "barcode": "50053",
+        "temp": 31.905518,
+        "mon2": 423,
+        "logMon2": 6.0473721790462776
+      },
+      {
+        "barcode": "50065",
+        "temp": 37.81961,
+        "mon2": 275,
+        "logMon2": 5.616771097666572
+      },
+      {
+        "barcode": "50065",
+        "temp": 37.78183,
+        "mon2": 274,
+        "logMon2": 5.6131281063880705
+      },
+      {
+        "barcode": "50053",
+        "temp": 31.885376,
+        "mon2": 845,
+        "logMon2": 6.739336627357174
+      },
+      {
+        "barcode": "50065",
+        "temp": 38.066315,
+        "mon2": 269,
+        "logMon2": 5.594711379601839
+      },
+      {
+        "barcode": "50053",
+        "temp": 32.119522,
+        "mon2": 534,
+        "logMon2": 6.280395838960195
+      },
+      {
+        "barcode": "50065",
+        "temp": 38.552246,
+        "mon2": 270,
+        "logMon2": 5.598421958998375
+      },
+      {
+        "barcode": "50053",
+        "temp": 32.041473,
+        "mon2": 531,
+        "logMon2": 6.274762021241939
+      }
+    ],
+    "sensor_intercepts": [
+      6.485830558040959,
+      0.1366822602856459,
+      -0.26957857966566934,
+      -0.023488110250553085
+    ]
+  },
+  "binary_classification": {
+    "ge1": {
+      "threshold": 1,
+      "cutpoint": 2.661783418002239,
+      "balanced_accuracy": 0.6842822531798909,
+      "sensitivity": 0.7307692307692307,
+      "specificity": 0.6377952755905512,
+      "confusion_matrix": {
+        "tn": 81,
+        "fp": 46,
+        "fn": 21,
+        "tp": 57
+      },
+      "auc": 0.7268322228952145,
+      "roc": [
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0.007874015748031496,
+          "tpr": 0
+        },
+        {
+          "fpr": 0.015748031496062992,
+          "tpr": 0
+        },
+        {
+          "fpr": 0.023622047244094488,
+          "tpr": 0
+        },
+        {
+          "fpr": 0.031496062992125984,
+          "tpr": 0
+        },
+        {
+          "fpr": 0.031496062992125984,
+          "tpr": 0.01282051282051282
+        },
+        {
+          "fpr": 0.031496062992125984,
+          "tpr": 0.02564102564102564
+        },
+        {
+          "fpr": 0.031496062992125984,
+          "tpr": 0.038461538461538464
+        },
+        {
+          "fpr": 0.031496062992125984,
+          "tpr": 0.05128205128205128
+        },
+        {
+          "fpr": 0.031496062992125984,
+          "tpr": 0.0641025641025641
+        },
+        {
+          "fpr": 0.031496062992125984,
+          "tpr": 0.07692307692307693
+        },
+        {
+          "fpr": 0.03937007874015748,
+          "tpr": 0.07692307692307693
+        },
+        {
+          "fpr": 0.03937007874015748,
+          "tpr": 0.08974358974358974
+        },
+        {
+          "fpr": 0.03937007874015748,
+          "tpr": 0.10256410256410256
+        },
+        {
+          "fpr": 0.03937007874015748,
+          "tpr": 0.11538461538461539
+        },
+        {
+          "fpr": 0.047244094488188976,
+          "tpr": 0.11538461538461539
+        },
+        {
+          "fpr": 0.047244094488188976,
+          "tpr": 0.1282051282051282
+        },
+        {
+          "fpr": 0.047244094488188976,
+          "tpr": 0.14102564102564102
+        },
+        {
+          "fpr": 0.047244094488188976,
+          "tpr": 0.15384615384615385
+        },
+        {
+          "fpr": 0.05511811023622047,
+          "tpr": 0.15384615384615385
+        },
+        {
+          "fpr": 0.05511811023622047,
+          "tpr": 0.16666666666666666
+        },
+        {
+          "fpr": 0.05511811023622047,
+          "tpr": 0.1794871794871795
+        },
+        {
+          "fpr": 0.05511811023622047,
+          "tpr": 0.19230769230769232
+        },
+        {
+          "fpr": 0.05511811023622047,
+          "tpr": 0.20512820512820512
+        },
+        {
+          "fpr": 0.05511811023622047,
+          "tpr": 0.21794871794871795
+        },
+        {
+          "fpr": 0.06299212598425197,
+          "tpr": 0.21794871794871795
+        },
+        {
+          "fpr": 0.06299212598425197,
+          "tpr": 0.23076923076923078
+        },
+        {
+          "fpr": 0.06299212598425197,
+          "tpr": 0.24358974358974358
+        },
+        {
+          "fpr": 0.06299212598425197,
+          "tpr": 0.2564102564102564
+        },
+        {
+          "fpr": 0.06299212598425197,
+          "tpr": 0.2692307692307692
+        },
+        {
+          "fpr": 0.06299212598425197,
+          "tpr": 0.28205128205128205
+        },
+        {
+          "fpr": 0.06299212598425197,
+          "tpr": 0.2948717948717949
+        },
+        {
+          "fpr": 0.06299212598425197,
+          "tpr": 0.3076923076923077
+        },
+        {
+          "fpr": 0.07086614173228346,
+          "tpr": 0.3076923076923077
+        },
+        {
+          "fpr": 0.07874015748031496,
+          "tpr": 0.3076923076923077
+        },
+        {
+          "fpr": 0.08661417322834646,
+          "tpr": 0.3076923076923077
+        },
+        {
+          "fpr": 0.08661417322834646,
+          "tpr": 0.32051282051282054
+        },
+        {
+          "fpr": 0.09448818897637795,
+          "tpr": 0.32051282051282054
+        },
+        {
+          "fpr": 0.09448818897637795,
+          "tpr": 0.3333333333333333
+        },
+        {
+          "fpr": 0.09448818897637795,
+          "tpr": 0.34615384615384615
+        },
+        {
+          "fpr": 0.09448818897637795,
+          "tpr": 0.358974358974359
+        },
+        {
+          "fpr": 0.09448818897637795,
+          "tpr": 0.3717948717948718
+        },
+        {
+          "fpr": 0.10236220472440945,
+          "tpr": 0.3717948717948718
+        },
+        {
+          "fpr": 0.11023622047244094,
+          "tpr": 0.3717948717948718
+        },
+        {
+          "fpr": 0.11023622047244094,
+          "tpr": 0.38461538461538464
+        },
+        {
+          "fpr": 0.11811023622047244,
+          "tpr": 0.38461538461538464
+        },
+        {
+          "fpr": 0.12598425196850394,
+          "tpr": 0.38461538461538464
+        },
+        {
+          "fpr": 0.13385826771653545,
+          "tpr": 0.38461538461538464
+        },
+        {
+          "fpr": 0.14173228346456693,
+          "tpr": 0.38461538461538464
+        },
+        {
+          "fpr": 0.14960629921259844,
+          "tpr": 0.38461538461538464
+        },
+        {
+          "fpr": 0.14960629921259844,
+          "tpr": 0.3974358974358974
+        },
+        {
+          "fpr": 0.15748031496062992,
+          "tpr": 0.3974358974358974
+        },
+        {
+          "fpr": 0.15748031496062992,
+          "tpr": 0.41025641025641024
+        },
+        {
+          "fpr": 0.16535433070866143,
+          "tpr": 0.41025641025641024
+        },
+        {
+          "fpr": 0.16535433070866143,
+          "tpr": 0.4230769230769231
+        },
+        {
+          "fpr": 0.16535433070866143,
+          "tpr": 0.4358974358974359
+        },
+        {
+          "fpr": 0.1732283464566929,
+          "tpr": 0.4358974358974359
+        },
+        {
+          "fpr": 0.18110236220472442,
+          "tpr": 0.4358974358974359
+        },
+        {
+          "fpr": 0.18110236220472442,
+          "tpr": 0.44871794871794873
+        },
+        {
+          "fpr": 0.18110236220472442,
+          "tpr": 0.46153846153846156
+        },
+        {
+          "fpr": 0.1889763779527559,
+          "tpr": 0.46153846153846156
+        },
+        {
+          "fpr": 0.1968503937007874,
+          "tpr": 0.46153846153846156
+        },
+        {
+          "fpr": 0.1968503937007874,
+          "tpr": 0.47435897435897434
+        },
+        {
+          "fpr": 0.1968503937007874,
+          "tpr": 0.48717948717948717
+        },
+        {
+          "fpr": 0.1968503937007874,
+          "tpr": 0.5
+        },
+        {
+          "fpr": 0.2047244094488189,
+          "tpr": 0.5
+        },
+        {
+          "fpr": 0.2125984251968504,
+          "tpr": 0.5
+        },
+        {
+          "fpr": 0.2125984251968504,
+          "tpr": 0.5128205128205128
+        },
+        {
+          "fpr": 0.2204724409448819,
+          "tpr": 0.5128205128205128
+        },
+        {
+          "fpr": 0.2283464566929134,
+          "tpr": 0.5128205128205128
+        },
+        {
+          "fpr": 0.23622047244094488,
+          "tpr": 0.5128205128205128
+        },
+        {
+          "fpr": 0.2440944881889764,
+          "tpr": 0.5128205128205128
+        },
+        {
+          "fpr": 0.2440944881889764,
+          "tpr": 0.5256410256410257
+        },
+        {
+          "fpr": 0.2440944881889764,
+          "tpr": 0.5384615384615384
+        },
+        {
+          "fpr": 0.25196850393700787,
+          "tpr": 0.5384615384615384
+        },
+        {
+          "fpr": 0.25196850393700787,
+          "tpr": 0.5512820512820513
+        },
+        {
+          "fpr": 0.25196850393700787,
+          "tpr": 0.5641025641025641
+        },
+        {
+          "fpr": 0.25984251968503935,
+          "tpr": 0.5641025641025641
+        },
+        {
+          "fpr": 0.25984251968503935,
+          "tpr": 0.5769230769230769
+        },
+        {
+          "fpr": 0.25984251968503935,
+          "tpr": 0.5897435897435898
+        },
+        {
+          "fpr": 0.25984251968503935,
+          "tpr": 0.6025641025641025
+        },
+        {
+          "fpr": 0.2677165354330709,
+          "tpr": 0.6025641025641025
+        },
+        {
+          "fpr": 0.2677165354330709,
+          "tpr": 0.6153846153846154
+        },
+        {
+          "fpr": 0.2677165354330709,
+          "tpr": 0.6282051282051282
+        },
+        {
+          "fpr": 0.2755905511811024,
+          "tpr": 0.6282051282051282
+        },
+        {
+          "fpr": 0.2755905511811024,
+          "tpr": 0.6410256410256411
+        },
+        {
+          "fpr": 0.28346456692913385,
+          "tpr": 0.6410256410256411
+        },
+        {
+          "fpr": 0.29133858267716534,
+          "tpr": 0.6410256410256411
+        },
+        {
+          "fpr": 0.2992125984251969,
+          "tpr": 0.6410256410256411
+        },
+        {
+          "fpr": 0.30708661417322836,
+          "tpr": 0.6410256410256411
+        },
+        {
+          "fpr": 0.31496062992125984,
+          "tpr": 0.6410256410256411
+        },
+        {
+          "fpr": 0.31496062992125984,
+          "tpr": 0.6538461538461539
+        },
+        {
+          "fpr": 0.3228346456692913,
+          "tpr": 0.6538461538461539
+        },
+        {
+          "fpr": 0.33070866141732286,
+          "tpr": 0.6538461538461539
+        },
+        {
+          "fpr": 0.33858267716535434,
+          "tpr": 0.6538461538461539
+        },
+        {
+          "fpr": 0.3464566929133858,
+          "tpr": 0.6538461538461539
+        },
+        {
+          "fpr": 0.3464566929133858,
+          "tpr": 0.6666666666666666
+        },
+        {
+          "fpr": 0.3464566929133858,
+          "tpr": 0.6794871794871795
+        },
+        {
+          "fpr": 0.3543307086614173,
+          "tpr": 0.6794871794871795
+        },
+        {
+          "fpr": 0.3543307086614173,
+          "tpr": 0.6923076923076923
+        },
+        {
+          "fpr": 0.3543307086614173,
+          "tpr": 0.7051282051282052
+        },
+        {
+          "fpr": 0.36220472440944884,
+          "tpr": 0.7051282051282052
+        },
+        {
+          "fpr": 0.36220472440944884,
+          "tpr": 0.717948717948718
+        },
+        {
+          "fpr": 0.36220472440944884,
+          "tpr": 0.7307692307692307
+        },
+        {
+          "fpr": 0.3700787401574803,
+          "tpr": 0.7307692307692307
+        },
+        {
+          "fpr": 0.3779527559055118,
+          "tpr": 0.7307692307692307
+        },
+        {
+          "fpr": 0.3858267716535433,
+          "tpr": 0.7307692307692307
+        },
+        {
+          "fpr": 0.3937007874015748,
+          "tpr": 0.7307692307692307
+        },
+        {
+          "fpr": 0.4015748031496063,
+          "tpr": 0.7307692307692307
+        },
+        {
+          "fpr": 0.4094488188976378,
+          "tpr": 0.7307692307692307
+        },
+        {
+          "fpr": 0.41732283464566927,
+          "tpr": 0.7307692307692307
+        },
+        {
+          "fpr": 0.41732283464566927,
+          "tpr": 0.7435897435897436
+        },
+        {
+          "fpr": 0.41732283464566927,
+          "tpr": 0.7564102564102564
+        },
+        {
+          "fpr": 0.41732283464566927,
+          "tpr": 0.7692307692307693
+        },
+        {
+          "fpr": 0.4251968503937008,
+          "tpr": 0.7692307692307693
+        },
+        {
+          "fpr": 0.4330708661417323,
+          "tpr": 0.7692307692307693
+        },
+        {
+          "fpr": 0.4409448818897638,
+          "tpr": 0.7692307692307693
+        },
+        {
+          "fpr": 0.44881889763779526,
+          "tpr": 0.7692307692307693
+        },
+        {
+          "fpr": 0.4566929133858268,
+          "tpr": 0.7692307692307693
+        },
+        {
+          "fpr": 0.4566929133858268,
+          "tpr": 0.782051282051282
+        },
+        {
+          "fpr": 0.4645669291338583,
+          "tpr": 0.782051282051282
+        },
+        {
+          "fpr": 0.4645669291338583,
+          "tpr": 0.7948717948717948
+        },
+        {
+          "fpr": 0.47244094488188976,
+          "tpr": 0.7948717948717948
+        },
+        {
+          "fpr": 0.48031496062992124,
+          "tpr": 0.7948717948717948
+        },
+        {
+          "fpr": 0.4881889763779528,
+          "tpr": 0.7948717948717948
+        },
+        {
+          "fpr": 0.4881889763779528,
+          "tpr": 0.8076923076923077
+        },
+        {
+          "fpr": 0.4881889763779528,
+          "tpr": 0.8205128205128205
+        },
+        {
+          "fpr": 0.4881889763779528,
+          "tpr": 0.8333333333333334
+        },
+        {
+          "fpr": 0.49606299212598426,
+          "tpr": 0.8333333333333334
+        },
+        {
+          "fpr": 0.49606299212598426,
+          "tpr": 0.8461538461538461
+        },
+        {
+          "fpr": 0.5039370078740157,
+          "tpr": 0.8461538461538461
+        },
+        {
+          "fpr": 0.5039370078740157,
+          "tpr": 0.8589743589743589
+        },
+        {
+          "fpr": 0.5118110236220472,
+          "tpr": 0.8589743589743589
+        },
+        {
+          "fpr": 0.5196850393700787,
+          "tpr": 0.8589743589743589
+        },
+        {
+          "fpr": 0.5275590551181102,
+          "tpr": 0.8589743589743589
+        },
+        {
+          "fpr": 0.5354330708661418,
+          "tpr": 0.8589743589743589
+        },
+        {
+          "fpr": 0.5433070866141733,
+          "tpr": 0.8589743589743589
+        },
+        {
+          "fpr": 0.5511811023622047,
+          "tpr": 0.8589743589743589
+        },
+        {
+          "fpr": 0.5511811023622047,
+          "tpr": 0.8717948717948718
+        },
+        {
+          "fpr": 0.5590551181102362,
+          "tpr": 0.8717948717948718
+        },
+        {
+          "fpr": 0.5669291338582677,
+          "tpr": 0.8717948717948718
+        },
+        {
+          "fpr": 0.5748031496062992,
+          "tpr": 0.8717948717948718
+        },
+        {
+          "fpr": 0.5826771653543307,
+          "tpr": 0.8717948717948718
+        },
+        {
+          "fpr": 0.5905511811023622,
+          "tpr": 0.8717948717948718
+        },
+        {
+          "fpr": 0.5984251968503937,
+          "tpr": 0.8717948717948718
+        },
+        {
+          "fpr": 0.6062992125984252,
+          "tpr": 0.8717948717948718
+        },
+        {
+          "fpr": 0.6141732283464567,
+          "tpr": 0.8717948717948718
+        },
+        {
+          "fpr": 0.6220472440944882,
+          "tpr": 0.8717948717948718
+        },
+        {
+          "fpr": 0.6299212598425197,
+          "tpr": 0.8717948717948718
+        },
+        {
+          "fpr": 0.6377952755905512,
+          "tpr": 0.8717948717948718
+        },
+        {
+          "fpr": 0.6456692913385826,
+          "tpr": 0.8717948717948718
+        },
+        {
+          "fpr": 0.6535433070866141,
+          "tpr": 0.8717948717948718
+        },
+        {
+          "fpr": 0.6535433070866141,
+          "tpr": 0.8846153846153846
+        },
+        {
+          "fpr": 0.6614173228346457,
+          "tpr": 0.8846153846153846
+        },
+        {
+          "fpr": 0.6692913385826772,
+          "tpr": 0.8846153846153846
+        },
+        {
+          "fpr": 0.6771653543307087,
+          "tpr": 0.8846153846153846
+        },
+        {
+          "fpr": 0.6850393700787402,
+          "tpr": 0.8846153846153846
+        },
+        {
+          "fpr": 0.6929133858267716,
+          "tpr": 0.8846153846153846
+        },
+        {
+          "fpr": 0.6929133858267716,
+          "tpr": 0.8974358974358975
+        },
+        {
+          "fpr": 0.7007874015748031,
+          "tpr": 0.8974358974358975
+        },
+        {
+          "fpr": 0.7007874015748031,
+          "tpr": 0.9102564102564102
+        },
+        {
+          "fpr": 0.7007874015748031,
+          "tpr": 0.9230769230769231
+        },
+        {
+          "fpr": 0.7086614173228346,
+          "tpr": 0.9230769230769231
+        },
+        {
+          "fpr": 0.7165354330708661,
+          "tpr": 0.9230769230769231
+        },
+        {
+          "fpr": 0.7244094488188977,
+          "tpr": 0.9230769230769231
+        },
+        {
+          "fpr": 0.7322834645669292,
+          "tpr": 0.9230769230769231
+        },
+        {
+          "fpr": 0.7322834645669292,
+          "tpr": 0.9358974358974359
+        },
+        {
+          "fpr": 0.7401574803149606,
+          "tpr": 0.9358974358974359
+        },
+        {
+          "fpr": 0.7480314960629921,
+          "tpr": 0.9358974358974359
+        },
+        {
+          "fpr": 0.7480314960629921,
+          "tpr": 0.9487179487179487
+        },
+        {
+          "fpr": 0.7480314960629921,
+          "tpr": 0.9615384615384616
+        },
+        {
+          "fpr": 0.7480314960629921,
+          "tpr": 0.9743589743589743
+        },
+        {
+          "fpr": 0.7559055118110236,
+          "tpr": 0.9743589743589743
+        },
+        {
+          "fpr": 0.7637795275590551,
+          "tpr": 0.9743589743589743
+        },
+        {
+          "fpr": 0.7716535433070866,
+          "tpr": 0.9743589743589743
+        },
+        {
+          "fpr": 0.7795275590551181,
+          "tpr": 0.9743589743589743
+        },
+        {
+          "fpr": 0.7874015748031497,
+          "tpr": 0.9743589743589743
+        },
+        {
+          "fpr": 0.7952755905511811,
+          "tpr": 0.9743589743589743
+        },
+        {
+          "fpr": 0.8031496062992126,
+          "tpr": 0.9743589743589743
+        },
+        {
+          "fpr": 0.8110236220472441,
+          "tpr": 0.9743589743589743
+        },
+        {
+          "fpr": 0.8188976377952756,
+          "tpr": 0.9743589743589743
+        },
+        {
+          "fpr": 0.8267716535433071,
+          "tpr": 0.9743589743589743
+        },
+        {
+          "fpr": 0.8346456692913385,
+          "tpr": 0.9743589743589743
+        },
+        {
+          "fpr": 0.84251968503937,
+          "tpr": 0.9743589743589743
+        },
+        {
+          "fpr": 0.8503937007874016,
+          "tpr": 0.9743589743589743
+        },
+        {
+          "fpr": 0.8582677165354331,
+          "tpr": 0.9743589743589743
+        },
+        {
+          "fpr": 0.8582677165354331,
+          "tpr": 0.9871794871794872
+        },
+        {
+          "fpr": 0.8661417322834646,
+          "tpr": 0.9871794871794872
+        },
+        {
+          "fpr": 0.8740157480314961,
+          "tpr": 0.9871794871794872
+        },
+        {
+          "fpr": 0.8818897637795275,
+          "tpr": 0.9871794871794872
+        },
+        {
+          "fpr": 0.889763779527559,
+          "tpr": 0.9871794871794872
+        },
+        {
+          "fpr": 0.8976377952755905,
+          "tpr": 0.9871794871794872
+        },
+        {
+          "fpr": 0.905511811023622,
+          "tpr": 0.9871794871794872
+        },
+        {
+          "fpr": 0.9133858267716536,
+          "tpr": 0.9871794871794872
+        },
+        {
+          "fpr": 0.9212598425196851,
+          "tpr": 0.9871794871794872
+        },
+        {
+          "fpr": 0.9291338582677166,
+          "tpr": 0.9871794871794872
+        },
+        {
+          "fpr": 0.937007874015748,
+          "tpr": 0.9871794871794872
+        },
+        {
+          "fpr": 0.9448818897637795,
+          "tpr": 0.9871794871794872
+        },
+        {
+          "fpr": 0.952755905511811,
+          "tpr": 0.9871794871794872
+        },
+        {
+          "fpr": 0.9606299212598425,
+          "tpr": 0.9871794871794872
+        },
+        {
+          "fpr": 0.968503937007874,
+          "tpr": 0.9871794871794872
+        },
+        {
+          "fpr": 0.968503937007874,
+          "tpr": 1
+        },
+        {
+          "fpr": 0.9763779527559056,
+          "tpr": 1
+        },
+        {
+          "fpr": 0.984251968503937,
+          "tpr": 1
+        },
+        {
+          "fpr": 0.9921259842519685,
+          "tpr": 1
+        },
+        {
+          "fpr": 1,
+          "tpr": 1
+        }
+      ],
+      "n": 205,
+      "n_pos": 78,
+      "n_neg": 127
+    },
+    "ge10": {
+      "threshold": 10,
+      "cutpoint": 3.5330703750167634,
+      "balanced_accuracy": 0.7831268516024779,
+      "sensitivity": 0.851063829787234,
+      "specificity": 0.7151898734177216,
+      "confusion_matrix": {
+        "tn": 113,
+        "fp": 45,
+        "fn": 7,
+        "tp": 40
+      },
+      "auc": 0.8098572582817116,
+      "roc": [
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0.006329113924050633,
+          "tpr": 0
+        },
+        {
+          "fpr": 0.012658227848101266,
+          "tpr": 0
+        },
+        {
+          "fpr": 0.0189873417721519,
+          "tpr": 0
+        },
+        {
+          "fpr": 0.02531645569620253,
+          "tpr": 0
+        },
+        {
+          "fpr": 0.02531645569620253,
+          "tpr": 0.02127659574468085
+        },
+        {
+          "fpr": 0.02531645569620253,
+          "tpr": 0.0425531914893617
+        },
+        {
+          "fpr": 0.02531645569620253,
+          "tpr": 0.06382978723404255
+        },
+        {
+          "fpr": 0.02531645569620253,
+          "tpr": 0.0851063829787234
+        },
+        {
+          "fpr": 0.02531645569620253,
+          "tpr": 0.10638297872340426
+        },
+        {
+          "fpr": 0.02531645569620253,
+          "tpr": 0.1276595744680851
+        },
+        {
+          "fpr": 0.03164556962025317,
+          "tpr": 0.1276595744680851
+        },
+        {
+          "fpr": 0.03164556962025317,
+          "tpr": 0.14893617021276595
+        },
+        {
+          "fpr": 0.03164556962025317,
+          "tpr": 0.1702127659574468
+        },
+        {
+          "fpr": 0.03164556962025317,
+          "tpr": 0.19148936170212766
+        },
+        {
+          "fpr": 0.0379746835443038,
+          "tpr": 0.19148936170212766
+        },
+        {
+          "fpr": 0.0379746835443038,
+          "tpr": 0.2127659574468085
+        },
+        {
+          "fpr": 0.0379746835443038,
+          "tpr": 0.23404255319148937
+        },
+        {
+          "fpr": 0.0379746835443038,
+          "tpr": 0.2553191489361702
+        },
+        {
+          "fpr": 0.04430379746835443,
+          "tpr": 0.2553191489361702
+        },
+        {
+          "fpr": 0.04430379746835443,
+          "tpr": 0.2765957446808511
+        },
+        {
+          "fpr": 0.05063291139240506,
+          "tpr": 0.2765957446808511
+        },
+        {
+          "fpr": 0.056962025316455694,
+          "tpr": 0.2765957446808511
+        },
+        {
+          "fpr": 0.06329113924050633,
+          "tpr": 0.2765957446808511
+        },
+        {
+          "fpr": 0.06962025316455696,
+          "tpr": 0.2765957446808511
+        },
+        {
+          "fpr": 0.0759493670886076,
+          "tpr": 0.2765957446808511
+        },
+        {
+          "fpr": 0.0759493670886076,
+          "tpr": 0.2978723404255319
+        },
+        {
+          "fpr": 0.08227848101265822,
+          "tpr": 0.2978723404255319
+        },
+        {
+          "fpr": 0.08860759493670886,
+          "tpr": 0.2978723404255319
+        },
+        {
+          "fpr": 0.08860759493670886,
+          "tpr": 0.3191489361702128
+        },
+        {
+          "fpr": 0.08860759493670886,
+          "tpr": 0.3404255319148936
+        },
+        {
+          "fpr": 0.08860759493670886,
+          "tpr": 0.3617021276595745
+        },
+        {
+          "fpr": 0.08860759493670886,
+          "tpr": 0.3829787234042553
+        },
+        {
+          "fpr": 0.0949367088607595,
+          "tpr": 0.3829787234042553
+        },
+        {
+          "fpr": 0.10126582278481013,
+          "tpr": 0.3829787234042553
+        },
+        {
+          "fpr": 0.10759493670886076,
+          "tpr": 0.3829787234042553
+        },
+        {
+          "fpr": 0.10759493670886076,
+          "tpr": 0.40425531914893614
+        },
+        {
+          "fpr": 0.11392405063291139,
+          "tpr": 0.40425531914893614
+        },
+        {
+          "fpr": 0.11392405063291139,
+          "tpr": 0.425531914893617
+        },
+        {
+          "fpr": 0.12025316455696203,
+          "tpr": 0.425531914893617
+        },
+        {
+          "fpr": 0.12025316455696203,
+          "tpr": 0.44680851063829785
+        },
+        {
+          "fpr": 0.12658227848101267,
+          "tpr": 0.44680851063829785
+        },
+        {
+          "fpr": 0.13291139240506328,
+          "tpr": 0.44680851063829785
+        },
+        {
+          "fpr": 0.13924050632911392,
+          "tpr": 0.44680851063829785
+        },
+        {
+          "fpr": 0.13924050632911392,
+          "tpr": 0.46808510638297873
+        },
+        {
+          "fpr": 0.14556962025316456,
+          "tpr": 0.46808510638297873
+        },
+        {
+          "fpr": 0.1518987341772152,
+          "tpr": 0.46808510638297873
+        },
+        {
+          "fpr": 0.15822784810126583,
+          "tpr": 0.46808510638297873
+        },
+        {
+          "fpr": 0.16455696202531644,
+          "tpr": 0.46808510638297873
+        },
+        {
+          "fpr": 0.17088607594936708,
+          "tpr": 0.46808510638297873
+        },
+        {
+          "fpr": 0.17088607594936708,
+          "tpr": 0.48936170212765956
+        },
+        {
+          "fpr": 0.17721518987341772,
+          "tpr": 0.48936170212765956
+        },
+        {
+          "fpr": 0.17721518987341772,
+          "tpr": 0.5106382978723404
+        },
+        {
+          "fpr": 0.18354430379746836,
+          "tpr": 0.5106382978723404
+        },
+        {
+          "fpr": 0.18354430379746836,
+          "tpr": 0.5319148936170213
+        },
+        {
+          "fpr": 0.18354430379746836,
+          "tpr": 0.5531914893617021
+        },
+        {
+          "fpr": 0.189873417721519,
+          "tpr": 0.5531914893617021
+        },
+        {
+          "fpr": 0.1962025316455696,
+          "tpr": 0.5531914893617021
+        },
+        {
+          "fpr": 0.1962025316455696,
+          "tpr": 0.574468085106383
+        },
+        {
+          "fpr": 0.1962025316455696,
+          "tpr": 0.5957446808510638
+        },
+        {
+          "fpr": 0.20253164556962025,
+          "tpr": 0.5957446808510638
+        },
+        {
+          "fpr": 0.2088607594936709,
+          "tpr": 0.5957446808510638
+        },
+        {
+          "fpr": 0.2088607594936709,
+          "tpr": 0.6170212765957447
+        },
+        {
+          "fpr": 0.2088607594936709,
+          "tpr": 0.6382978723404256
+        },
+        {
+          "fpr": 0.2088607594936709,
+          "tpr": 0.6595744680851063
+        },
+        {
+          "fpr": 0.21518987341772153,
+          "tpr": 0.6595744680851063
+        },
+        {
+          "fpr": 0.22151898734177214,
+          "tpr": 0.6595744680851063
+        },
+        {
+          "fpr": 0.22151898734177214,
+          "tpr": 0.6808510638297872
+        },
+        {
+          "fpr": 0.22784810126582278,
+          "tpr": 0.6808510638297872
+        },
+        {
+          "fpr": 0.23417721518987342,
+          "tpr": 0.6808510638297872
+        },
+        {
+          "fpr": 0.24050632911392406,
+          "tpr": 0.6808510638297872
+        },
+        {
+          "fpr": 0.2468354430379747,
+          "tpr": 0.6808510638297872
+        },
+        {
+          "fpr": 0.2468354430379747,
+          "tpr": 0.7021276595744681
+        },
+        {
+          "fpr": 0.25316455696202533,
+          "tpr": 0.7021276595744681
+        },
+        {
+          "fpr": 0.25949367088607594,
+          "tpr": 0.7021276595744681
+        },
+        {
+          "fpr": 0.25949367088607594,
+          "tpr": 0.723404255319149
+        },
+        {
+          "fpr": 0.25949367088607594,
+          "tpr": 0.7446808510638298
+        },
+        {
+          "fpr": 0.26582278481012656,
+          "tpr": 0.7446808510638298
+        },
+        {
+          "fpr": 0.26582278481012656,
+          "tpr": 0.7659574468085106
+        },
+        {
+          "fpr": 0.26582278481012656,
+          "tpr": 0.7872340425531915
+        },
+        {
+          "fpr": 0.2721518987341772,
+          "tpr": 0.7872340425531915
+        },
+        {
+          "fpr": 0.27848101265822783,
+          "tpr": 0.7872340425531915
+        },
+        {
+          "fpr": 0.27848101265822783,
+          "tpr": 0.8085106382978723
+        },
+        {
+          "fpr": 0.27848101265822783,
+          "tpr": 0.8297872340425532
+        },
+        {
+          "fpr": 0.2848101265822785,
+          "tpr": 0.8297872340425532
+        },
+        {
+          "fpr": 0.2848101265822785,
+          "tpr": 0.851063829787234
+        },
+        {
+          "fpr": 0.2911392405063291,
+          "tpr": 0.851063829787234
+        },
+        {
+          "fpr": 0.2974683544303797,
+          "tpr": 0.851063829787234
+        },
+        {
+          "fpr": 0.3037974683544304,
+          "tpr": 0.851063829787234
+        },
+        {
+          "fpr": 0.310126582278481,
+          "tpr": 0.851063829787234
+        },
+        {
+          "fpr": 0.31645569620253167,
+          "tpr": 0.851063829787234
+        },
+        {
+          "fpr": 0.31645569620253167,
+          "tpr": 0.8723404255319149
+        },
+        {
+          "fpr": 0.3227848101265823,
+          "tpr": 0.8723404255319149
+        },
+        {
+          "fpr": 0.3291139240506329,
+          "tpr": 0.8723404255319149
+        },
+        {
+          "fpr": 0.33544303797468356,
+          "tpr": 0.8723404255319149
+        },
+        {
+          "fpr": 0.34177215189873417,
+          "tpr": 0.8723404255319149
+        },
+        {
+          "fpr": 0.34177215189873417,
+          "tpr": 0.8936170212765957
+        },
+        {
+          "fpr": 0.34810126582278483,
+          "tpr": 0.8936170212765957
+        },
+        {
+          "fpr": 0.35443037974683544,
+          "tpr": 0.8936170212765957
+        },
+        {
+          "fpr": 0.36075949367088606,
+          "tpr": 0.8936170212765957
+        },
+        {
+          "fpr": 0.3670886075949367,
+          "tpr": 0.8936170212765957
+        },
+        {
+          "fpr": 0.37341772151898733,
+          "tpr": 0.8936170212765957
+        },
+        {
+          "fpr": 0.37341772151898733,
+          "tpr": 0.9148936170212766
+        },
+        {
+          "fpr": 0.379746835443038,
+          "tpr": 0.9148936170212766
+        },
+        {
+          "fpr": 0.3860759493670886,
+          "tpr": 0.9148936170212766
+        },
+        {
+          "fpr": 0.3924050632911392,
+          "tpr": 0.9148936170212766
+        },
+        {
+          "fpr": 0.3987341772151899,
+          "tpr": 0.9148936170212766
+        },
+        {
+          "fpr": 0.4050632911392405,
+          "tpr": 0.9148936170212766
+        },
+        {
+          "fpr": 0.41139240506329117,
+          "tpr": 0.9148936170212766
+        },
+        {
+          "fpr": 0.4177215189873418,
+          "tpr": 0.9148936170212766
+        },
+        {
+          "fpr": 0.4240506329113924,
+          "tpr": 0.9148936170212766
+        },
+        {
+          "fpr": 0.4240506329113924,
+          "tpr": 0.9361702127659575
+        },
+        {
+          "fpr": 0.43037974683544306,
+          "tpr": 0.9361702127659575
+        },
+        {
+          "fpr": 0.43670886075949367,
+          "tpr": 0.9361702127659575
+        },
+        {
+          "fpr": 0.4430379746835443,
+          "tpr": 0.9361702127659575
+        },
+        {
+          "fpr": 0.44936708860759494,
+          "tpr": 0.9361702127659575
+        },
+        {
+          "fpr": 0.45569620253164556,
+          "tpr": 0.9361702127659575
+        },
+        {
+          "fpr": 0.4620253164556962,
+          "tpr": 0.9361702127659575
+        },
+        {
+          "fpr": 0.46835443037974683,
+          "tpr": 0.9361702127659575
+        },
+        {
+          "fpr": 0.47468354430379744,
+          "tpr": 0.9361702127659575
+        },
+        {
+          "fpr": 0.4810126582278481,
+          "tpr": 0.9361702127659575
+        },
+        {
+          "fpr": 0.4873417721518987,
+          "tpr": 0.9361702127659575
+        },
+        {
+          "fpr": 0.4936708860759494,
+          "tpr": 0.9361702127659575
+        },
+        {
+          "fpr": 0.5,
+          "tpr": 0.9361702127659575
+        },
+        {
+          "fpr": 0.5063291139240507,
+          "tpr": 0.9361702127659575
+        },
+        {
+          "fpr": 0.5126582278481012,
+          "tpr": 0.9361702127659575
+        },
+        {
+          "fpr": 0.5126582278481012,
+          "tpr": 0.9574468085106383
+        },
+        {
+          "fpr": 0.5189873417721519,
+          "tpr": 0.9574468085106383
+        },
+        {
+          "fpr": 0.5253164556962026,
+          "tpr": 0.9574468085106383
+        },
+        {
+          "fpr": 0.5316455696202531,
+          "tpr": 0.9574468085106383
+        },
+        {
+          "fpr": 0.5379746835443038,
+          "tpr": 0.9574468085106383
+        },
+        {
+          "fpr": 0.5443037974683544,
+          "tpr": 0.9574468085106383
+        },
+        {
+          "fpr": 0.5506329113924051,
+          "tpr": 0.9574468085106383
+        },
+        {
+          "fpr": 0.5569620253164557,
+          "tpr": 0.9574468085106383
+        },
+        {
+          "fpr": 0.5632911392405063,
+          "tpr": 0.9574468085106383
+        },
+        {
+          "fpr": 0.569620253164557,
+          "tpr": 0.9574468085106383
+        },
+        {
+          "fpr": 0.5759493670886076,
+          "tpr": 0.9574468085106383
+        },
+        {
+          "fpr": 0.5822784810126582,
+          "tpr": 0.9574468085106383
+        },
+        {
+          "fpr": 0.5822784810126582,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.5886075949367089,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.5949367088607594,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.6012658227848101,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.6075949367088608,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.6139240506329114,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.620253164556962,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.6265822784810127,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.6329113924050633,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.6392405063291139,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.6455696202531646,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.6518987341772152,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.6582278481012658,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.6645569620253164,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.6708860759493671,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.6772151898734177,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.6835443037974683,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.689873417721519,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.6962025316455697,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.7025316455696202,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.7088607594936709,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.7151898734177216,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.7215189873417721,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.7278481012658228,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.7341772151898734,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.740506329113924,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.7468354430379747,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.7531645569620253,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.759493670886076,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.7658227848101266,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.7721518987341772,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.7784810126582279,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.7848101265822784,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.7911392405063291,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.7974683544303798,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.8037974683544303,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.810126582278481,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.8164556962025317,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.8227848101265823,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.8291139240506329,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.8354430379746836,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.8417721518987342,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.8481012658227848,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.8544303797468354,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.8607594936708861,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.8670886075949367,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.8734177215189873,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.879746835443038,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.8860759493670886,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.8924050632911392,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.8987341772151899,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.9050632911392406,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.9113924050632911,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.9177215189873418,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.9240506329113924,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.930379746835443,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.9367088607594937,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.9430379746835443,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.9493670886075949,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.9556962025316456,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.9620253164556962,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.9683544303797469,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.9746835443037974,
+          "tpr": 0.9787234042553191
+        },
+        {
+          "fpr": 0.9746835443037974,
+          "tpr": 1
+        },
+        {
+          "fpr": 0.9810126582278481,
+          "tpr": 1
+        },
+        {
+          "fpr": 0.9873417721518988,
+          "tpr": 1
+        },
+        {
+          "fpr": 0.9936708860759493,
+          "tpr": 1
+        },
+        {
+          "fpr": 1,
+          "tpr": 1
+        }
+      ],
+      "n": 205,
+      "n_pos": 47,
+      "n_neg": 158
+    }
+  },
+  "three_level": {
+    "matrix": [
+      [
+        146,
+        12,
+        0
+      ],
+      [
+        14,
+        0,
+        0
+      ],
+      [
+        19,
+        14,
+        0
+      ]
+    ],
+    "labels": [
+      "<10 CFU",
+      "10-99 CFU",
+      "≥100 CFU"
+    ],
+    "risk_labels": [
+      "Safe / Low risk",
+      "Intermediate risk",
+      "High risk"
+    ]
+  },
+  "observation_counts": {
+    "zeros": 127,
+    "mid": 45,
+    "censored": 33
+  },
+  "per_sensor_loocv": {
+    "50045": {
+      "n": 50,
+      "agree": 29,
+      "disagree": 21,
+      "pct": 58,
+      "country": "Rwanda",
+      "program": "Amazi Meza"
+    },
+    "50053": {
+      "n": 49,
+      "agree": 46,
+      "disagree": 3,
+      "pct": 93.9,
+      "country": "Kenya",
+      "program": "DRIP"
+    },
+    "50065": {
+      "n": 106,
+      "agree": 91,
+      "disagree": 15,
+      "pct": 85.8,
+      "country": "Rwanda",
+      "program": "Both"
+    }
+  },
+  "cross_sensor": {
+    "50065-50045": {
+      "n": 50,
+      "mean_abs_delta": 0.549,
+      "within_065": 47,
+      "within_065_pct": 94,
+      "ccc": 0.0071
+    },
+    "50065-50053": {
+      "n": 47,
+      "mean_abs_delta": 0.6769,
+      "within_065": 37,
+      "within_065_pct": 78.7,
+      "ccc": -0.0301
+    },
+    "_total": {
+      "n": 97
+    }
+  },
+  "chlorination": {
+    "n_chlorine_samples": 110,
+    "n_chlorinated": 48,
+    "chlorinated_cbt_zero_pct": 100,
+    "chlorinated_lume_safe_pct": 100,
+    "n_matched_systems": 3,
+    "matched_systems": [
+      {
+        "system": "Unknown (2026-06-10)",
+        "date": "2026-06-10",
+        "name": "Unknown (2026-06-10)",
+        "n_source": 8,
+        "n_treated": 4,
+        "mean_cl2": 0.2,
+        "source_gm_cbt": 0.2,
+        "source_gm_lume": -0.6,
+        "treated_gm_cbt": 0,
+        "treated_gm_lume": 0.2,
+        "source_log_pred": -0.382,
+        "treated_log_pred": 0.095,
+        "delta_log": -0.478
+      },
+      {
+        "system": "Isiolo.Isiolo.Ngaremara.Nasuroi",
+        "date": "2026-06-10",
+        "name": "Nasuroi",
+        "n_source": 8,
+        "n_treated": 4,
+        "mean_cl2": 0.5,
+        "source_gm_cbt": 4.2,
+        "source_gm_lume": 2,
+        "treated_gm_cbt": 0,
+        "treated_gm_lume": 1.7,
+        "source_log_pred": 0.481,
+        "treated_log_pred": 0.436,
+        "delta_log": 0.045
+      },
+      {
+        "system": "Isiolo.Garbatula.Kinna.Kulamawe1 (Police station)",
+        "date": "2026-06-11",
+        "name": "Kulamawe1 (Police station)",
+        "n_source": 6,
+        "n_treated": 7,
+        "mean_cl2": 2.57,
+        "source_gm_cbt": 1.6,
+        "source_gm_lume": 1.5,
+        "treated_gm_cbt": 0,
+        "treated_gm_lume": 0.9,
+        "source_log_pred": 0.397,
+        "treated_log_pred": 0.281,
+        "delta_log": 0.116
+      }
+    ]
+  }
+}
