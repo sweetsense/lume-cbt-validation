@@ -6,38 +6,40 @@
     "dl_log10": 2.0043213737826426,
     "description": "CBT values >= 100 CFU are right-censored at log10(101)"
   },
-  "winning_spec_name": "mon2_raw + tof + temp + FE + ridge(0.1)",
+  "winning_spec_name": "+slopes",
   "features": [
-    "mon2_raw",
-    "tof_n",
-    "temp"
+    "mon2c_n",
+    "temp",
+    "tof_n"
   ],
   "sensor_fixed_effects": true,
-  "sensor_slopes": false,
+  "sensor_slopes": true,
   "ridge_lambda": 0.1,
   "per_sensor_z": false,
   "country_fe": false,
   "censored_weight": 1,
-  "reference_sensor": "50045",
+  "reference_sensor": "50065",
   "fe_sensors": [
-    "50053",
-    "50065"
+    "50045",
+    "50053"
   ],
   "coefficients": {
-    "intercept": 1.1113692316319868,
-    "mon2_raw": 0.501904597707605,
-    "tof_n": -0.00009294663260378533,
-    "temp": 0.05121428747369072,
-    "sensor_fe_50053": -0.7983463402540987,
-    "sensor_fe_50065": -0.5919798113862598
+    "intercept": 0.8277859852008312,
+    "mon2c_n": 1.9764872111883633,
+    "temp": 0.17291459655078956,
+    "tof_n": 0.005692295744107956,
+    "sensor_fe_50045": 0.45336097273889797,
+    "sensor_fe_50053": -0.5893495278755129,
+    "slope_mon2_50045": -0.19082259689698264,
+    "slope_mon2_50053": -1.5571485894331594
   },
-  "sigma": 0.7124224540718922,
+  "sigma": 0.6064581272924916,
   "metrics": {
-    "r2_insample": 0.33780547278784123,
-    "mae_insample": 0.5089233264841041,
-    "agreement_insample": 0.8624338624338624,
-    "agreement_loocv": 0.8465608465608465,
-    "n": 189
+    "r2_insample": 0.5193260379816752,
+    "mae_insample": 0.3959389675786972,
+    "agreement_insample": 0.8935185185185185,
+    "agreement_loocv": 0.8842592592592593,
+    "n": 216
   },
   "agreement_band": {
     "half_width_log10": 0.9192388155425119,
@@ -46,28 +48,31 @@
   },
   "normalization": {
     "mon2c_n": {
-      "mean": 28.373424175236238,
-      "sd": 84.64867586338764,
-      "description": "z-score normalization applied to baseline-subtracted, temperature-corrected mon2"
+      "mean": 53.30555555555556,
+      "sd": 164.23988543936525,
+      "description": "z-score normalization applied to baseline-subtracted RAW mon2 (not temperature-corrected)"
+    },
+    "temp": {
+      "mean": 31.86949906944442,
+      "sd": 4.108239275766577,
+      "description": "z-score normalization applied to water temperature (degrees C)"
     },
     "tof_n": {
-      "mean": 3.201058201058201,
-      "sd": 11.102780953975296,
+      "mean": 4.064814814814815,
+      "sd": 15.049777375090326,
       "description": "z-score normalization applied to baseline-subtracted ToF signal"
     }
   },
   "temperature_correction": {
-    "rho": 0.02201561927023743,
-    "reference_temp_c": 20,
-    "formula": "mon2c = mon2_raw * exp(-rho * (temp - 20))",
-    "r2": 0.29539566557735153,
-    "n_clean_samples": 123
+    "applied": false,
+    "note": "Temperature is an explicit model feature (temp, and the mon2xtemp interaction), not a multiplicative pre-correction. rho is not applied.",
+    "reference_rho_estimate": 0.016395464869203735
   },
   "per_sensor_baselines": {
     "mon2c": {
-      "50045": 322.3485990477559,
-      "50053": 437.2185646086338,
-      "50065": 219.8911011981332
+      "50045": 484,
+      "50053": 798.5,
+      "50065": 304
     },
     "tof": {
       "50045": 29,
@@ -91,8 +96,8 @@
     ],
     "description": "WHO/UNICEF 4-level drinking water quality classification"
   },
-  "export_date": "2026-06-15",
-  "source_script": "scripts/export-csv.js",
+  "export_date": "2026-06-17",
+  "source_script": "scripts/cbt-model-eval.js (via export-csv.js)",
   "data_files": [
     "data/cbt-datagrid.csv",
     "data/cbt-sipm.json",
