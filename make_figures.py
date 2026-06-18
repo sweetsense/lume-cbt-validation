@@ -191,7 +191,7 @@ def fig_confusion_binary(data):
 
     for ax_idx, key in enumerate(['ge1', 'ge10']):
         ax = axes[ax_idx]
-        res = data['binary_classification'][key]
+        res = data['logistic_classification'][key]
         cm = res['confusion_matrix']
         thr = res['threshold']
         # Transpose: rows = predicted, columns = true class
