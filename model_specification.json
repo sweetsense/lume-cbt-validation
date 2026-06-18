@@ -24,22 +24,22 @@
     "50053"
   ],
   "coefficients": {
-    "intercept": 0.8233168816432496,
-    "mon2c_n": 2.002258317542655,
-    "temp": 0.1818613718302567,
-    "tof_n": 0.0817645868480642,
-    "sensor_fe_50045": 0.4917707479383412,
-    "sensor_fe_50053": -0.5754826151954654,
-    "slope_mon2_50045": -0.24378721381702026,
-    "slope_mon2_50053": -1.5928695963218118
+    "intercept": 0.8277859852008312,
+    "mon2c_n": 1.9764872111883633,
+    "temp": 0.17291459655078956,
+    "tof_n": 0.005692295744107956,
+    "sensor_fe_50045": 0.45336097273889797,
+    "sensor_fe_50053": -0.5893495278755129,
+    "slope_mon2_50045": -0.19082259689698264,
+    "slope_mon2_50053": -1.5571485894331594
   },
-  "sigma": 0.5948756242893182,
+  "sigma": 0.6064581272924916,
   "metrics": {
-    "r2_insample": 0.5326436891090839,
-    "mae_insample": 0.38577842489059666,
-    "agreement_insample": 0.8962264150943396,
-    "agreement_loocv": 0.8773584905660378,
-    "n": 212
+    "r2_insample": 0.5193260379816752,
+    "mae_insample": 0.3959389675786972,
+    "agreement_insample": 0.8935185185185185,
+    "agreement_loocv": 0.8842592592592593,
+    "n": 216
   },
   "agreement_band": {
     "half_width_log10": 0.9192388155425119,
@@ -48,31 +48,31 @@
   },
   "normalization": {
     "mon2c_n": {
-      "mean": 55.556603773584904,
-      "sd": 165.73202854783034,
+      "mean": 53.30555555555556,
+      "sd": 164.23988543936525,
       "description": "z-score normalization applied to baseline-subtracted RAW mon2 (not temperature-corrected)"
     },
     "temp": {
-      "mean": 31.712935976415075,
-      "sd": 3.9824210951661456,
+      "mean": 31.86949906944442,
+      "sd": 4.108239275766577,
       "description": "z-score normalization applied to water temperature (degrees C)"
     },
     "tof_n": {
-      "mean": 3.4339622641509435,
-      "sd": 13.465202440115497,
+      "mean": 4.064814814814815,
+      "sd": 15.049777375090326,
       "description": "z-score normalization applied to baseline-subtracted ToF signal"
     }
   },
   "temperature_correction": {
     "applied": false,
     "note": "Temperature is an explicit model feature (temp, and the mon2xtemp interaction), not a multiplicative pre-correction. rho is not applied.",
-    "reference_rho_estimate": 0.018225416332081856
+    "reference_rho_estimate": 0.016395464869203735
   },
   "per_sensor_baselines": {
     "mon2c": {
       "50045": 484,
       "50053": 798.5,
-      "50065": 301
+      "50065": 304
     },
     "tof": {
       "50045": 29,
@@ -96,7 +96,7 @@
     ],
     "description": "WHO/UNICEF 4-level drinking water quality classification"
   },
-  "export_date": "2026-06-17",
+  "export_date": "2026-06-18",
   "source_script": "scripts/cbt-model-eval.js (via export-csv.js)",
   "data_files": [
     "data/cbt-datagrid.csv",
