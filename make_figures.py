@@ -191,7 +191,7 @@ def fig_confusion_binary(data):
 
     for ax_idx, key in enumerate(['ge1', 'ge10']):
         ax = axes[ax_idx]
-        res = data['logistic_classification'][key]
+        res = data['binary_classification'][key]
         cm = res['confusion_matrix']
         thr = res['threshold']
         # Transpose: rows = predicted, columns = true class
@@ -557,6 +557,69 @@ def fig_chlorination(data):
 
 
 # ════════════════════════════════════════════════════════════════════
+# Figure: CBT result distribution (histogram)
+# ════════════════════════════════════════════════════════════════════
+def fig_cbt_histogram(data):
+    """Distribution of CBT (Aquagenx Compartment Bag Test) results across the
+    paired dataset, binned by the four WHO/UNICEF drinking-water risk categories
+    and stacked by country and water type, matching the validation.thelume.ai/cbt
+    reference chart. Country comes from paper_data.json; water type is read from
+    the canonical paired_observations.csv (identical row order)."""
+    import csv as _csv
+    pts = data['paired_points']
+    with open(os.path.join(OUTDIR, 'paired_observations.csv')) as f:
+        wt = ['Treated' if r['water_type'].strip().startswith('Treated') else 'Source'
+              for r in _csv.DictReader(f)]
+    assert len(wt) == len(pts), 'row mismatch with paired_observations.csv'
+    recs = [(p['observed'], p.get('country'), w) for p, w in zip(pts, wt)]
+
+    bins = [
+        ('0\n(Conformity)',              lambda v: v == 0),
+        ('1–9\n(Low)',                   lambda v: 1 <= v <= 9),
+        ('10–99\n(Intermediate)',        lambda v: 10 <= v <= 99),
+        (r'$\geq$100' + '\n(Very high)', lambda v: v >= 100),
+    ]
+    # group order + colors echo the validation page
+    groups = [
+        ('Rwanda, source',  'Rwanda', 'Source',  '#1d4ed8'),
+        ('Rwanda, treated', 'Rwanda', 'Treated', '#60a5fa'),
+        ('Kenya, source',   'Kenya',  'Source',  '#b45309'),
+        ('Kenya, treated',  'Kenya',  'Treated', '#fbbf24'),
+    ]
+
+    def gcount(country, water):
+        return np.array([sum(1 for v, c, w in recs if c == country and w == water and test(v))
+                         for _, test in bins])
+
+    fig, ax = plt.subplots(figsize=(COL_WIDTH, 2.9))
+    x = np.arange(len(bins))
+    bottom = np.zeros(len(bins))
+    totals = np.zeros(len(bins))
+    for label, country, water, color in groups:
+        yc = gcount(country, water)
+        ax.bar(x, yc, bottom=bottom, color=color, edgecolor='black', linewidth=0.4, width=0.72, label=label)
+        bottom += yc
+        totals += yc
+
+    for xi, tot in zip(x, totals):
+        ax.text(xi, tot + max(totals) * 0.015, str(int(tot)), ha='center', va='bottom', fontsize=8)
+
+    ax.set_xticks(x)
+    ax.set_xticklabels([b[0] for b in bins])
+    ax.set_xlabel('WHO/UNICEF risk category (CFU/100 mL)')
+    ax.set_ylabel('Paired observations')
+    ax.set_ylim(0, max(totals) * 1.16)
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.legend(loc='upper right', frameon=False, fontsize=6.5, handlelength=1.1, labelspacing=0.3)
+
+    out = os.path.join(OUTDIR, 'fig_cbt_histogram.pdf')
+    fig.savefig(out)
+    plt.close(fig)
+    print(f'  Saved: {out}  (totals={[int(t) for t in totals]})')
+
+
+# ════════════════════════════════════════════════════════════════════
 # Main
 # ════════════════════════════════════════════════════════════════════
 if __name__ == '__main__':
@@ -569,7 +632,7 @@ if __name__ == '__main__':
     fig_confusion_binary(data)
     fig_temperature(data)
     fig_confusion_3level(data)
-    fig_per_sensor(data)
+    fig_cbt_histogram(data)
     fig_chlorination(data)
 
     print('Done.')
