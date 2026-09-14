@@ -1,0 +1,82 @@
+{
+  "_about": "Case-by-case decisions for the CBT revision pairing (scripts/cbt_revision/pair_soaks.py), made by Evan Thomas on 2026-09-14 after reviewing the raw sensor sequences. Each is decided without reference to the CBT result.",
+  "partner_soaks": {
+    "decision": "When 50065 was not logging, a bag is paired to the other unit's own run of in-water readings, widened by half that unit's reporting interval plus the 2 min tolerance.",
+    "cases": ["2026-05-30 Kabeza (50045)", "2026-06-03 Stand Tap 3 x2 (50053)", "2026-06-03 Stand Tap 6 (50053)"]
+  },
+  "force_in_water": [
+    {
+      "barcode": 50065, "start": "2026-06-04T09:53:00Z", "end": "2026-06-04T10:05:00Z",
+      "reason": "Turbid source water. Both units read ToF 267-351 kcps for ~10 min, three times their air level, with air readings (90-122) either side; the three CBT bags were drawn during this stretch."
+    },
+    {
+      "barcode": 50053, "start": "2026-06-04T09:52:00Z", "end": "2026-06-04T10:00:00Z",
+      "reason": "Same bucket as the 50065 entry above."
+    }
+  ],
+  "force_air": [
+    {
+      "barcode": 50045, "timestamp": "2026-05-25T11:32:00Z",
+      "reason": "Missed pair: 50045 was not in this bucket for a full reading (ToF 49 at a 49.7 cutoff, air readings 6 min either side). Not a sensor fault."
+    }
+  ],
+  "exclude_pairs": [
+    {
+      "barcode": 50053, "sample_local": "2026-06-03 10:25:00",
+      "reason": "Not a valid test: no valid in-water reading for this bag. Not turbidity-compromised."
+    }
+  ],
+  "reference_corrections": [
+    {
+      "sample_local": "2026-05-25 10:55:00", "site": "LSC15206", "recorded": 48, "corrected": 0,
+      "reason": "CBT error (Evan Thomas, 2026-09-14). LifeStraw filter LSC15206 outlet (treated). The same filter re-tested 12 min later (11:07) read 0; every other treated sample that day read 0; the record was submitted on its own that evening (18:50), apart from the day's batch."
+    }
+  ],
+  "invalid_references": [
+    {
+      "sample_local": "2026-05-26 10:33:00", "site": "LSC15380", "recorded": ">100",
+      "rule": "A LifeStraw Community filter outlet (treated) cannot read above 100 MPN/100 mL; such a result is an invalid CBT. Judged on water type and treatment process, not on the sensor. Applied to all 60 treated records: only this one matches (next highest treated result is 14).",
+      "handling": "excluded (true value unknown: no retest of this filter)",
+      "decided": "Evan Thomas, 2026-09-14"
+    }
+  ],
+  "excluded_records": [
+    {"sample_local": "2026-05-28 08:33:00", "site_contains": "Rugando"},
+    {"sample_local": "2026-05-29 10:20:00", "site_contains": "Rugando"},
+    {"sample_local": "2026-05-29 10:27:00", "site_contains": "Rugando"},
+    {"sample_local": "2026-06-01 07:43:00", "site_contains": ""},
+    {"sample_local": "2026-06-01 07:57:00", "site_contains": ""},
+    {"sample_local": "2026-06-01 08:04:00", "site_contains": ""},
+    {"sample_local": "2026-06-01 08:18:00", "site_contains": ""},
+    {"sample_local": "2026-06-01 08:26:00", "site_contains": ""},
+    {"sample_local": "2026-06-01 08:42:00", "site_contains": ""},
+    {"sample_local": "2026-06-01 08:44:00", "site_contains": ""}
+  ],
+  "excluded_records_june1": "All seven 2026-06-01 records (no site name recorded on any): excluded at the record level by Evan Thomas, 2026-09-14.",
+  "excluded_records_reason": "Rugando stream, all three records: the field team did not perform the tests properly at this site (operator report relayed by Whitney Knopp, 2026-09-14). Scope confirmed by Evan Thomas as the Rugando tests only, not the other tests those days.",
+  "in_water_rule": {
+    "decision": "A reading counts as in water only when ToF is below the unit's ToF gate AND fluorescence (mon2) is below the unit's own air/water split, each the Otsu split of that unit's readings. The ToF and fluorescence windows are separate apertures, so the fluorescence window can be in air while ToF reads water (entry and lift transients).",
+    "footprint_before_adoption": "50045: 4 readings (three false alarms and one caught exceedance, each the unit's only reading for its record); 50053: none; 50065: 4 readings inside 4-reading medians.",
+    "limitation": "On 50045 the split (859) is ~6% above its highest genuine in-water reading (810); a highly fluorescent sample could be classed as air.",
+    "decided": "Evan Thomas, 2026-09-14"
+  },
+  "replicates": {
+    "decision": "Consecutive CBT records in one unbroken bucket immersion, up to 10 min apart, are replicates: the same bucket water, with the sensor in it, was resampled. Chains of such records form one sample group.",
+    "basis": "Whitney Knopp, 2026-09-14: Rwanda source waters and school filters were resampled from the bucket because tank and LifeStraw water was low; Isiolo/Turkana treated (chlorine residual) samples likewise. Evan Thomas, 2026-09-14: Isiolo/Turkana source buckets treated the same way."
+  },
+  "temperature": {
+    "batch_quench": -0.0215,
+    "decision": "All three units take the batch quench TLF_QUENCH_BATCH_TLF from shared/tlf-quench.js on their own temperature (SiPM for 50045/50053; the Desktop App board chip for 50065, its only channel). 50065's own within-immersion fit is not identifiable and is reported as a sensitivity.",
+    "decided": "Evan Thomas, 2026-09-14"
+  },
+  "drift": {
+    "decision": "Re-baseline to the unit's treated-water buckets on the same day, chosen by water type; source-only days take the nearest day with treated buckets and are flagged.",
+    "decided": "Evan Thomas, 2026-09-14"
+  },
+  "notes": [
+    {
+      "sample_local": ["2026-05-25 11:16:00", "2026-05-25 11:20:00"],
+      "note": "Two Rwishwima rain tanks (near nursery class2; in front of the kitchen) sampled into the same bucket. Both stay paired to it."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "mwater_cbt_rows": 112,
+  "bag_unit_candidates": 210,
+  "bags_with_soak": 106,
+  "bags_without_soak": 6,
+  "pairs": 194,
+  "pairs_by_unit": {
+    "50045": 36,
+    "50053": 52,
+    "50065": 106
+  },
+  "pairs_from_partner_soaks": 4,
+  "temperature_correction": {
+    "50045": {
+      "b": -0.0215,
+      "source": "batch TLF_QUENCH_BATCH_TLF (tlf-quench.js) on sipm_temperature"
+    },
+    "50053": {
+      "b": -0.0215,
+      "source": "batch TLF_QUENCH_BATCH_TLF (tlf-quench.js) on sipm_temperature"
+    },
+    "50065": {
+      "b": -0.0215,
+      "source": "batch TLF_QUENCH_BATCH_TLF (tlf-quench.js) on temperature (board)"
+    }
+  },
+  "sample_groups": 75,
+  "sample_groups_with_replicates": 27,
+  "own_fit_50065_sensitivity": {
+    "b": 0.04622,
+    "se": 0.00903,
+    "n": 106,
+    "immersions": 22,
+    "r2_within": 0.23974
+  },
+  "drift_reference_age_days": {
+    "0": 165,
+    "1": 7,
+    "2": 11,
+    "3": 11
+  },
+  "pairs_with_older_reference": 29,
+  "bags_paired": 110,
+  "soaks_used": 75,
+  "unresolved_by_status": {
+    "50045 no in-water reading in soak": 9,
+    "50045 no soak at bag time": 1,
+    "50053 excluded by judgment: Not a valid test: no valid in-water reading for this bag. Not turbidity-compromised.": 1,
+    "50065 no soak at bag time": 5
+  },
+  "tz_shifted_bags": 7,
+  "tz_imputed_bags": 1,
+  "gates_kcps": {
+    "50045": 49.7,
+    "50053": 41.6,
+    "50065": 61.6
+  },
+  "soaks_total_50065": 85,
+  "soaks_with_multiple_site_names": [
+    "S007"
+  ],
+  "vs_paper": {
+    "paper_pairs": 216,
+    "kept_same_reading": 66,
+    "kept_new_reading": 128,
+    "dropped": 22,
+    "added": 0
+  }
+}

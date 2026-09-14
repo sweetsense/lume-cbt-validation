@@ -1,0 +1,1948 @@
+{
+ "model": {
+  "name": "D0b",
+  "response": "log10(CBT MPN/100 mL + 1), right-censored at 100 (Tobit)",
+  "features": [
+   "F: temperature-corrected ln(mon2-170) minus the daily clean-water baseline",
+   "Blog: ln(ToF / daily clean-water ToF)",
+   "T: temperature - 20 C",
+   "F x T"
+  ],
+  "coefficients": "shared across units",
+  "ridge": 0.1,
+  "per_unit_calibration": "daily clean-water baseline only"
+ },
+ "n_samples": 75,
+ "n_pairs": 194,
+ "n_records": 110,
+ "results": {
+  "new sensor + new day": {
+   "metrics": {
+    "agree_pct": 89.33333333333333,
+    "r2": 0.6289469127295029,
+    "mae": 0.34449586878523547,
+    "ge1_sens": 0.6956521739130435,
+    "ge1_spec": 0.7692307692307693,
+    "ge1_ba": 0.7324414715719063,
+    "ge1_ppv": 0.5714285714285714,
+    "ge1_npv": 0.851063829787234,
+    "ge10_sens": 0.9375,
+    "ge10_spec": 0.9322033898305084,
+    "ge10_ba": 0.9348516949152542,
+    "ge10_ppv": 0.7894736842105263,
+    "ge10_npv": 0.9821428571428571
+   },
+   "ci": {
+    "agree_pct": [
+     83.33333333333334,
+     94.8051948051948
+    ],
+    "r2": [
+     -0.22969558682353566,
+     0.7291681204107427
+    ],
+    "mae": [
+     0.3067122675844925,
+     0.3865460598459213
+    ],
+    "ge1_sens": [
+     0.26666666666666666,
+     0.9189459459459458
+    ],
+    "ge1_spec": [
+     0.6153846153846154,
+     0.9038461538461539
+    ],
+    "ge1_ba": [
+     0.5264387829912023,
+     0.8604300988609499
+    ],
+    "ge1_ppv": [
+     0.20833333333333334,
+     0.8421052631578947
+    ],
+    "ge1_npv": [
+     0.7241379310344828,
+     0.9473911070780398
+    ],
+    "ge10_sens": [
+     0.6,
+     1.0
+    ],
+    "ge10_spec": [
+     0.88,
+     0.9814814814814815
+    ],
+    "ge10_ba": [
+     0.7642045454545454,
+     0.9821506892230577
+    ],
+    "ge10_ppv": [
+     0.3,
+     0.9524350649350646
+    ],
+    "ge10_npv": [
+     0.9411764705882353,
+     1.0
+    ]
+   },
+   "rmse": 0.48064796147964,
+   "n": 75,
+   "counts": {
+    "1": {
+     "tp": 16,
+     "fp": 12,
+     "tn": 40,
+     "fn": 7
+    },
+    "10": {
+     "tp": 15,
+     "fp": 4,
+     "tn": 55,
+     "fn": 1
+    }
+   },
+   "ia": {
+    "all pairs": {
+     "n": 75,
+     "ia": 0.8232945923004525,
+     "r2": 0.5208741367394659,
+     "rmse": 0.9186797702347664,
+     "ia_ci": [
+      0.5819253464495737,
+      0.8825650621525025
+     ]
+    },
+    "both within limits, >=1 (CBT 1-99, uncensored)": {
+     "n": 4,
+     "ia": 0.7393098066899348,
+     "r2": 0.35824547693792713,
+     "rmse": 0.43441271365178885,
+     "ia_ci": [
+      0.0,
+      0.8169469801055298
+     ]
+    },
+    "both within limits, >=10 (CBT 10-99, uncensored)": {
+     "n": 0
+    }
+   }
+  },
+  "day held out": {
+   "metrics": {
+    "agree_pct": 93.33333333333333,
+    "r2": 0.7006959330064109,
+    "mae": 0.28417300392297956,
+    "ge1_sens": 0.6956521739130435,
+    "ge1_spec": 0.8076923076923077,
+    "ge1_ba": 0.7516722408026756,
+    "ge1_ppv": 0.6153846153846154,
+    "ge1_npv": 0.8571428571428571,
+    "ge10_sens": 0.875,
+    "ge10_spec": 0.9661016949152542,
+    "ge10_ba": 0.9205508474576272,
+    "ge10_ppv": 0.875,
+    "ge10_npv": 0.9661016949152542
+   },
+   "ci": {
+    "agree_pct": [
+     87.17857142857143,
+     98.6671052631579
+    ],
+    "r2": [
+     0.05011301378591517,
+     0.7863378019855701
+    ],
+    "mae": [
+     0.23296507147565507,
+     0.33710753475034994
+    ],
+    "ge1_sens": [
+     0.26666666666666666,
+     0.9189459459459458
+    ],
+    "ge1_spec": [
+     0.6382887013939839,
+     0.9387755102040817
+    ],
+    "ge1_ba": [
+     0.5370039682539682,
+     0.8848740397188624
+    ],
+    "ge1_ppv": [
+     0.22714646464646465,
+     0.8888888888888888
+    ],
+    "ge1_npv": [
+     0.7291666666666666,
+     0.9512195121951219
+    ],
+    "ge10_sens": [
+     0.25,
+     1.0
+    ],
+    "ge10_spec": [
+     0.9298245614035088,
+     1.0
+    ],
+    "ge10_ba": [
+     0.6248135171790236,
+     0.9888949275362319
+    ],
+    "ge10_ppv": [
+     0.3321428571428572,
+     1.0
+    ],
+    "ge10_npv": [
+     0.9180327868852459,
+     1.0
+    ]
+   },
+   "rmse": 0.4316834402858148,
+   "n": 75,
+   "counts": {
+    "1": {
+     "tp": 16,
+     "fp": 10,
+     "tn": 42,
+     "fn": 7
+    },
+    "10": {
+     "tp": 14,
+     "fp": 2,
+     "tn": 57,
+     "fn": 2
+    }
+   },
+   "ia": {
+    "all pairs": {
+     "n": 75,
+     "ia": 0.853838972554922,
+     "r2": 0.5899218304496848,
+     "rmse": 0.8153940469704875,
+     "ia_ci": [
+      0.6039878141466964,
+      0.9083785523622483
+     ]
+    },
+    "both within limits, >=1 (CBT 1-99, uncensored)": {
+     "n": 3,
+     "ia": 0.6614860708880932,
+     "r2": 0.2745837295404962,
+     "rmse": 0.46878887988701784,
+     "ia_ci": [
+      0.0,
+      0.856685247428876
+     ]
+    },
+    "both within limits, >=10 (CBT 10-99, uncensored)": {
+     "n": 0
+    }
+   }
+  },
+  "reference_uncertainty": {
+   "new sensor + new day": {
+    "expected": {
+     "sens": 0.9094768515423414,
+     "spec": 0.9337399235962404,
+     "ba": 0.9216083875692909
+    },
+    "reference_tolerant_upper_bound": {
+     "sens": 1.0,
+     "spec": 0.9491525423728814,
+     "ba": 0.9745762711864407
+    }
+   },
+   "day held out": {
+    "expected": {
+     "sens": 0.8549578289799601,
+     "spec": 0.9696004011247047,
+     "ba": 0.9122791150523324
+    },
+    "reference_tolerant_upper_bound": {
+     "sens": 1.0,
+     "spec": 0.9830508474576272,
+     "ba": 0.9915254237288136
+    }
+   }
+  },
+  "who_three_level": {
+   "new sensor + new day": {
+    "matrix": [
+     [
+      55,
+      4,
+      0
+     ],
+     [
+      1,
+      1,
+      0
+     ],
+     [
+      0,
+      7,
+      7
+     ]
+    ],
+    "recall": [
+     0.9322033898305084,
+     0.5,
+     0.5
+    ],
+    "precision": [
+     0.9821428571428571,
+     0.08333333333333333,
+     1.0
+    ],
+    "accuracy": 0.84,
+    "macro_recall": 0.6440677966101694,
+    "qwk": 0.844559585492228
+   },
+   "day held out": {
+    "matrix": [
+     [
+      57,
+      2,
+      0
+     ],
+     [
+      2,
+      0,
+      0
+     ],
+     [
+      0,
+      8,
+      6
+     ]
+    ],
+    "recall": [
+     0.9661016949152542,
+     0.0,
+     0.42857142857142855
+    ],
+    "precision": [
+     0.9661016949152542,
+     0.0,
+     1.0
+    ],
+    "accuracy": 0.84,
+    "macro_recall": 0.46489104116222757,
+    "qwk": 0.8387096774193549
+   }
+  },
+  "reference_repeatability": {
+   "replicates_within_bucket": {
+    "groups": 27,
+    "agree_ge10": 26
+   },
+   "repeats_same_source": {
+    "pairs": 11,
+    "agree_ge10": 10
+   },
+   "sensor_vs_cbt_ge10": {
+    "samples": 75,
+    "agree": 70
+   }
+  },
+  "comparison_models": {
+   "A per-unit intercepts + per-unit F slopes | day held out": {
+    "ba": 0.9205508474576272,
+    "sens": 0.875,
+    "spec": 0.9661016949152542,
+    "ppv": 0.875,
+    "r2": 0.695443308677171,
+    "ia": 0.8526247216053924
+   },
+   "B per-unit intercepts, shared slopes | day held out": {
+    "ba": 0.9036016949152542,
+    "sens": 0.875,
+    "spec": 0.9322033898305084,
+    "ppv": 0.7777777777777778,
+    "r2": 0.7220070544817612,
+    "ia": 0.8589296485040878
+   },
+   "E Eq. 2 per unit | day held out": {
+    "ba": 0.9120762711864407,
+    "sens": 0.875,
+    "spec": 0.9491525423728814,
+    "ppv": 0.8235294117647058,
+    "r2": 0.7795957541249914,
+    "ia": 0.873360554488477
+   },
+   "D0a shared, ToF as is | day held out": {
+    "ba": 0.9009533898305084,
+    "sens": 0.9375,
+    "spec": 0.864406779661017,
+    "ppv": 0.6521739130434783,
+    "r2": 0.6220177450887372,
+    "ia": 0.8244850002589178
+   },
+   "D0a shared, ToF as is | new sensor + new day": {
+    "ba": 0.9263771186440678,
+    "sens": 0.9375,
+    "spec": 0.9152542372881356,
+    "ppv": 0.75,
+    "r2": 0.5906942293050261,
+    "ia": 0.8039483486740575
+   },
+   "D0b shared, ToF log ratio (primary) | day held out": {
+    "ba": 0.9205508474576272,
+    "sens": 0.875,
+    "spec": 0.9661016949152542,
+    "ppv": 0.875,
+    "r2": 0.7006959330064109,
+    "ia": 0.853838972554922
+   },
+   "D0b shared, ToF log ratio (primary) | new sensor + new day": {
+    "ba": 0.9348516949152542,
+    "sens": 0.9375,
+    "spec": 0.9322033898305084,
+    "ppv": 0.7894736842105263,
+    "r2": 0.6289469127295029,
+    "ia": 0.8232945923004525
+   },
+   "D0c shared, no ToF | day held out": {
+    "ba": 0.8045550847457628,
+    "sens": 0.8125,
+    "spec": 0.7966101694915254,
+    "ppv": 0.52,
+    "r2": 0.3271680883250965,
+    "ia": 0.677643980952529
+   },
+   "D0c shared, no ToF | new sensor + new day": {
+    "ba": 0.7166313559322034,
+    "sens": 0.6875,
+    "spec": 0.7457627118644068,
+    "ppv": 0.4230769230769231,
+    "r2": -0.5739464741513045,
+    "ia": 0.456266890685582
+   },
+   "Cb shared: F, ToF log ratio | day held out": {
+    "ba": 0.9036016949152542,
+    "sens": 0.875,
+    "spec": 0.9322033898305084,
+    "ppv": 0.7777777777777778,
+    "r2": 0.7276691835348255,
+    "ia": 0.863919406981743
+   },
+   "Cb shared: F, ToF log ratio | new sensor + new day": {
+    "ba": 0.9120762711864407,
+    "sens": 0.875,
+    "spec": 0.9491525423728814,
+    "ppv": 0.8235294117647058,
+    "r2": 0.6946162119384067,
+    "ia": 0.8509233135960448
+   }
+  },
+  "chlorination": {
+   "n_chlorinated": 30,
+   "cbt_zero": 30,
+   "predicted_below_10": 30,
+   "matched_systems": [
+    {
+     "system": "rbatula.Kinna.Kulamawe1 (Police station)",
+     "day": "2026-06-11",
+     "n_source": 3,
+     "n_treated": 4,
+     "delta_log_pred": 0.3087853877367394
+    },
+    {
+     "system": "Isiolo.Isiolo.Ngaremara.Nasuroi",
+     "day": "2026-06-10",
+     "n_source": 4,
+     "n_treated": 2,
+     "delta_log_pred": 0.4718459073066863
+    }
+   ]
+  },
+  "cross_sensor": {
+   "samples": 55,
+   "mean_abs_delta_log": 0.3648992670356741,
+   "within_0p65": 44
+  }
+ },
+ "samples": [
+  {
+   "sample": "G202605251012",
+   "day": "2026-05-25",
+   "country": "Rwanda",
+   "water_type": "Treated",
+   "site": "LSC15529",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": -0.0700083345905558,
+   "cut1": 1.1774484204758011,
+   "cut10": 3.221801456665914,
+   "pred_log_day": -0.0659906206888994,
+   "cut10_day": 5.13575557995661
+  },
+  {
+   "sample": "G202605251026",
+   "day": "2026-05-25",
+   "country": "Rwanda",
+   "water_type": "Treated",
+   "site": "LSC11397",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.5039748476507377,
+   "cut1": 1.1774484204758011,
+   "cut10": 3.221801456665914,
+   "pred_log_day": 0.3438867024465887,
+   "cut10_day": 5.13575557995661
+  },
+  {
+   "sample": "G202605251035",
+   "day": "2026-05-25",
+   "country": "Rwanda",
+   "water_type": "Treated",
+   "site": "LSC15371",
+   "units": [
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.2309622101066052,
+   "cut1": 1.4152756668789743,
+   "cut10": 7.216330301596466,
+   "pred_log_day": 0.2410322345222749,
+   "cut10_day": 5.13575557995661
+  },
+  {
+   "sample": "G202605251045",
+   "day": "2026-05-25",
+   "country": "Rwanda",
+   "water_type": "Treated",
+   "site": "LSC11400",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.3650192636624777,
+   "cut1": 1.1774484204758011,
+   "cut10": 3.221801456665914,
+   "pred_log_day": 0.3341040037275197,
+   "cut10_day": 5.13575557995661
+  },
+  {
+   "sample": "G202605251055",
+   "day": "2026-05-25",
+   "country": "Rwanda",
+   "water_type": "Treated",
+   "site": "LSC15206",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.2989580519786127,
+   "cut1": 1.1774484204758011,
+   "cut10": 3.221801456665914,
+   "pred_log_day": 0.2688766388720071,
+   "cut10_day": 5.13575557995661
+  },
+  {
+   "sample": "G202605251107",
+   "day": "2026-05-25",
+   "country": "Rwanda",
+   "water_type": "Treated",
+   "site": "LSC15206",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.4178639636120749,
+   "cut1": 1.1774484204758011,
+   "cut10": 3.221801456665914,
+   "pred_log_day": 0.3867784321894068,
+   "cut10_day": 5.13575557995661
+  },
+  {
+   "sample": "G202605251116",
+   "day": "2026-05-25",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Kamonyi. EP Rwishwima. Near nursery class2. Rain water tank",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 5.0,
+   "censored": false,
+   "obs_log": 0.7781512503836436,
+   "pred_log": 1.19296164197762,
+   "cut1": 1.1774484204758011,
+   "cut10": 3.221801456665914,
+   "pred_log_day": 1.1409676841004686,
+   "cut10_day": 5.13575557995661
+  },
+  {
+   "sample": "G202605251130",
+   "day": "2026-05-25",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Kamonyi. EP Rwishwima. Between nursery class1 and nursery class2. Spring water tap",
+   "units": [
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.452534220484579,
+   "cut1": 1.4152756668789743,
+   "cut10": 7.216330301596466,
+   "pred_log_day": 0.4898647165529352,
+   "cut10_day": 5.13575557995661
+  },
+  {
+   "sample": "G202605251142",
+   "day": "2026-05-25",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Kamonyi. EP Rwishwima. Near the toilets. Rain water tank",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.5143025715362158,
+   "cut1": 1.1774484204758011,
+   "cut10": 3.221801456665914,
+   "pred_log_day": 0.4556894903279005,
+   "cut10_day": 5.13575557995661
+  },
+  {
+   "sample": "G202605260943",
+   "day": "2026-05-26",
+   "country": "Rwanda",
+   "water_type": "Treated",
+   "site": "LSC15197",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 3.0,
+   "censored": false,
+   "obs_log": 0.6020599913279624,
+   "pred_log": 0.3287955630753486,
+   "cut1": 1.3004426118526515,
+   "cut10": 4.600838867928663,
+   "pred_log_day": 0.2573777688336123,
+   "cut10_day": 15.015370832094582
+  },
+  {
+   "sample": "G202605260951",
+   "day": "2026-05-26",
+   "country": "Rwanda",
+   "water_type": "Treated",
+   "site": "LSC11394",
+   "units": [
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.2035980457069534,
+   "cut1": 1.3134308691924508,
+   "cut10": 14.357704758751783,
+   "pred_log_day": 0.1687889419721381,
+   "cut10_day": 15.015370832094582
+  },
+  {
+   "sample": "G202605261000",
+   "day": "2026-05-26",
+   "country": "Rwanda",
+   "water_type": "Treated",
+   "site": "LSC15145",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.1047117227728052,
+   "cut1": 1.3004426118526515,
+   "cut10": 4.600838867928663,
+   "pred_log_day": 0.0558185690613047,
+   "cut10_day": 15.015370832094582
+  },
+  {
+   "sample": "G202605261007",
+   "day": "2026-05-26",
+   "country": "Rwanda",
+   "water_type": "Treated",
+   "site": "LSC11391",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 1.0,
+   "censored": false,
+   "obs_log": 0.3010299956639812,
+   "pred_log": 0.2236407720590946,
+   "cut1": 1.3004426118526515,
+   "cut10": 4.600838867928663,
+   "pred_log_day": 0.1594109220621936,
+   "cut10_day": 15.015370832094582
+  },
+  {
+   "sample": "G202605261017",
+   "day": "2026-05-26",
+   "country": "Rwanda",
+   "water_type": "Treated",
+   "site": "LSC11379",
+   "units": [
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": -0.0694712435399817,
+   "cut1": 1.3134308691924508,
+   "cut10": 14.357704758751783,
+   "pred_log_day": -0.0359510763549045,
+   "cut10_day": 15.015370832094582
+  },
+  {
+   "sample": "G202605261044",
+   "day": "2026-05-26",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Kamonyi. EP Nyakabuye. Beside P6A classroom. Rain water tank",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 33.0,
+   "censored": false,
+   "obs_log": 1.5314789170422551,
+   "pred_log": 0.9790534246621888,
+   "cut1": 1.3004426118526515,
+   "cut10": 4.600838867928663,
+   "pred_log_day": 0.8825420815646525,
+   "cut10_day": 15.015370832094582
+  },
+  {
+   "sample": "G202605261052",
+   "day": "2026-05-26",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Kamonyi. EP Nyakabuye. Beside P6A classroom. Rain water tank",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.9810571001101271,
+   "cut1": 1.3004426118526515,
+   "cut10": 4.600838867928663,
+   "pred_log_day": 0.7780035033217607,
+   "cut10_day": 15.015370832094582
+  },
+  {
+   "sample": "G202605270836",
+   "day": "2026-05-27",
+   "country": "Rwanda",
+   "water_type": "Treated",
+   "site": "LSC11525",
+   "units": [
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": -0.1096528123370455,
+   "cut1": 1.4431844756333638,
+   "cut10": 9.19673232317946,
+   "pred_log_day": -0.0683527067525808,
+   "cut10_day": 5.903699652085058
+  },
+  {
+   "sample": "G202605270845",
+   "day": "2026-05-27",
+   "country": "Rwanda",
+   "water_type": "Treated",
+   "site": "LSC11517",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.2648281964825469,
+   "cut1": 1.30475604378691,
+   "cut10": 3.7084432658058097,
+   "pred_log_day": 0.2002474596513005,
+   "cut10_day": 5.903699652085058
+  },
+  {
+   "sample": "G202605270853",
+   "day": "2026-05-27",
+   "country": "Rwanda",
+   "water_type": "Treated",
+   "site": "LSC15487",
+   "units": [
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": -0.0510874274270882,
+   "cut1": 1.4431844756333638,
+   "cut10": 9.19673232317946,
+   "pred_log_day": -0.0177138171442864,
+   "cut10_day": 5.903699652085058
+  },
+  {
+   "sample": "G202605270903",
+   "day": "2026-05-27",
+   "country": "Rwanda",
+   "water_type": "Treated",
+   "site": "LSC15484",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.2214818383856385,
+   "cut1": 1.30475604378691,
+   "cut10": 3.7084432658058097,
+   "pred_log_day": 0.1503976375069837,
+   "cut10_day": 5.903699652085058
+  },
+  {
+   "sample": "G202605270920",
+   "day": "2026-05-27",
+   "country": "Rwanda",
+   "water_type": "Treated",
+   "site": "LSC11469",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 1.35285949939888,
+   "cut1": 1.30475604378691,
+   "cut10": 3.7084432658058097,
+   "pred_log_day": 1.2543581061645674,
+   "cut10_day": 5.903699652085058
+  },
+  {
+   "sample": "G202605270930",
+   "day": "2026-05-27",
+   "country": "Rwanda",
+   "water_type": "Treated",
+   "site": "LSC11558",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": -0.0087362923186558,
+   "cut1": 1.30475604378691,
+   "cut10": 3.7084432658058097,
+   "pred_log_day": -0.0248323401783541,
+   "cut10_day": 5.903699652085058
+  },
+  {
+   "sample": "G202605270939",
+   "day": "2026-05-27",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Kamonyi. EP Nyakabungo. Near new kitchen. Spring water tap",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.1762376710226344,
+   "cut1": 1.30475604378691,
+   "cut10": 3.7084432658058097,
+   "pred_log_day": 0.1520584113037846,
+   "cut10_day": 5.903699652085058
+  },
+  {
+   "sample": "G202605270954",
+   "day": "2026-05-27",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Kamonyi. EP Nyakabungo. Behind P3A classroom. Rain water tank",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.132454248122503,
+   "cut1": 1.30475604378691,
+   "cut10": 3.7084432658058097,
+   "pred_log_day": 0.1027337369453921,
+   "cut10_day": 5.903699652085058
+  },
+  {
+   "sample": "G202605280814",
+   "day": "2026-05-28",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Fake.Kicukiro.Amazi Meza warehouse.Kagina. Spring water",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.2836537147571946,
+   "cut1": 1.424470126458854,
+   "cut10": 3.2985608581147856,
+   "pred_log_day": 0.1846586375692675,
+   "cut10_day": 3.793475837034604
+  },
+  {
+   "sample": "G202605280903",
+   "day": "2026-05-28",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Fake.Kicukiro. Amazi Meza warehouse.Kanengwa. Spring water",
+   "units": [
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": -0.3199165284613778,
+   "cut1": 1.5595646894538993,
+   "cut10": 8.235753175291656,
+   "pred_log_day": -0.2831864348733081,
+   "cut10_day": 3.793475837034604
+  },
+  {
+   "sample": "G202605280911",
+   "day": "2026-05-28",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Fake.Kicukiro.Amazi Meza warehouse.Iriba.Spring water",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 5.0,
+   "censored": false,
+   "obs_log": 0.7781512503836436,
+   "pred_log": 0.0797622530422297,
+   "cut1": 1.424470126458854,
+   "cut10": 3.2985608581147856,
+   "pred_log_day": 0.0450375949923451,
+   "cut10_day": 3.793475837034604
+  },
+  {
+   "sample": "G202605280952",
+   "day": "2026-05-28",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Fake.Kicukiro.Amazi Meza warehouse.Inindi House.Rainwater tank",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.6799368934772143,
+   "cut1": 1.424470126458854,
+   "cut10": 3.2985608581147856,
+   "pred_log_day": 0.6158047953205223,
+   "cut10_day": 3.793475837034604
+  },
+  {
+   "sample": "G202605290843",
+   "day": "2026-05-29",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Fake.Kicukiro.Amazi Meza warehouse.Nyirakanamba I.Water Stream",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 100.0,
+   "censored": true,
+   "obs_log": 2.004321373782642,
+   "pred_log": 0.7004551070077931,
+   "cut1": 0.9778679557402132,
+   "cut10": 1.9913803854386545,
+   "pred_log_day": 0.6014090729630266,
+   "cut10_day": 2.3429189109072417
+  },
+  {
+   "sample": "G202605290854",
+   "day": "2026-05-29",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Fake.Kicukiro.Amazi Meza wahehouse.Nyirakanamba II. Water pipe",
+   "units": [
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 100.0,
+   "censored": true,
+   "obs_log": 2.004321373782642,
+   "pred_log": 2.004321373782642,
+   "cut1": 1.3459756080152585,
+   "cut10": 3.73766960635062,
+   "pred_log_day": 1.9590474941266056,
+   "cut10_day": 2.3429189109072417
+  },
+  {
+   "sample": "G202605290901",
+   "day": "2026-05-29",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Fake.Kicukiro.Amazi Meza wahehouse.Nyirakanamba II. Water pipe",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 100.0,
+   "censored": true,
+   "obs_log": 2.004321373782642,
+   "pred_log": 1.7755528177260549,
+   "cut1": 0.9778679557402132,
+   "cut10": 1.9913803854386545,
+   "pred_log_day": 1.837417955882872,
+   "cut10_day": 2.3429189109072417
+  },
+  {
+   "sample": "G202605290928",
+   "day": "2026-05-29",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Fake.Kicukiro.Amazi Meza warehouse.Kabeza.Stream Water",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 100.0,
+   "censored": true,
+   "obs_log": 2.004321373782642,
+   "pred_log": 1.744216169867585,
+   "cut1": 0.9778679557402132,
+   "cut10": 1.9913803854386545,
+   "pred_log_day": 1.791369423869904,
+   "cut10_day": 2.3429189109072417
+  },
+  {
+   "sample": "G202605290936",
+   "day": "2026-05-29",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Fake.Kicukiro.Amazi Meza warehouse.Kabeza.Stream Water",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 100.0,
+   "censored": true,
+   "obs_log": 2.004321373782642,
+   "pred_log": 1.523785339096461,
+   "cut1": 0.9778679557402132,
+   "cut10": 1.9913803854386545,
+   "pred_log_day": 1.4711101782297469,
+   "cut10_day": 2.3429189109072417
+  },
+  {
+   "sample": "G202605290948",
+   "day": "2026-05-29",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Fake.Kicukiro.Amazi Meza warehouse.Sahara.Stream water",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 100.0,
+   "censored": true,
+   "obs_log": 2.004321373782642,
+   "pred_log": 1.9764531218897696,
+   "cut1": 0.9778679557402132,
+   "cut10": 1.9913803854386545,
+   "pred_log_day": 2.004321373782642,
+   "cut10_day": 2.3429189109072417
+  },
+  {
+   "sample": "G202605301205",
+   "day": "2026-05-30",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Fake.Kicukiro.Amazi Meza wahehouse.Nyirakanamba II. Water pipe",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 100.0,
+   "censored": true,
+   "obs_log": 2.004321373782642,
+   "pred_log": 2.004321373782642,
+   "cut1": 1.1778384961415322,
+   "cut10": 3.018759012167811,
+   "pred_log_day": 2.004321373782642,
+   "cut10_day": 2.336273964873958
+  },
+  {
+   "sample": "G202605301221",
+   "day": "2026-05-30",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Fake.Kicukiro.Amazi Meza warehouse.Nyirakanamba I.Water Stream",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 100.0,
+   "censored": true,
+   "obs_log": 2.004321373782642,
+   "pred_log": 0.8320687354368398,
+   "cut1": 1.1778384961415322,
+   "cut10": 3.018759012167811,
+   "pred_log_day": 0.8546899087773971,
+   "cut10_day": 2.336273964873958
+  },
+  {
+   "sample": "G202605301228",
+   "day": "2026-05-30",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Fake.Kicukiro.Amazi Meza warehouse.Nyirakanamba I.Water Stream",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 100.0,
+   "censored": true,
+   "obs_log": 2.004321373782642,
+   "pred_log": 0.9214298407390298,
+   "cut1": 1.1778384961415322,
+   "cut10": 3.018759012167811,
+   "pred_log_day": 0.8720952762287009,
+   "cut10_day": 2.336273964873958
+  },
+  {
+   "sample": "G202605301304",
+   "day": "2026-05-30",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Fake.Kicukiro.Amazi Meza warehouse.Kabeza.Stream Water",
+   "units": [
+    "50045"
+   ],
+   "n_records": 1,
+   "cbt": 100.0,
+   "censored": true,
+   "obs_log": 2.004321373782642,
+   "pred_log": 2.004321373782642,
+   "cut1": 1.1820776385190763,
+   "cut10": 3.2547920680555578,
+   "pred_log_day": 2.004321373782642,
+   "cut10_day": 2.336273964873958
+  },
+  {
+   "sample": "G202605301326",
+   "day": "2026-05-30",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Fake.Kicukiro.Amazi Meza warehouse.Sahara.Stream water",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 100.0,
+   "censored": true,
+   "obs_log": 2.004321373782642,
+   "pred_log": 2.004321373782642,
+   "cut1": 1.1778384961415322,
+   "cut10": 3.018759012167811,
+   "pred_log_day": 2.004321373782642,
+   "cut10_day": 2.336273964873958
+  },
+  {
+   "sample": "G202605301333",
+   "day": "2026-05-30",
+   "country": "Rwanda",
+   "water_type": "Source",
+   "site": "Fake.Kicukiro.Amazi Meza warehouse.Sahara.Stream water",
+   "units": [
+    "50045",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 100.0,
+   "censored": true,
+   "obs_log": 2.004321373782642,
+   "pred_log": 2.004321373782642,
+   "cut1": 1.1778384961415322,
+   "cut10": 3.018759012167811,
+   "pred_log_day": 2.004321373782642,
+   "cut10_day": 2.336273964873958
+  },
+  {
+   "sample": "G202606020748",
+   "day": "2026-06-02",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Turkana.Loima.Turkwel.Lorgum.100m near church.Concrete fixed public stand Tap 2",
+   "units": [
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": -0.0456434044052946,
+   "cut1": 1.5031733008380188,
+   "cut10": 7.590494730831178,
+   "pred_log_day": 0.0479984200515817,
+   "cut10_day": 3.6311638932975097
+  },
+  {
+   "sample": "G202606020800",
+   "day": "2026-06-02",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Turkana.Loima.Turkwel.Lorgum.100m near church.Concrete fixed public stand Tap 2",
+   "units": [
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.357468087121542,
+   "cut1": 1.5031733008380188,
+   "cut10": 7.590494730831178,
+   "pred_log_day": 0.13336250116916,
+   "cut10_day": 3.6311638932975097
+  },
+  {
+   "sample": "G202606020818",
+   "day": "2026-06-02",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Turkana.Loima.Turkwel.Lorgum.Aqutab inline chlorine unit",
+   "units": [
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": -0.2988159117585608,
+   "cut1": 1.5031733008380188,
+   "cut10": 7.590494730831178,
+   "pred_log_day": 0.25974812604043,
+   "cut10_day": 3.6311638932975097
+  },
+  {
+   "sample": "G202606020843",
+   "day": "2026-06-02",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": null,
+   "units": [
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.3722861338657002,
+   "cut1": 1.5031733008380188,
+   "cut10": 7.590494730831178,
+   "pred_log_day": 0.2162004676996331,
+   "cut10_day": 3.6311638932975097
+  },
+  {
+   "sample": "G202606020904",
+   "day": "2026-06-02",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Turkana.Loima.Turkwel.Lorgum.East of treatement.Concrete fixed Public Stand Tap 4",
+   "units": [
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": -0.1456093725728446,
+   "cut1": 1.5031733008380188,
+   "cut10": 7.590494730831178,
+   "pred_log_day": 0.0002498073397372,
+   "cut10_day": 3.6311638932975097
+  },
+  {
+   "sample": "G202606020916",
+   "day": "2026-06-02",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Turkana.Loima.Turkwel.Lorgum.Nearest to 32m3 steel tank.Concrete fixed Public Stand Tap 1",
+   "units": [
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": -0.2187449068968529,
+   "cut1": 1.5031733008380188,
+   "cut10": 7.590494730831178,
+   "pred_log_day": -0.0232044603236376,
+   "cut10_day": 3.6311638932975097
+  },
+  {
+   "sample": "G202606021016",
+   "day": "2026-06-02",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Turkana.Loima.Turkwel.Lorgum.Behind grass roof house.Concrete fixed Public Stand Tap 3",
+   "units": [
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.532405615951486,
+   "cut1": 1.5031733008380188,
+   "cut10": 7.590494730831178,
+   "pred_log_day": 0.2961424916031774,
+   "cut10_day": 3.6311638932975097
+  },
+  {
+   "sample": "G202606021028",
+   "day": "2026-06-02",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Turkana.Loima.Turkwel.Lorgum.100m near church.Concrete fixed public stand Tap 2",
+   "units": [
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.3135555489268398,
+   "cut1": 1.5031733008380188,
+   "cut10": 7.590494730831178,
+   "pred_log_day": 0.1940028603350244,
+   "cut10_day": 3.6311638932975097
+  },
+  {
+   "sample": "G202606021035",
+   "day": "2026-06-02",
+   "country": "Kenya",
+   "water_type": "Source",
+   "site": null,
+   "units": [
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 100.0,
+   "censored": true,
+   "obs_log": 2.004321373782642,
+   "pred_log": 2.004321373782642,
+   "cut1": 1.5031733008380188,
+   "cut10": 7.590494730831178,
+   "pred_log_day": 1.6479981161566175,
+   "cut10_day": 3.6311638932975097
+  },
+  {
+   "sample": "G202606030843",
+   "day": "2026-06-03",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Turkana.Turkana West.Kakuma.Nakoyo.100m from the Tank.Public Stand Tap 2",
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.4772540895507016,
+   "cut1": 5.286793322676643,
+   "cut10": 10.818421377576987,
+   "pred_log_day": 0.0718401602778277,
+   "cut10_day": 3.786598411844561
+  },
+  {
+   "sample": "G202606030911",
+   "day": "2026-06-03",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Turkana.Turkana West.Kakuma.Nakoyo.500m East.Public Stand Tap 3",
+   "units": [
+    "50053"
+   ],
+   "n_records": 2,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.3780367529235256,
+   "cut1": 4.945597014058224,
+   "cut10": 14.703338614327292,
+   "pred_log_day": 0.2676943016389105,
+   "cut10_day": 3.786598411844561
+  },
+  {
+   "sample": "G202606030931",
+   "day": "2026-06-03",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Turkana.Turkana West. Kakuma.Nakoyo.Adjacent to 5m3 PVC tank.Public Tap Stand 4",
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": -0.3438372460572177,
+   "cut1": 5.286793322676643,
+   "cut10": 10.818421377576987,
+   "pred_log_day": -0.0657429078331487,
+   "cut10_day": 3.786598411844561
+  },
+  {
+   "sample": "G202606030958",
+   "day": "2026-06-03",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Turkana.Turkana West.Kakuma.Nakoyo.Public Stand Tap 6",
+   "units": [
+    "50053"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.4317222681192268,
+   "cut1": 4.945597014058224,
+   "cut10": 14.703338614327292,
+   "pred_log_day": 0.3419176120947006,
+   "cut10_day": 3.786598411844561
+  },
+  {
+   "sample": "G202606040811",
+   "day": "2026-06-04",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Turkana.Turkana South. Lokichar. Kimabur.Kimabur school.Public Stand Tap 1",
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 1.0808687399914496,
+   "cut1": 3.000311027818971,
+   "cut10": 11.878996151693912,
+   "pred_log_day": 0.3618027317992385,
+   "cut10_day": 4.004779122780377
+  },
+  {
+   "sample": "G202606040827",
+   "day": "2026-06-04",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Turkana.Turkana South.Lokichar.Kimabur.Concrete fixed Public Stand Tap 3",
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.2307709828904026,
+   "cut1": 3.000311027818971,
+   "cut10": 11.878996151693912,
+   "pred_log_day": 0.1499918095053055,
+   "cut10_day": 4.004779122780377
+  },
+  {
+   "sample": "G202606040833",
+   "day": "2026-06-04",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Turkana.Turkana South.Lokichar.Kimabur.Concrete fixed Public Stand Tap 3",
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.7446991486413809,
+   "cut1": 3.000311027818971,
+   "cut10": 11.878996151693912,
+   "pred_log_day": 0.434881779792791,
+   "cut10_day": 4.004779122780377
+  },
+  {
+   "sample": "G202606040845",
+   "day": "2026-06-04",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": null,
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": -0.1658347497356493,
+   "cut1": 3.000311027818971,
+   "cut10": 11.878996151693912,
+   "pred_log_day": 0.0555078078521524,
+   "cut10_day": 4.004779122780377
+  },
+  {
+   "sample": "G202606040902",
+   "day": "2026-06-04",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": null,
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": -0.2885390287850872,
+   "cut1": 3.000311027818971,
+   "cut10": 11.878996151693912,
+   "pred_log_day": 0.0153764184231925,
+   "cut10_day": 4.004779122780377
+  },
+  {
+   "sample": "G202606040954",
+   "day": "2026-06-04",
+   "country": "Kenya",
+   "water_type": "Source",
+   "site": null,
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 3,
+   "cbt": 100.0,
+   "censored": true,
+   "obs_log": 2.004321373782642,
+   "pred_log": 2.004321373782642,
+   "cut1": 2.2814719545910287,
+   "cut10": 10.1557192933983,
+   "pred_log_day": 2.004321373782642,
+   "cut10_day": 4.004779122780377
+  },
+  {
+   "sample": "G202606090654",
+   "day": "2026-06-09",
+   "country": "Kenya",
+   "water_type": "Source",
+   "site": "Isiolo.Isiolo.Ngaremara.Kona (Ngalabilabia).KonaBorehole",
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 5,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.9808421882428408,
+   "cut1": 6.449417370604849,
+   "cut10": 8.952233601102753,
+   "pred_log_day": 0.8928757130661742,
+   "cut10_day": 14.60205145869705
+  },
+  {
+   "sample": "G202606090720",
+   "day": "2026-06-09",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Isiolo.Isiolo.Ngaremara.Kona(Ngalabilabia).NearestToBorehole.KonaWaterKiosk",
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 3,
+   "cbt": 1.6207413942088964,
+   "censored": false,
+   "obs_log": 0.4184241683677687,
+   "pred_log": 0.4953269255273007,
+   "cut1": 6.449417370604849,
+   "cut10": 8.952233601102755,
+   "pred_log_day": 0.4674547551041321,
+   "cut10_day": 14.60205145869705
+  },
+  {
+   "sample": "G202606090748",
+   "day": "2026-06-09",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Isiolo.Isiolo.Ngaremara.Kona(Ngalabilabia).NextToSignPost.ArmartiJuuWaterKiosk",
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 3,
+   "cbt": 7.143252849784721,
+   "censored": false,
+   "obs_log": 0.9107979199409896,
+   "pred_log": 0.2428446236966732,
+   "cut1": 6.449417370604849,
+   "cut10": 8.952233601102755,
+   "pred_log_day": 0.2521730210834316,
+   "cut10_day": 14.60205145869705
+  },
+  {
+   "sample": "G202606090828",
+   "day": "2026-06-09",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Isiolo.Isiolo.Ngaremara.Near50m3ElevatedSteelTank.ZebraCenterWaterKiosk",
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 3,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.0438668574257577,
+   "cut1": 6.449417370604849,
+   "cut10": 8.952233601102755,
+   "pred_log_day": 0.0741304331289969,
+   "cut10_day": 14.60205145869705
+  },
+  {
+   "sample": "G202606090845",
+   "day": "2026-06-09",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": null,
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 0.4142135623730951,
+   "censored": false,
+   "obs_log": 0.1505149978319906,
+   "pred_log": -0.0631148603396001,
+   "cut1": 6.449417370604849,
+   "cut10": 8.952233601102753,
+   "pred_log_day": -0.0281708927635501,
+   "cut10_day": 14.60205145869705
+  },
+  {
+   "sample": "G202606100726",
+   "day": "2026-06-10",
+   "country": "Kenya",
+   "water_type": "Source",
+   "site": null,
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.0503964012914217,
+   "cut1": 6.042213176402259,
+   "cut10": 10.168041186076788,
+   "pred_log_day": 0.069762830181434,
+   "cut10_day": 3.081828118971506
+  },
+  {
+   "sample": "G202606100753",
+   "day": "2026-06-10",
+   "country": "Kenya",
+   "water_type": "Source",
+   "site": "Isiolo.Isiolo.Ngaremara.Nasuroi.NearestToFarm.WaterKiosk2",
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 26.110883423451927,
+   "censored": false,
+   "obs_log": 1.4331436695420976,
+   "pred_log": 0.2586073142282679,
+   "cut1": 6.042213176402259,
+   "cut10": 10.168041186076788,
+   "pred_log_day": 0.171703971128265,
+   "cut10_day": 3.081828118971506
+  },
+  {
+   "sample": "G202606100932",
+   "day": "2026-06-10",
+   "country": "Kenya",
+   "water_type": "Source",
+   "site": null,
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 0.4142135623730951,
+   "censored": false,
+   "obs_log": 0.1505149978319906,
+   "pred_log": 0.0965075255972624,
+   "cut1": 6.042213176402259,
+   "cut10": 10.168041186076788,
+   "pred_log_day": 0.1035756029094056,
+   "cut10_day": 3.081828118971506
+  },
+  {
+   "sample": "G202606101045",
+   "day": "2026-06-10",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Isiolo.Isiolo.Ngaremara.Nasuroi.ClaraChlorinationSystem",
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.1603709198079798,
+   "cut1": 6.042213176402259,
+   "cut10": 10.168041186076788,
+   "pred_log_day": 0.130835849087983,
+   "cut10_day": 3.081828118971506
+  },
+  {
+   "sample": "G202606101110",
+   "day": "2026-06-10",
+   "country": "Kenya",
+   "water_type": "Source",
+   "site": "Isiolo.Isiolo.Ngaremara.Nasuroi.NasuroiBorehole",
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.4987738827655474,
+   "cut1": 6.042213176402259,
+   "cut10": 10.168041186076788,
+   "pred_log_day": 0.2492398165662574,
+   "cut10_day": 3.081828118971506
+  },
+  {
+   "sample": "G202606101122",
+   "day": "2026-06-10",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": null,
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.1316294597449565,
+   "cut1": 6.042213176402259,
+   "cut10": 10.168041186076788,
+   "pred_log_day": 0.0958388831723171,
+   "cut10_day": 3.081828118971506
+  },
+  {
+   "sample": "G202606110822",
+   "day": "2026-06-11",
+   "country": "Kenya",
+   "water_type": "Source",
+   "site": "Isiolo.Garbatulla.Kulamawe 1 (police station).Borehole",
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 1,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.0408193367207943,
+   "cut1": 3.569871644174066,
+   "cut10": 12.012468847803676,
+   "pred_log_day": -0.0983124284605076,
+   "cut10_day": 3.765685527640368
+  },
+  {
+   "sample": "G202606110829",
+   "day": "2026-06-11",
+   "country": "Kenya",
+   "water_type": "Source",
+   "site": "Isiolo.Garbatulla.Kulamawe 1 (police station).Borehole",
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.4586321523323023,
+   "cut1": 3.569871644174066,
+   "cut10": 12.012468847803676,
+   "pred_log_day": 0.112862024230662,
+   "cut10_day": 3.765685527640368
+  },
+  {
+   "sample": "G202606110850",
+   "day": "2026-06-11",
+   "country": "Kenya",
+   "water_type": "Source",
+   "site": "Isiolo.Garbatula.Kinna.Kulamawe1 (Police station).Near Old Livestock troughts.Stand tap 1",
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 3,
+   "cbt": 1.6207413942088964,
+   "censored": false,
+   "obs_log": 0.4184241683677687,
+   "pred_log": 0.183866666831883,
+   "cut1": 3.569871644174066,
+   "cut10": 12.012468847803676,
+   "pred_log_day": 0.116299124991272,
+   "cut10_day": 3.765685527640368
+  },
+  {
+   "sample": "G202606110914",
+   "day": "2026-06-11",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Isiolo.Garbatula.Kinna.Kulamawe1 (Police station).Near Old Livestock troughts.Stand tap 1",
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": 0.222770942419217,
+   "cut1": 2.6395936746320112,
+   "cut10": 11.010548711660144,
+   "pred_log_day": 0.2076746125796765,
+   "cut10_day": 3.765685527640368
+  },
+  {
+   "sample": "G202606110924",
+   "day": "2026-06-11",
+   "country": "Kenya",
+   "water_type": "Treated",
+   "site": "Isiolo.Garbatula.Kinna.Kulamawe1 (Police station).Near Old Livestock troughts.Stand tap 1",
+   "units": [
+    "50053",
+    "50065"
+   ],
+   "n_records": 2,
+   "cbt": 0.0,
+   "censored": false,
+   "obs_log": 0.0,
+   "pred_log": -0.0155350734577711,
+   "cut1": 3.569871644174066,
+   "cut10": 12.012468847803676,
+   "pred_log_day": 0.0392017289113133,
+   "cut10_day": 3.765685527640368
+  }
+ ]
+}

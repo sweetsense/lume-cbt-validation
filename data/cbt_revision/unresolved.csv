@@ -1,0 +1,17 @@
+bag_id,barcode,soak_id,status,site,water_type,cbt,t_utc,sample_local
+B202605251035,50045,S003,no in-water reading in soak,LSC15371,Treated,0.0,2026-05-25 10:35:00+00:00,2026-05-25 10:35:00
+B202605251130,50045,S008,no in-water reading in soak,Kamonyi. EP Rwishwima. Between nursery class1 and nursery class2. Spring water tap,Source (untreated),0.0,2026-05-25 11:30:00+00:00,2026-05-25 11:30:00
+B202605251133,50045,S008,no in-water reading in soak,Kamonyi. EP Rwishwima. Between nursery class1 and nursery class2. Spring water tap,Source (untreated),0.0,2026-05-25 11:33:00+00:00,2026-05-25 11:33:00
+B202605260951,50045,S011,no in-water reading in soak,LSC11394,Treated,0.0,2026-05-26 09:51:00+00:00,2026-05-26 09:51:00
+B202605261017,50045,S014,no in-water reading in soak,LSC11379,Treated,0.0,2026-05-26 10:17:00+00:00,2026-05-26 10:17:00
+B202605270836,50045,S018,no in-water reading in soak,LSC11525,Treated,0.0,2026-05-27 08:36:00+00:00,2026-05-27 08:36:00
+B202605270853,50045,S020,no in-water reading in soak,LSC15487,Treated,0.0,2026-05-27 08:53:00+00:00,2026-05-27 08:53:00
+B202605280903,50045,S029,no in-water reading in soak,Fake.Kicukiro. Amazi Meza warehouse.Kanengwa. Spring water,Source (untreated),0.0,2026-05-28 09:03:00+00:00,2026-05-28 09:03:00
+B202605290854,50045,S033,no in-water reading in soak,Fake.Kicukiro.Amazi Meza wahehouse.Nyirakanamba II. Water pipe,Source (untreated),100.0,2026-05-29 08:54:00+00:00,2026-05-29 08:54:00
+B202605301312,50045,,no soak at bag time,Fake.Kicukiro.Amazi Meza warehouse.Kabeza.Stream Water,Source (untreated),100.0,2026-05-30 14:12:00+00:00,2026-05-30 13:12:00
+B202605301312,50065,,no soak at bag time,Fake.Kicukiro.Amazi Meza warehouse.Kabeza.Stream Water,Source (untreated),100.0,2026-05-30 14:12:00+00:00,2026-05-30 13:12:00
+B202605301304,50065,,no soak at bag time,Fake.Kicukiro.Amazi Meza warehouse.Kabeza.Stream Water,Source (untreated),100.0,2026-05-30 14:04:00+00:00,2026-05-30 13:04:00
+B202606031025,50053,,excluded by judgment: Not a valid test: no valid in-water reading for this bag. Not turbidity-compromised.,,Source (untreated),100.0,2026-06-03 10:25:00+00:00,2026-06-03 10:25:00
+B202606030911,50065,,no soak at bag time,Turkana.Turkana West.Kakuma.Nakoyo.500m East.Public Stand Tap 3,Treated,0.0,2026-06-03 09:11:00+00:00,2026-06-03 09:11:00
+B202606030914,50065,,no soak at bag time,Turkana.Turkana West.Kakuma.Nakoyo.500m East.Public Stand Tap 3,Treated,0.0,2026-06-03 09:14:00+00:00,2026-06-03 09:14:00
+B202606030958,50065,,no soak at bag time,Turkana.Turkana West.Kakuma.Nakoyo.Public Stand Tap 6,Treated,0.0,2026-06-03 09:58:00+00:00,2026-06-03 09:58:00

@@ -1,84 +1,34 @@
-# CBT Fluorimeter Validation -- Data & Code
+# lume-cbt-validation
 
-Reproducibility package for the field validation of a submersible tryptophan-like
-fluorescence (TLF) sensor against Compartment Bag Test (CBT) E. coli enumeration,
-deployed across drinking-water sites in Rwanda and Kenya.
+Data and code for Knopp, Ecklu, Ross and Thomas, *Field validation of a tryptophan-like fluorescence sensor against the compartment bag test for microbial water quality in rural water treatment programs in East Africa* (Water Research X, revised manuscript WROA-D-26-00467).
 
-## Files
+Every number in the paper can be recomputed from this repository.
 
-| File | Description |
-|------|-------------|
-| `paired_observations.csv` | Cleaned, paired dataset: 216 sensor-vs-CBT observations with raw and processed features, in-sample and LOOCV predictions. |
-| `model_specification.json` | Full model specification: Tobit regression coefficients, normalization statistics, per-sensor baselines, and agreement metrics. |
-| `make_figures.py` | Python script to generate publication-quality figures from `paper_data.json` (the full export). |
+## Contents
 
-## Dataset columns (`paired_observations.csv`)
+| Path | What it holds |
+|---|---|
+| `data/cbt-datagrid.csv` | mWater compartment bag test (CBT) records, May 25 to June 11, 2026. Enumerator names are replaced by codes and coordinates are removed. |
+| `data/cbt_revision/raw/` | Sensor readings for units 50045, 50053 and 50065: full LED and SiPM bias sweeps, time-of-flight, and diagnostics including temperature (gzip JSON). |
+| `data/cbt_revision/judgments.json` | Every case decision, with its reason, who made it and when: record exclusions, the one corrected CBT value, the in-water rule, replicates, temperature and baseline choices. |
+| `data/cbt_revision/submitted/` | The submitted manuscript's paired table and results, used to reproduce the submitted numbers. |
+| `scripts/cbt_revision/pair_soaks.py` | Records, time zones, the in-water rule, bucket immersions, pairing of each CBT record with sensor readings, and sample groups. |
+| `scripts/cbt_revision/evaluate.py` | Temperature correction, daily clean-water baseline, models, held-out validation, performance measures, index of agreement, reference uncertainty, comparison models, and the export used by the paper. |
+| `paper/` | `paper_data.json`, `paired_observations.csv`, `make_figures.py` and the figures. |
+| `data/cbt_revision/*.csv`, `*.json` | Intermediate and final outputs written by the scripts. |
 
-| Column | Description |
-|--------|-------------|
-| `observation_id` | Unique observation identifier |
-| `barcode` | Sensor device barcode (50045, 50053, or 50065) |
-| `site_name` | Sampling site name/hierarchy |
-| `sample_date` | Date/time of CBT sample collection |
-| `water_type` | Water source type (e.g., Source, Treated) |
-| `cbt_ecoli_cfu` | Observed E. coli CFU/100 mL from Compartment Bag Test |
-| `cbt_censored` | TRUE if CBT result is right-censored (>= 100 CFU) |
-| `sensor_mon2_raw` | Raw TLF fluorescence signal (arbitrary units) |
-| `sensor_tof_raw` | Raw time-of-flight turbidity signal |
-| `water_temp_c` | Water temperature at time of measurement (degrees C) |
-| `mon2c_baseline_subtracted` | Temperature-corrected TLF after per-sensor baseline subtraction |
-| `mon2c_normalized` | z-scored mon2c_baseline_subtracted (model input) |
-| `tof_normalized` | z-scored baseline-subtracted ToF signal (model input) |
-| `predicted_log10_cfu_insample` | In-sample Tobit model prediction, log10(CFU + 1) |
-| `predicted_log10_cfu_loocv` | Leave-one-out cross-validation prediction, log10(CFU + 1) |
-| `loocv_agreement` | TRUE if LOOCV prediction is within the agreement band |
-| `who_risk_true` | WHO risk category from CBT (Conformity/Low/Intermediate/Very high) |
-| `who_risk_predicted` | WHO risk category from model prediction |
+## Reproduce
 
-## Model overview
+Requires Python 3.9 or later with numpy, pandas and matplotlib.
 
-The prediction model is a Tobit regression (right-censored at log10(101) = 2.004)
-with EM estimation and ridge regularization (lambda = 0.1). Features are
-temperature-corrected fluorescence (`mon2c_n`, baseline-subtracted, z-scored),
-turbidity (`tof_n`, baseline-subtracted, z-scored), water temperature (`temp`,
-z-scored), per-sensor fixed effects, and per-sensor fluorescence slopes
-(8 parameters total). Reference sensor is 50065.
-
-**Temperature correction**: Fluorescence is corrected to a 20 C reference using an
-exponential decay model (rho = 0.0164, estimated from clean-water samples).
-Temperature is also included as an explicit predictor.
-
-**Per-sensor slopes**: Each sensor receives its own fluorescence coefficient
-(via sensor x mon2c_n interaction terms), allowing the model to account for
-inter-sensor sensitivity differences.
-
-**Exclusion pipeline**: No statistical screening (no IQR fencing, no Cook's D,
-no Kind A outlier removal). Only 4 documented instrument/deployment overrides:
-1 sensor fault (cross-sensor validated), 2 turbidity-compromised readings
-(ToF >> in-water norm), 1 baseline-transition artifact. See
-`cbt-overrides-snapshot.json`.
-
-**Agreement criterion**: Predictions are scored as "agreeing" with the CBT if they
-fall within +/- 0.92 log10, derived from combining two independent CBT 95%
-confidence intervals in quadrature.
-
-## Reproducing the figures
-
-```bash
-pip install numpy matplotlib
-python make_figures.py
+```
+python3 scripts/cbt_revision/pair_soaks.py
+CBT_PAPER_DIR=paper python3 scripts/cbt_revision/evaluate.py step5 export
+cd paper && python3 make_figures.py
 ```
 
-Note: `make_figures.py` expects `paper_data.json` (the full export from
-`export-paper-data.js`) in the same directory. To generate figures from the CSV
-alone, the paired observations and model specification provide all necessary data.
+`python3 scripts/cbt_revision/evaluate.py 0` refits the submitted manuscript's model on its own paired table and prints its reported results next to the recomputed ones.
 
-## Live validation dashboard
+## What is evaluated
 
-Interactive results, time series, and data exploration:
-https://validation.thelume.ai/cbt
-
-## License
-
-Data and code are provided for peer review and reproducibility purposes.
-Contact the authors for reuse permissions.
+The Lume (Virridy) as one method: the instrument's fluorescence, time-of-flight and temperature channels together with the analytics that turn them into an *E. coli* estimate. The analytics correct fluorescence to 20 °C, reference fluorescence and time-of-flight to the unit's clean-water baseline for the day, and fit one Tobit regression of log10(MPN/100 mL + 1), right-censored at 100 MPN/100 mL, with coefficients shared by all units. Performance is measured with the sensor and the sampling day held out together, on 75 samples.
