@@ -1,6 +1,6 @@
 # lume-cbt-validation
 
-Data and code for Knopp, Ecklu, Ross and Thomas, *Field validation of a tryptophan-like fluorescence sensor against the compartment bag test for microbial water quality in rural water treatment programs in East Africa* (Water Research X, revised manuscript WROA-D-26-00467).
+Data and code for Knopp, Ecklu, Ross and Thomas, *Field validation of a tryptophan-like fluorescence sensor against the compartment bag test for microbial drinking water quality in rural water treatment programs in East Africa* (Water Research X, revised manuscript WROA-D-26-00467).
 
 Every number in the paper can be recomputed from this repository.
 
