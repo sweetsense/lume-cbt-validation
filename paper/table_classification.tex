@@ -1,0 +1,22 @@
+\begin{table}[H]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\caption{Classification at 1 and 10~MPN/100~mL for the 75 samples under both validation schemes. Detected: samples at or above the threshold that were flagged, of all samples at or above it. Correct below: samples below the threshold that were not flagged, of all samples below it. Values in parentheses are 95\% confidence intervals from 2000 bootstrap resamples of sampling days. PPV and NPV, positive and negative predictive value.}
+\label{tab:classification}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcccc}
+\hline
+    & \multicolumn{2}{c}{10~MPN/100~mL} & \multicolumn{2}{c}{1~MPN/100~mL} \\
+    & New sensor, new day & Day held out & New sensor, new day & Day held out \\
+\hline
+    Detected & 15/16 & 14/16 & 16/23 & 16/23 \\
+    Correct below & 55/59 & 57/59 & 40/52 & 42/52 \\
+    Sensitivity & 0.94 (0.60--1.00) & 0.88 (0.25--1.00) & 0.70 (0.27--0.92) & 0.70 (0.27--0.92) \\
+    Specificity & 0.93 (0.88--0.98) & 0.97 (0.93--1.00) & 0.77 (0.62--0.90) & 0.81 (0.64--0.94) \\
+    PPV & 0.79 (0.30--0.95) & 0.88 (0.33--1.00) & 0.57 (0.21--0.84) & 0.62 (0.23--0.89) \\
+    NPV & 0.98 (0.94--1.00) & 0.97 (0.92--1.00) & 0.85 (0.72--0.95) & 0.86 (0.73--0.95) \\
+    Balanced accuracy & 0.93 (0.76--0.98) & 0.92 (0.62--0.99) & 0.73 (0.53--0.86) & 0.75 (0.54--0.88) \\
+\hline
+\end{tabular}}
+\end{table}

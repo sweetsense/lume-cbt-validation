@@ -1,0 +1,25 @@
+\begin{table}[H]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\caption{Comparison models at 10~MPN/100~mL. Models with unit-specific terms can be evaluated only with the day held out. $F$ is corrected fluorescence and $B$ the ToF log ratio, each relative to the day's baseline, and $T$ is temperature. BA, balanced accuracy; PPV, positive predictive value; IA, index of agreement.}
+\label{tab:models}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llcccccc}
+\hline
+    Model & Validation & BA & Sensitivity & Specificity & PPV & $R^2$ & IA \\
+\hline
+    Shared: $F$, $B$, $T$, $F \times T$ (primary) & New sensor, new day & 0.93 & 0.94 & 0.93 & 0.79 & 0.63 & 0.82 \\
+     & Day held out & 0.92 & 0.88 & 0.97 & 0.88 & 0.70 & 0.85 \\
+    Shared: ToF as a difference from baseline & New sensor, new day & 0.93 & 0.94 & 0.92 & 0.75 & 0.59 & 0.80 \\
+     & Day held out & 0.90 & 0.94 & 0.86 & 0.65 & 0.62 & 0.82 \\
+    Shared: $F$, $B$ & New sensor, new day & 0.91 & 0.88 & 0.95 & 0.82 & 0.69 & 0.85 \\
+     & Day held out & 0.90 & 0.88 & 0.93 & 0.78 & 0.73 & 0.86 \\
+    Shared: $F$, $T$, $F \times T$ (no ToF) & New sensor, new day & 0.72 & 0.69 & 0.75 & 0.42 & $-$0.57 & 0.46 \\
+     & Day held out & 0.80 & 0.81 & 0.80 & 0.52 & 0.33 & 0.68 \\
+    Per-unit intercepts and $F$ slopes: $F$, $B$ & Day held out & 0.92 & 0.88 & 0.97 & 0.88 & 0.70 & 0.85 \\
+    Per-unit intercepts: $F$, $B$ & Day held out & 0.90 & 0.88 & 0.93 & 0.78 & 0.72 & 0.86 \\
+    Every term per unit: $F$, $B$, $T$, $F \times T$ & Day held out & 0.91 & 0.88 & 0.95 & 0.82 & 0.78 & 0.87 \\
+\hline
+\end{tabular}}
+\end{table}

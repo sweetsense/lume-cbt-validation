@@ -1146,6 +1146,16 @@ def step5():
     diffs = np.array(diffs)
     out['cross_sensor'] = dict(samples=int(len(diffs)), mean_abs_delta_log=float(diffs.mean()), within_0p65=int((diffs <= 0.65).sum()))
 
+    # production model: the shared model fitted on all pairs, with cutpoints from leaving out one day at a time
+    st = {f: zstat(P[f]) for f in D0B}
+    b, sig = fit_tobit(design2(P, st, shared, [], []), y, P.cens.values, 0.1)
+    coef_raw = [float(b[i + 1] / st[f][1]) for i, f in enumerate(D0B)]
+    out['production'] = dict(
+        features=D0B, n_pairs=int(len(P)), feature_mean=[float(st[f][0]) for f in D0B], feature_sd=[float(st[f][1]) for f in D0B],
+        coef_standardized=[float(v) for v in b], sigma=float(sig),
+        intercept_raw=float(b[0] - sum(c * st[f][0] for c, f in zip(coef_raw, D0B))), coef_raw=coef_raw,
+        cut1=float(nested_cut_spec(P, shared, 1)), cut10=float(nested_cut_spec(P, shared, 10)))
+
     json.dump(out, open(REV / 'step5.json', 'w'), indent=2, default=float)
     for scheme, s in samples.items():
         s.to_csv(REV / f'final_samples_{scheme.replace(" ", "_").replace("+", "and")}.csv')

@@ -8,6 +8,9 @@ and draws, from held-out predictions of the primary model (a new sensor on a new
   - fig_scatter.pdf            predicted vs observed, per sample
   - fig_confusion_binary.pdf   decisions at >=1 and >=10 MPN/100 mL
   - fig_confusion_3level.pdf   three-level WHO categories
+and writes the LaTeX tables:
+  - table_classification.tex   decisions at 1 and 10 MPN/100 mL, both validation schemes, with CIs
+  - table_models.tex           comparison models
 
 Style: Water Research, 3.5-inch single column, 300 DPI, PDF.
 """
@@ -186,6 +189,67 @@ def fig_confusion_3level(d):
     save(fig, 'fig_confusion_3level.pdf')
 
 
+def _num(x):
+    return f'$-${-x:.2f}' if x < 0 else f'{x:.2f}'
+
+
+def _table(name, caption, label, colspec, header, rows):
+    body = '\n'.join('    ' + ' & '.join(r) + ' \\\\' for r in rows)
+    tex = (f'\\begin{{table}}[H]\n\\centering\n\\footnotesize\n\\setlength{{\\tabcolsep}}{{4pt}}\n'
+           f'\\caption{{{caption}}}\n\\label{{{label}}}\n\\resizebox{{\\linewidth}}{{!}}{{%\n\\begin{{tabular}}{{{colspec}}}\n\\hline\n'
+           f'{header}\n\\hline\n{body}\n\\hline\n\\end{{tabular}}}}\n\\end{{table}}\n')
+    with open(os.path.join(OUTDIR, name), 'w') as f:
+        f.write(tex)
+    print(f'  Saved: {os.path.join(OUTDIR, name)}')
+
+
+def table_classification(d):
+    R = d['results']
+    cols = [(thr, scheme) for thr in (10, 1) for scheme in ('new sensor + new day', 'day held out')]
+    rows = [['Detected'] + [f"{R[s]['counts'][str(t)]['tp']}/{R[s]['counts'][str(t)]['tp'] + R[s]['counts'][str(t)]['fn']}" for t, s in cols],
+            ['Correct below'] + [f"{R[s]['counts'][str(t)]['tn']}/{R[s]['counts'][str(t)]['tn'] + R[s]['counts'][str(t)]['fp']}" for t, s in cols]]
+    for k, lab in (('sens', 'Sensitivity'), ('spec', 'Specificity'), ('ppv', 'PPV'), ('npv', 'NPV'), ('ba', 'Balanced accuracy')):
+        rows.append([lab] + [f"{_num(R[s]['metrics'][f'ge{t}_{k}'])} ({_num(R[s]['ci'][f'ge{t}_{k}'][0])}--{_num(R[s]['ci'][f'ge{t}_{k}'][1])})" for t, s in cols])
+    header = ('    & \\multicolumn{2}{c}{10~MPN/100~mL} & \\multicolumn{2}{c}{1~MPN/100~mL} \\\\\n'
+              '    & New sensor, new day & Day held out & New sensor, new day & Day held out \\\\')
+    _table('table_classification.tex',
+           'Classification at 1 and 10~MPN/100~mL for the 75 samples under both validation schemes. Detected: samples at or '
+           'above the threshold that were flagged, of all samples at or above it. Correct below: samples below the threshold '
+           'that were not flagged, of all samples below it. Values in parentheses are 95\\% confidence intervals from 2000 '
+           'bootstrap resamples of sampling days. PPV and NPV, positive and negative predictive value.',
+           'tab:classification', 'lcccc', header, rows)
+
+
+MODEL_NAMES = [
+    ('D0b', 'Shared: $F$, $B$, $T$, $F \\times T$ (primary)'),
+    ('D0a', 'Shared: ToF as a difference from baseline'),
+    ('Cb', 'Shared: $F$, $B$'),
+    ('D0c', 'Shared: $F$, $T$, $F \\times T$ (no ToF)'),
+    ('A', 'Per-unit intercepts and $F$ slopes: $F$, $B$'),
+    ('B', 'Per-unit intercepts: $F$, $B$'),
+    ('E', 'Every term per unit: $F$, $B$, $T$, $F \\times T$'),
+]
+
+
+def table_models(d):
+    cm = d['results']['comparison_models']
+    rows = []
+    for key, name in MODEL_NAMES:
+        first = True
+        for scheme, lab in (('new sensor + new day', 'New sensor, new day'), ('day held out', 'Day held out')):
+            k = next((k for k in cm if k.split(' ')[0] == key and k.endswith('| ' + scheme)), None)
+            if k:
+                m = cm[k]
+                rows.append([name if first else '', lab] + [_num(m[x]) for x in ('ba', 'sens', 'spec', 'ppv', 'r2', 'ia')])
+                first = False
+    _table('table_models.tex',
+           'Comparison models at 10~MPN/100~mL. Models with unit-specific terms can be evaluated only with the day held out. '
+           '$F$ is corrected fluorescence and $B$ the ToF log ratio, each relative to the day\'s baseline, and $T$ is temperature. '
+           'BA, balanced accuracy; PPV, positive predictive value; IA, index of agreement.',
+           'tab:models', 'llcccccc',
+           '    Model & Validation & BA & Sensitivity & Specificity & PPV & $R^2$ & IA \\\\', rows)
+
+
 if __name__ == '__main__':
     data = load()
     print(f"{data['n_samples']} samples, {data['n_pairs']} sensor-CBT pairs")
@@ -193,3 +257,5 @@ if __name__ == '__main__':
     fig_scatter(data)
     fig_confusion_binary(data)
     fig_confusion_3level(data)
+    table_classification(data)
+    table_models(data)
